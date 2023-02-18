@@ -71,7 +71,7 @@ mainProvider.isItemSelected(false);
                 return Column(
                   children: [
                     Text(
-                      "name".tr(),
+                      "header".tr(),
                     ),
                     // const Text("Restoranimizni tanlaganiznizdan juda hursandmiz, tashrif buyurganingiz uchun raxmat!",),
                     Expanded(

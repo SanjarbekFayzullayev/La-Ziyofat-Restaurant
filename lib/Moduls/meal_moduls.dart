@@ -695,8 +695,6 @@ class Meal {
             "Bu qaynoq emas, unda ozuqa moddalarining"
             "ko'p qismi bulonga oqib tushadi va vitaminlarning"
             "deyarli to'liq parchalanishi bilan yog'da qovurilmaydi.\n\n"
-
-
             "Kabobning tarkibi olovdan olib tashlangan vaqtga qadar"
             "B guruhi vitaminlari, A vitamini va F vitaminini saqlab qoladi."
             "Ikkinchisining foydasi, shuningdek,"
@@ -725,8 +723,6 @@ class Meal {
             "Bu qaynoq emas, unda ozuqa moddalarining"
             "ko'p qismi bulonga oqib tushadi va vitaminlarning"
             "deyarli to'liq parchalanishi bilan yog'da qovurilmaydi.\n\n"
-
-
             "Kabobning tarkibi olovdan olib tashlangan vaqtga qadar"
             "B guruhi vitaminlari, A vitamini va F vitaminini saqlab qoladi."
             "Ikkinchisining foydasi, shuningdek,"
@@ -743,7 +739,7 @@ class Meal {
         id: 3,
         type: "Turli xil",
         name: "Turli xil",
-        imageUrl: "assets/images/different/assorti1.png",
+        imageUrl: "assets/images/different/test.png",
         time: "12 MIN",
         inggridents: "7 ING",
         bannerColor: 0xFFF2DFE1,
@@ -755,8 +751,6 @@ class Meal {
             "Bu qaynoq emas, unda ozuqa moddalarining"
             "ko'p qismi bulonga oqib tushadi va vitaminlarning"
             "deyarli to'liq parchalanishi bilan yog'da qovurilmaydi.\n\n"
-
-
             "Kabobning tarkibi olovdan olib tashlangan vaqtga qadar"
             "B guruhi vitaminlari, A vitamini va F vitaminini saqlab qoladi."
             "Ikkinchisining foydasi, shuningdek,"
@@ -769,33 +763,54 @@ class Meal {
             "5) Grilda pishirilgan kartoshka 2 ta porsiya\n"
             "6) Sos 4 dona\n"
             "7) Yassi non 2 dona"),
-
     Meal(
         id: 4,
-        type: "Гарнитуралар",
-        name: "Grechka",
-        imageUrl: "assets/images/garnishes/grechka.png",
-        time: "13 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "10 000",
-        inggridentsInfo:
-            "Gugurtdan tayyorlangan grechka yormasi\n2 ta kichik yoki 1 ta katta baqlajon, ingichka qilib kesilgan\n4 o'rta pomidor, to'g'ralgan\n2 tish sarimsoq, mayda to'g'ralgan\n90 g yangi mozzarella, luqma kattaligiga kesilgan",
-        moreInfo:
-            "Grechka  har qanday oziq-ovqat bilan yaxshi ketadi - go'sht, tovuq, sabzavot, sut.Grechkaning eng mashhur turi - yadro, ya'ni butun qovurilgan yoki bug'da pishirilgan donalar.\n\nBu sotuvda sodir bo'ladi va yashil, ya'ni qaytaishlanmagan grechka, u eng foydali hisoblanadi, chunki u ko'proq ozuqa moddalarini saqlaydi."),
+        type: "Turli xil",
+        name: "Dimlama",
+        imageUrl: "assets/images/different/dimlama.png",
+        time: "5 MIN",
+        inggridents: "8 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "---",
+        inggridentsInfo: "1) o'simlik yog'i\n"
+            "2) 2 ta katta piyoz, tug'ralgan\n"
+            "3) 2 o'rta sabzi, qalin to'g'ralgan\n"
+            "4) 2 ta o'rtacha kartoshka, tozalangan va tug'ralgan\n"
+            "5) 1 ta o'rtacha sholg'om, tozalangan va tug'ralgan\n"
+            "6) 200 g mol go'shti\n"
+            "7) 2 sarimsoq piyoz\n"
+            "8) ziravorlar",
+        moreInfo: "Katta plastinkada xizmat qiling va rohatlaning."
+            "Darhaqiqat, biz qalin sabzavotli sousda va ziravorlar ,"
+            "kartoshka va sabzi oldik. Bu fikr. Aytgancha,"
+            "bu taom ko'pincha basma bilan aralashtiriladi.\n\n"
+            "U erda ko'p sabzavotli go'sht sovuq qozonga"
+            "joylashtiriladi va natijada eng kam sousli qovurilgan"
+            "sabzavotlar massasi olinadi. Bizda biroz boshqacha texnologiya mavjud."),
     Meal(
         id: 5,
-        type: "Garnituralar",
-        name: "Non",
-        imageUrl: "assets/images/garnishes/non.png",
-        time: "5 МИН",
-        inggridents: "5 ИНГ",
+        type: "Turli xil",
+        name: "Zakaz osh",
+        imageUrl: "assets/images/different/zakazosh.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFF71C3A1,
-        Cost: "4 000",
-        inggridentsInfo:
-            "Un-450g\nSuv-300ml\nXamirturush (yangi) - 10g\nTuz-7g\nQora sedana",
-        moreInfo:
-            "Oziq moddalarning eng ko'p miqdori kepak qo'shilishi bilan to'liq donlardan tayyorlangan xamirturushsiz mahsulotlarda mavjud. Oddiy oq nonda foydali moddalar va tolalar deyarli yo'q, chunki uni tayyorlash uchun sayqallangan dondan un ishlatiladi - qobig'i bo'lmagan xom ashyo.\n\nU shunchaki barcha afzalliklarni o'z ichiga oladi. Qanchalik kam don qayta ishlansa, ular shunchalik uzoq hazm qilinadi va organizmni buning uchun muhim moddalar bilan ta'minlaydi."),
+        Cost: "21 000",
+        inggridentsInfo: "1) 600 g mol go'shti\n"
+            "2) 600 g lazerli guruch\n"
+            "3) sabzi 600 g\n"
+            "4) behi 1 dona\n"
+            "5) qayta qilingan kungaboqar yog'i 150 ml",
+        moreInfo: " Yuqori kaloriya tarkibiga qaramay,"
+            "u oshqozonni og'irlashtirmaydi, u tez hazm qilinadi,98%"
+            "ga so'riladi.Uning tana uchun foydali xususiyatlari"
+            "orasida jismoniy chidamlilikni oshirish,"
+            "charchoqdan, og'ir kasalliklardan va"
+            "jarohatlardan keyin tez tiklanish mavjud.\n\n"
+            "Muntazam foydalanish bilan ko'rish yaxshilanadi,"
+            "oqsil almashinuvi tezlashadi, immunitet reaktsiyasi"
+            "tezlashadi, asab va reproduktiv tizimlarning"
+            "ishi normallashadi."),
   ];
   static List<Meal> shashlikmealKR = [
     Meal(
