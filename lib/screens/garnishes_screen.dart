@@ -2,12 +2,11 @@ import 'dart:io';
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:la_ziyofat_restaurant/food_detals/detals_page.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
 import 'package:la_ziyofat_restaurant/widget/product_screen.dart';
 import 'package:provider/provider.dart';
-
 import '../Moduls/meal_moduls.dart';
-import 'detals_page.dart';
 
 class GarnishesScreen extends StatefulWidget {
   const GarnishesScreen({Key? key}) : super(key: key);

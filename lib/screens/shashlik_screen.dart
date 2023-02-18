@@ -1,12 +1,11 @@
 import 'dart:io';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:la_ziyofat_restaurant/food_detals/detals_page_shahslik.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
 import 'package:la_ziyofat_restaurant/widget/product_screen.dart';
 import 'package:provider/provider.dart';
 import '../Moduls/meal_moduls.dart';
-import 'detals_page_shahslik.dart';
-
 class ShashlikPage extends StatefulWidget {
 
   const ShashlikPage( {Key? key}) : super(key: key);
@@ -39,8 +38,6 @@ class _ShashlikPageState extends State<ShashlikPage> {
       }
       return Meal.shashlikmealUZ;
     }
-    MediaQueryData mediaQueryData = MediaQuery.of(context);
-    var size = mediaQueryData.size;
     var mainProvider = Provider.of<MainProvayder>(context, listen: false);
     return WillPopScope(
       onWillPop: () {

@@ -684,24 +684,24 @@ class Meal {
         type: "Turli xil",
         name: "Turli xil",
         imageUrl: "assets/images/different/assorti1.png",
-        time: "10 МИН",
-        inggridents: "4 ИНГ",
+        time: "12 MIN",
+        inggridents: "7 ING",
         bannerColor: 0xFFF2DFE1,
         Cost: "55 000",
         moreInfo: "Barbekyuning afzalligi shundaki"
-        "u hatto xom go'shtda mavjud bo'lgan ba'zi "
-        "vitaminlarni ham saqlab qoladi. Issiqlik"
-        "bilan ishlov berishning yumshoqligi ta'sir qiladi:"
-        "Bu qaynoq emas, unda ozuqa moddalarining"
-    "ko'p qismi bulonga oqib tushadi va vitaminlarning"
-    "deyarli to'liq parchalanishi bilan yog'da qovurilmaydi.\n\n"
+            "u hatto xom go'shtda mavjud bo'lgan ba'zi "
+            "vitaminlarni ham saqlab qoladi. Issiqlik"
+            "bilan ishlov berishning yumshoqligi ta'sir qiladi:"
+            "Bu qaynoq emas, unda ozuqa moddalarining"
+            "ko'p qismi bulonga oqib tushadi va vitaminlarning"
+            "deyarli to'liq parchalanishi bilan yog'da qovurilmaydi.\n\n"
 
 
-    "Kabobning tarkibi olovdan olib tashlangan vaqtga qadar"
-    "B guruhi vitaminlari, A vitamini va F vitaminini saqlab qoladi."
-        "Ikkinchisining foydasi, shuningdek,"
-        "ko'p to'yinmagan yog'li kislotalar deb ataladi,"
-    "u qon aylanishini yaxshilaydi va miya faoliyatini normallantiradi.",
+            "Kabobning tarkibi olovdan olib tashlangan vaqtga qadar"
+            "B guruhi vitaminlari, A vitamini va F vitaminini saqlab qoladi."
+            "Ikkinchisining foydasi, shuningdek,"
+            "ko'p to'yinmagan yog'li kislotalar deb ataladi,"
+            "u qon aylanishini yaxshilaydi va miya faoliyatini normallantiradi.",
         inggridentsInfo: "1) Tovuqli barbekyu 2000 gr.\n"
             "2) Qo'zi go'shti shish kabobi 1000 gr\n"
             "3) Mol go'shtidan lula 4 dona\n"
@@ -713,28 +713,63 @@ class Meal {
         id: 2,
         type: "Turli xil",
         name: "Turli xil",
-        imageUrl: "assets/images/garnishes/pyure.png",
-        time: "7 МИН",
-        inggridents: "6 ИНГ",
-        bannerColor: 0xFFDCC7B1,
-        Cost: "15 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, у protein ва толага ега ва юкори глисемик индексга ега",
-        inggridentsInfo:
-            "картошка 1 кг\nсметана 2 ош кошик\nсут 1 стакан\nеритилган сариёг ъ 2 ош кошик\nмайдаланган cheddar 100 г"),
+        imageUrl: "assets/images/different/assorti2.png",
+        time: "12 MIN",
+        inggridents: "7 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "40 000",
+        moreInfo: "Barbekyuning afzalligi shundaki"
+            "u hatto xom go'shtda mavjud bo'lgan ba'zi "
+            "vitaminlarni ham saqlab qoladi. Issiqlik"
+            "bilan ishlov berishning yumshoqligi ta'sir qiladi:"
+            "Bu qaynoq emas, unda ozuqa moddalarining"
+            "ko'p qismi bulonga oqib tushadi va vitaminlarning"
+            "deyarli to'liq parchalanishi bilan yog'da qovurilmaydi.\n\n"
+
+
+            "Kabobning tarkibi olovdan olib tashlangan vaqtga qadar"
+            "B guruhi vitaminlari, A vitamini va F vitaminini saqlab qoladi."
+            "Ikkinchisining foydasi, shuningdek,"
+            "ko'p to'yinmagan yog'li kislotalar deb ataladi,"
+            "u qon aylanishini yaxshilaydi va miya faoliyatini normallantiradi.",
+        inggridentsInfo: "1) Tovuqli barbekyu 2000 gr.\n"
+            "2) Qo'zi go'shti shish kabobi 1000 gr\n"
+            "3) Mol go'shtidan lula 4 dona\n"
+            "4) Grilda qo'shimchalar 2 ta porsiya.\n"
+            "5) Grilda pishirilgan kartoshka 2 ta porsiya\n"
+            "6) Sos 4 dona\n"
+            "7) Yassi non 2 dona"),
     Meal(
         id: 3,
-        type: "Гарнитуралар",
-        name: "Гуруч",
-        imageUrl: "assets/images/garnishes/guruch.png",
-        time: "14 МИН",
-        inggridents: "3 ИНГ",
-        bannerColor: 0xFFFFC5A8,
-        Cost: "10 000",
-        inggridentsInfo:
-            "1 stakan oq guruch\n2 choy qoshiq kunga boqar moyi\n1 3/4 stakan suv",
-        moreInfo:
-            "Guruchli idishlar ko'p odamlar uchun sog'lom va muvozanatli ovqatlanishning bir qismi bo'lishi mumkin. Donlarning foydali xususiyatlarining aksariyati ular tarkibidagi vitaminlar va minerallar bilan bog'liq.\n\n 100 gramm oq guruchda taxminan 15 mg magniy mavjud. Ushbu element suyak to'qimalarining muhim tarkibiy qismi bo'lib, DNK va oqsillar sintezi bilan bog'liq yuzlab fermentativ reaktsiyalarda ishtirok etadi. Bundan tashqari, u asabto'qimalarining normal ishlashi  uchun kerak."),
+        type: "Turli xil",
+        name: "Turli xil",
+        imageUrl: "assets/images/different/assorti1.png",
+        time: "12 MIN",
+        inggridents: "7 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "35 000",
+        moreInfo: "Barbekyuning afzalligi shundaki"
+            "u hatto xom go'shtda mavjud bo'lgan ba'zi "
+            "vitaminlarni ham saqlab qoladi. Issiqlik"
+            "bilan ishlov berishning yumshoqligi ta'sir qiladi:"
+            "Bu qaynoq emas, unda ozuqa moddalarining"
+            "ko'p qismi bulonga oqib tushadi va vitaminlarning"
+            "deyarli to'liq parchalanishi bilan yog'da qovurilmaydi.\n\n"
+
+
+            "Kabobning tarkibi olovdan olib tashlangan vaqtga qadar"
+            "B guruhi vitaminlari, A vitamini va F vitaminini saqlab qoladi."
+            "Ikkinchisining foydasi, shuningdek,"
+            "ko'p to'yinmagan yog'li kislotalar deb ataladi,"
+            "u qon aylanishini yaxshilaydi va miya faoliyatini normallantiradi.",
+        inggridentsInfo: "1) Tovuqli barbekyu 2000 gr.\n"
+            "2) Qo'zi go'shti shish kabobi 1000 gr\n"
+            "3) Mol go'shtidan lula 4 dona\n"
+            "4) Grilda qo'shimchalar 2 ta porsiya.\n"
+            "5) Grilda pishirilgan kartoshka 2 ta porsiya\n"
+            "6) Sos 4 dona\n"
+            "7) Yassi non 2 dona"),
+
     Meal(
         id: 4,
         type: "Гарнитуралар",
