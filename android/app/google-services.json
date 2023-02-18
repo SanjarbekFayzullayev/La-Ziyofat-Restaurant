@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "88334176996",
+    "project_id": "la-ziyofat-restaurant",
+    "storage_bucket": "la-ziyofat-restaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88334176996:android:fc0b47e6531ea05fd592f1",
+        "android_client_info": {
+          "package_name": "uz.laziyofat.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88334176996-18bjr12kc0ti057ug0s4mmsbajudiq1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzDYd2TVQaEBApp0ec4t7IIKZjXNy98xM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88334176996-18bjr12kc0ti057ug0s4mmsbajudiq1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
