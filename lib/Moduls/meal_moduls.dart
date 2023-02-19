@@ -714,7 +714,7 @@ class Meal {
         imageUrl: "assets/images/different/assorti2.png",
         time: "12 MIN",
         inggridents: "7 ING",
-        bannerColor: 0xFFF2DFE1,
+        bannerColor: 0xFFDCC7B1,
         Cost: "40 000",
         moreInfo: "Barbekyuning afzalligi shundaki"
             "u hatto xom go'shtda mavjud bo'lgan ba'zi "
@@ -739,10 +739,10 @@ class Meal {
         id: 3,
         type: "Turli xil",
         name: "Turli xil",
-        imageUrl: "assets/images/different/test.png",
+        imageUrl: "assets/images/different/assorti3.png",
         time: "12 MIN",
         inggridents: "7 ING",
-        bannerColor: 0xFFF2DFE1,
+        bannerColor: 0xFFFFC5A8,
         Cost: "35 000",
         moreInfo: "Barbekyuning afzalligi shundaki"
             "u hatto xom go'shtda mavjud bo'lgan ba'zi "
