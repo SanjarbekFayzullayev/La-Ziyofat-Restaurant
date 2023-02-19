@@ -124,6 +124,14 @@ class _MyHomePageState extends State<MyHomePage> {
                               label: RotatedBox(
                                 quarterTurns: -1,
                                 child: Text(
+                                  "salads".tr(),
+                                ),
+                              ),
+                              icon: const SizedBox()),
+                          NavigationRailDestination(
+                              label: RotatedBox(
+                                quarterTurns: -1,
+                                child: Text(
                                   "garnishes".tr(),
                                 ),
                               ),

@@ -34,7 +34,7 @@ flutter:
     - assets/images/
     - assets/animations/splash1.json
     - assets/traslaton/
-    - assets/images/different/test.png
+
 
   fonts:
     - family: Manrope

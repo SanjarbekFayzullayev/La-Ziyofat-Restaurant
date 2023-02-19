@@ -815,202 +815,403 @@ class Meal {
   static List<Meal> shashlikmealKR = [
     Meal(
         id: 1,
-        type: "Гарнитуралар",
-        name: "Kartoshka",
-        imageUrl: "assets/images/garnishes/kortefelnifri.png",
-        time: "10 МИН",
-        inggridents: "4 ИНГ",
+        type: "Турли хил",
+        name: "Турли хилl",
+        imageUrl: "assets/images/different/assorti1.png",
+        time: "12 МИН",
+        inggridents: "7 ИНГ",
         bannerColor: 0xFFF2DFE1,
-        Cost: "12 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, protein ва толага ега ва юкори глисемик индексга ега.",
-        inggridentsInfo:
-            "1) ковуриш учун 1 кг картошка\n2) Чукур ковуриш учун ўсимлик ёги\n3) Ўрта майдаланган денгиз тузи\n4) Хизмат килиш учун яхши ketchup"),
+        Cost: "55 000",
+        moreInfo: "Барбекюнинг афзаллиги шундаки"
+            "у хатто хом гўштда мавжуд бўлган баъзи"
+            "витаминларни хам саклаб колади. Иссиклик"
+            "билан ишлов беришнинг юмшоклиги таъсир килади"
+            "Бу кайнок емас, унда озука моддаларининг"
+            "кўп кисми булонга окиб тушади ва витаминларнинг"
+            "деярли тўлик парчаланиши билан ёгда ковурилмайди\n\n"
+            "Кабобнинг таркиби оловдан олиб ташланган вактга кадар"
+            "Б гурухи витаминлари, А витамини ва  витаминини саклаб колади."
+            "Иккинчисининг фойдаси, шунингдек,"
+            "кўп тўйинмаган ёгли кислоталар деб аталади,"
+            "у кон айланишини яхшилайди ва мия фаолиятини нормаллантиради.",
+        inggridentsInfo: "1) Товукли барбекю 2000 гр\n"
+            "2) кўзи гўшти шиш кабоби 1000 гр\n"
+            "3) Мол гўштидан лула 4 дона\n"
+            "4) Грилда кўшимчалар 2 та порсия"
+            "5) Грилда пиширилган картошка 2 та порсия\n"
+            "6) Сос 4 дона\n"
+            "7) Ясси нон 2 дона"),
     Meal(
         id: 2,
-        type: "Гарнитуралар",
-        name: "Пюре",
-        imageUrl: "assets/images/garnishes/pyure.png",
-        time: "7 МИН",
-        inggridents: "6 ИНГ",
+        type: "Турли хил",
+        name: "Турли хилl",
+        imageUrl: "assets/images/different/assorti2.png",
+        time: "12 МИН",
+        inggridents: "7 ИНГ",
         bannerColor: 0xFFDCC7B1,
-        Cost: "15 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, у protein ва толага ега ва юкори глисемик индексга ега",
-        inggridentsInfo:
-            "1) картошка 1 кг\n2) сметана 2 ош кошик\n3) сут 1 стакан\n4) еритилган сариёг ъ 2 ош кошик\n5) майдаланган cheddar 100 г"),
+        Cost: "40 000",
+        moreInfo: "Барбекюнинг афзаллиги шундаки"
+            "у хатто хом гўштда мавжуд бўлган баъзи"
+            "витаминларни хам саклаб колади. Иссиклик"
+            "билан ишлов беришнинг юмшоклиги таъсир килади"
+            "Бу кайнок емас, унда озука моддаларининг"
+            "кўп кисми булонга окиб тушади ва витаминларнинг"
+            "деярли тўлик парчаланиши билан ёгда ковурилмайди\n\n"
+            "Кабобнинг таркиби оловдан олиб ташланган вактга кадар"
+            "Б гурухи витаминлари, А витамини ва  витаминини саклаб колади."
+            "Иккинчисининг фойдаси, шунингдек,"
+            "кўп тўйинмаган ёгли кислоталар деб аталади,"
+            "у кон айланишини яхшилайди ва мия фаолиятини нормаллантиради.",
+        inggridentsInfo: "1) Товукли барбекю 2000 гр\n"
+            "2) кўзи гўшти шиш кабоби 1000 гр\n"
+            "3) Мол гўштидан лула 4 дона\n"
+            "4) Грилда кўшимчалар 2 та порсия"
+            "5) Грилда пиширилган картошка 2 та порсия\n"
+            "6) Сос 4 дона\n"
+            "7) Ясси нон 2 дона"),
     Meal(
         id: 3,
-        type: "Гарнитуралар",
-        name: "Гуруч",
-        imageUrl: "assets/images/garnishes/guruch.png",
-        time: "14 МИН",
-        inggridents: "3 ИНГ",
+        type: "Турли хил",
+        name: "Турли хилl",
+        imageUrl: "assets/images/different/assorti3.png",
+        time: "12 МИН",
+        inggridents: "7 ИНГ",
         bannerColor: 0xFFFFC5A8,
-        Cost: "10 000",
-        inggridentsInfo:
-            "1) 1 stakan oq guruch\n2) 2 choy qoshiq kunga boqar moyi\n3) 1 3/4 stakan suv",
-        moreInfo:
-            "Guruchli idishlar ko'p odamlar uchun sog'lom va muvozanatli ovqatlanishning bir qismi bo'lishi mumkin. Donlarning foydali xususiyatlarining aksariyati ular tarkibidagi vitaminlar va minerallar bilan bog'liq.\n\n 100 gramm oq guruchda taxminan 15 mg magniy mavjud. Ushbu element suyak to'qimalarining muhim tarkibiy qismi bo'lib, DNK va oqsillar sintezi bilan bog'liq yuzlab fermentativ reaktsiyalarda ishtirok etadi. Bundan tashqari, u asabto'qimalarining normal ishlashi  uchun kerak."),
+        Cost: "35 000",
+        moreInfo: "Барбекюнинг афзаллиги шундаки"
+            "у хатто хом гўштда мавжуд бўлган баъзи"
+            "витаминларни хам саклаб колади. Иссиклик"
+            "билан ишлов беришнинг юмшоклиги таъсир килади"
+            "Бу кайнок емас, унда озука моддаларининг"
+            "кўп кисми булонга окиб тушади ва витаминларнинг"
+            "деярли тўлик парчаланиши билан ёгда ковурилмайди\n\n"
+            "Кабобнинг таркиби оловдан олиб ташланган вактга кадар"
+            "Б гурухи витаминлари, А витамини ва  витаминини саклаб колади."
+            "Иккинчисининг фойдаси, шунингдек,"
+            "кўп тўйинмаган ёгли кислоталар деб аталади,"
+            "у кон айланишини яхшилайди ва мия фаолиятини нормаллантиради.",
+        inggridentsInfo: "1) Товукли барбекю 2000 гр\n"
+            "2) кўзи гўшти шиш кабоби 1000 гр\n"
+            "3) Мол гўштидан лула 4 дона\n"
+            "4) Грилда кўшимчалар 2 та порсия"
+            "5) Грилда пиширилган картошка 2 та порсия\n"
+            "6) Сос 4 дона\n"
+            "7) Ясси нон 2 дона"),
     Meal(
         id: 4,
-        type: "Гарнитуралар",
-        name: "Grechka",
-        imageUrl: "assets/images/garnishes/grechka.png",
-        time: "13 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "10 000",
-        inggridentsInfo:
-            "Gugurtdan tayyorlangan grechka yormasi\n2 ta kichik yoki 1 ta katta baqlajon, ingichka qilib kesilgan\n4 o'rta pomidor, to'g'ralgan\n2 tish sarimsoq, mayda to'g'ralgan\n90 g yangi mozzarella, luqma kattaligiga kesilgan",
-        moreInfo:
-            "Grechka  har qanday oziq-ovqat bilan yaxshi ketadi - go'sht, tovuq, sabzavot, sut.Grechkaning eng mashhur turi - yadro, ya'ni butun qovurilgan yoki bug'da pishirilgan donalar.\n\nBu sotuvda sodir bo'ladi va yashil, ya'ni qaytaishlanmagan grechka, u eng foydali hisoblanadi, chunki u ko'proq ozuqa moddalarini saqlaydi."),
+        type: "Турли хил",
+        name: "Димлама",
+        imageUrl: "assets/images/different/dimlama.png",
+        time: "6 МИН",
+        inggridents: "8 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "---",
+        inggridentsInfo: "1) ўсимлик ёг\n"
+            "2) 2 та катта пиёз, тугралган\n"
+            "3) 2 ўрта сабзи, калин тўгралган\n"
+            "4) 2 та ўртача картошка, тозаланган ва тугралган\n"
+            "5) 1 та ўртача шолгом, тозаланган ва тугралган\n"
+            "6) 200 г мол гўшти\n"
+            "7) 2 саримсок пиёз\n"
+            "8) зираворлар",
+        moreInfo: "Катта пластинкада хизмат килинг ва рохатланинг"
+            "Дархакикат, биз калин сабзавотли соусда ва зираворлар"
+            "картошка ва сабзи олдик. Бу фикр. Айтганча"
+            "бу таом кўпинча басма билан аралаштирилади\n\n"
+            "У ерда кўп сабзавотли гўшт совук козонга"
+            "жойлаштирилади ва натижада енг кам соусли ковурилган"
+            "сабзавотлар массаси олинади. Бизда бироз бошкача технология мавжуд."),
     Meal(
         id: 5,
-        type: "Garnituralar",
-        name: "Non",
-        imageUrl: "assets/images/garnishes/non.png",
-        time: "5 МИН",
+        type: "Турли хил",
+        name: "Заказ ош",
+        imageUrl: "assets/images/different/zakazosh.png",
+        time: "10 МИН",
         inggridents: "5 ИНГ",
         bannerColor: 0xFF71C3A1,
-        Cost: "4 000",
-        inggridentsInfo:
-            "Un-450g\nSuv-300ml\nXamirturush (yangi) - 10g\nTuz-7g\nQora sedana",
-        moreInfo:
-            "Oziq moddalarning eng ko'p miqdori kepak qo'shilishi bilan to'liq donlardan tayyorlangan xamirturushsiz mahsulotlarda mavjud. Oddiy oq nonda foydali moddalar va tolalar deyarli yo'q, chunki uni tayyorlash uchun sayqallangan dondan un ishlatiladi - qobig'i bo'lmagan xom ashyo.\n\nU shunchaki barcha afzalliklarni o'z ichiga oladi. Qanchalik kam don qayta ishlansa, ular shunchalik uzoq hazm qilinadi va organizmni buning uchun muhim moddalar bilan ta'minlaydi."),
+        Cost: "21 000",
+        inggridentsInfo: "1) 600 г мол гўшти\n"
+            "2) 600 г лазерли гуруч\n"
+            "3) сабзи 600 г\n"
+            "4) бехи 1 дона\n"
+            "5) кайта килинган кунгабокар ёги 150 мл",
+        moreInfo: "Юкори калория таркибига карамай"
+            "у ошкозонни огирлаштирмайди, у тез хазм килинади,98%"
+            "га сўрилади.Унинг тана учун фойдали хусусиятлари"
+            "орасида жисмоний чидамлиликни ошириш"
+            "чарчокдан, огир касалликлардан ва"
+            "жарохатлардан кейин тез тикланиш мавжуд.\n\n"
+            "Мунтазам фойдаланиш билан кўриш яхшиланади"
+            "оксил алмашинуви тезлашади, иммунитет реакцияси"
+            "тезлашади, асаб ва репродуктив тизимларнинг"
+            "иши нормаллашади."),
   ];
   static List<Meal> shashlikmealRU = [
     Meal(
         id: 1,
-        type: "Гарнитуралар",
-        name: "Kartoshka",
-        imageUrl: "assets/images/garnishes/kortefelnifri.png",
-        time: "10 МИН",
-        inggridents: "4 ИНГ",
+        type: "Разное",
+        name: "Разное",
+        imageUrl: "assets/images/different/assorti1.png",
+        time: "12 МИН",
+        inggridents: "7 ИНГ",
         bannerColor: 0xFFF2DFE1,
-        Cost: "12 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, protein ва толага ега ва юкори глисемик индексга ега.",
-        inggridentsInfo:
-            "ковуриш учун 1 кг картошка\nЧукур ковуриш учун ўсимлик ёги\nЎрта майдаланган денгиз тузи\nХизмат килиш учун яхши ketchup"),
+        Cost: "55 000",
+        moreInfo: "Преимущество барбекю в том, что"
+            "он даже присутствует в сыром мясе."
+            "также сохраняет витамины. Тепло"
+            "влияет на мягкость обработки"
+            "Он не кипит, в нем мало питательных веществ."
+            "большая часть поступает в бульон и является источником витаминов."
+            "при почти полном разложении не обжаривается в масле.\n\n"
+            "Состав шашлыка к моменту снятия с огня"
+            "Сохраняет витамины группы В, витамин А и витамин F."
+            "Польза последнего, а также,"
+            "так называемые полиненасыщенные жирные кислоты,"
+            "он улучшает кровообращение и нормализует мозговую деятельность.",
+        inggridentsInfo: "1) Шашлык с курицей 2000 гр\n"
+            "2) Шашлык из баранины 1000 гр\n"
+            "3) Лула из говядины 4 штуки\n"
+            "4) Начинка на гриле 2 порции\n"
+            "5)Картофель на гриле 2 порции\n"
+            "6) Соус 4 шт\n"
+            "7) Лепешки 2 шт."),
     Meal(
         id: 2,
-        type: "Гарнитуралар",
-        name: "Пюре",
-        imageUrl: "assets/images/garnishes/pyure.png",
-        time: "7 МИН",
-        inggridents: "6 ИНГ",
+        type: "Разное",
+        name: "Разное",
+        imageUrl: "assets/images/different/assorti2.png",
+        time: "12 МИН",
+        inggridents: "7 ИНГ",
         bannerColor: 0xFFDCC7B1,
-        Cost: "15 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, у protein ва толага ега ва юкори глисемик индексга ега",
-        inggridentsInfo:
-            "картошка 1 кг\nсметана 2 ош кошик\nсут 1 стакан\nеритилган сариёг ъ 2 ош кошик\nмайдаланган cheddar 100 г"),
+        Cost: "40 000",
+        moreInfo: "Преимущество барбекю в том, что"
+            "он даже присутствует в сыром мясе."
+            "также сохраняет витамины. Тепло"
+            "влияет на мягкость обработки"
+            "Он не кипит, в нем мало питательных веществ."
+            "большая часть поступает в бульон и является источником витаминов."
+            "при почти полном разложении не обжаривается в масле.\n\n"
+            "Состав шашлыка к моменту снятия с огня"
+            "Сохраняет витамины группы В, витамин А и витамин F."
+            "Польза последнего, а также,"
+            "так называемые полиненасыщенные жирные кислоты,"
+            "он улучшает кровообращение и нормализует мозговую деятельность.",
+        inggridentsInfo: "1) Шашлык с курицей 2000 гр\n"
+            "2) Шашлык из баранины 1000 гр\n"
+            "3) Лула из говядины 4 штуки\n"
+            "4) Начинка на гриле 2 порции\n"
+            "5)Картофель на гриле 2 порции\n"
+            "6) Соус 4 шт\n"
+            "7) Лепешки 2 шт."),
     Meal(
         id: 3,
-        type: "Гарнитуралар",
-        name: "Гуруч",
-        imageUrl: "assets/images/garnishes/guruch.png",
-        time: "14 МИН",
-        inggridents: "3 ИНГ",
+        type: "Разное",
+        name: "Разное",
+        imageUrl: "assets/images/different/assorti3.png",
+        time: "12 МИН",
+        inggridents: "7 ИНГ",
         bannerColor: 0xFFFFC5A8,
-        Cost: "10 000",
-        inggridentsInfo:
-            "1 stakan oq guruch\n2 choy qoshiq kunga boqar moyi\n1 3/4 stakan suv",
-        moreInfo:
-            "Guruchli idishlar ko'p odamlar uchun sog'lom va muvozanatli ovqatlanishning bir qismi bo'lishi mumkin. Donlarning foydali xususiyatlarining aksariyati ular tarkibidagi vitaminlar va minerallar bilan bog'liq.\n\n 100 gramm oq guruchda taxminan 15 mg magniy mavjud. Ushbu element suyak to'qimalarining muhim tarkibiy qismi bo'lib, DNK va oqsillar sintezi bilan bog'liq yuzlab fermentativ reaktsiyalarda ishtirok etadi. Bundan tashqari, u asabto'qimalarining normal ishlashi  uchun kerak."),
+        Cost: "35 000",
+        moreInfo: "Преимущество барбекю в том, что"
+            "он даже присутствует в сыром мясе."
+            "также сохраняет витамины. Тепло"
+            "влияет на мягкость обработки"
+            "Он не кипит, в нем мало питательных веществ."
+            "большая часть поступает в бульон и является источником витаминов."
+            "при почти полном разложении не обжаривается в масле.\n\n"
+            "Состав шашлыка к моменту снятия с огня"
+            "Сохраняет витамины группы В, витамин А и витамин F."
+            "Польза последнего, а также,"
+            "так называемые полиненасыщенные жирные кислоты,"
+            "он улучшает кровообращение и нормализует мозговую деятельность.",
+        inggridentsInfo: "1) Шашлык с курицей 2000 гр\n"
+            "2) Шашлык из баранины 1000 гр\n"
+            "3) Лула из говядины 4 штуки\n"
+            "4) Начинка на гриле 2 порции\n"
+            "5)Картофель на гриле 2 порции\n"
+            "6) Соус 4 шт\n"
+            "7) Лепешки 2 шт."),
     Meal(
         id: 4,
-        type: "Гарнитуралар",
-        name: "Grechka",
-        imageUrl: "assets/images/garnishes/grechka.png",
-        time: "13 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "10 000",
-        inggridentsInfo:
-            "Gugurtdan tayyorlangan grechka yormasi\n2 ta kichik yoki 1 ta katta baqlajon, ingichka qilib kesilgan\n4 o'rta pomidor, to'g'ralgan\n2 tish sarimsoq, mayda to'g'ralgan\n90 g yangi mozzarella, luqma kattaligiga kesilgan",
-        moreInfo:
-            "Grechka  har qanday oziq-ovqat bilan yaxshi ketadi - go'sht, tovuq, sabzavot, sut.Grechkaning eng mashhur turi - yadro, ya'ni butun qovurilgan yoki bug'da pishirilgan donalar.\n\nBu sotuvda sodir bo'ladi va yashil, ya'ni qaytaishlanmagan grechka, u eng foydali hisoblanadi, chunki u ko'proq ozuqa moddalarini saqlaydi."),
+        type: "Разное",
+        name: "Димлама",
+        imageUrl: "assets/images/different/dimlama.png",
+        time: "5 МИН",
+        inggridents: "8 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "---",
+        inggridentsInfo: "1) растительное масло\n"
+            "2) 2 большие луковицы, нарезанные кубиками\n"
+            "3) 2 средние моркови, нарезанные толстыми ломтиками\n"
+            "4) 2 средних картофеля, очищенных и нарезанных кубиками\n"
+            "5) 1 репа среднего размера, очищенная и нарезанная кубиками\n"
+            "6) 200 г говяжьего фарша\n"
+            "7) 2 зубчика чеснока\n"
+            "8) специи",
+        moreInfo: "Подавать на большой тарелке и наслаждаться."
+            "Фактически, мы добавляем в густой овощной соус и приправы"
+            "взяли картошку и морковку. Это идея. Кстати,"
+            "это блюдо часто путают с басмой.\n\n"
+            "Там много овощного мяса в холодный горшок"
+            "и в результате получается жаркое с наименьшим количеством соуса"
+            "получается овощная масса. У нас немного другая технология."),
     Meal(
         id: 5,
-        type: "Garnituralar",
-        name: "Non",
-        imageUrl: "assets/images/garnishes/non.png",
-        time: "5 МИН",
+        type: "Разное",
+        name: "Заказ плова",
+        imageUrl: "assets/images/different/zakazosh.png",
+        time: "10 МИН",
         inggridents: "5 ИНГ",
         bannerColor: 0xFF71C3A1,
-        Cost: "4 000",
-        inggridentsInfo:
-            "Un-450g\nSuv-300ml\nXamirturush (yangi) - 10g\nTuz-7g\nQora sedana",
-        moreInfo:
-            "Oziq moddalarning eng ko'p miqdori kepak qo'shilishi bilan to'liq donlardan tayyorlangan xamirturushsiz mahsulotlarda mavjud. Oddiy oq nonda foydali moddalar va tolalar deyarli yo'q, chunki uni tayyorlash uchun sayqallangan dondan un ishlatiladi - qobig'i bo'lmagan xom ashyo.\n\nU shunchaki barcha afzalliklarni o'z ichiga oladi. Qanchalik kam don qayta ishlansa, ular shunchalik uzoq hazm qilinadi va organizmni buning uchun muhim moddalar bilan ta'minlaydi."),
+        Cost: "21 000",
+        inggridentsInfo: "1) 600 г говядины\n"
+            "2) 600 г лазерной латуни\n"
+            "3) морковь 600 г\n"
+            "4) айва 1 шт\n"
+            "5) рафинированное подсолнечное масло 150 мл",
+        moreInfo: "Несмотря на высокую калорийность"
+            "он не утяжеляет желудок, быстро переваривается,98%"
+            "всасывается.Его полезные свойства для организма"
+            "между повышение физической выносливости,"
+            "от усталости, тяжелых болезней и"
+            "после травмы наступает быстрое восстановление.\n\n"
+            "Зрение улучшается при регулярном использовании,"
+            "ускоряется белковый обмен, иммунный ответ"
+            "ускоряет работу нервной и репродуктивной систем"
+            "работа нормализуется."),
   ];
   static List<Meal> shashlikmealEN = [
     Meal(
         id: 1,
-        type: "Гарнитуралар",
-        name: "Kartoshka",
-        imageUrl: "assets/images/garnishes/kortefelnifri.png",
-        time: "10 МИН",
-        inggridents: "4 ИНГ",
+        type: "Different",
+        name: "Different",
+        imageUrl: "assets/images/different/assorti1.png",
+        time: "12 MIN",
+        inggridents: "7 ING",
         bannerColor: 0xFFF2DFE1,
-        Cost: "12 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, protein ва толага ега ва юкори глисемик индексга ега.",
-        inggridentsInfo:
-            "ковуриш учун 1 кг картошка\nЧукур ковуриш учун ўсимлик ёги\nЎрта майдаланган денгиз тузи\nХизмат килиш учун яхши ketchup"),
+        Cost: "55 000",
+        moreInfo: "The advantage of barbecue is that"
+            "some that he even has in raw meat"
+            "it also retains vitamins. Heat"
+            "is affected by the softness of processing with:"
+            "It is not boiling, in which the nutrients"
+            "most of it flows into the broth, and vitamins"
+            "with almost complete breakdown, it is not fried in oil.\n\n"
+            "By the time the contents of the kebab are removed from the fire"
+            "Retains vitamins of Group B, vitamin A and vitamin F."
+            "The benefits of the latter, as well as,"
+            "so-called polyunsaturated fatty acids,"
+            "it improves blood circulation and normalizes brain function.",
+        inggridentsInfo: "1) Barbecue with chicken 2000 gr\n"
+            "2) Lamb shish kebab 1000 gr\n"
+            "3) Lula from beef 4 pieces\n"
+            "4) Grill additives 2 servings\n"
+            "5) Grilled potatoes 2 servings\n"
+            "6) Sauce 4 pieces\n"
+            "7) Flat bread 2 PCs."),
     Meal(
         id: 2,
-        type: "Гарнитуралар",
-        name: "Пюре",
-        imageUrl: "assets/images/garnishes/pyure.png",
-        time: "7 МИН",
-        inggridents: "6 ИНГ",
+        type: "Different",
+        name: "Different",
+        imageUrl: "assets/images/different/assorti2.png",
+        time: "12 MIN",
+        inggridents: "7 ING",
         bannerColor: 0xFFDCC7B1,
-        Cost: "15 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, у protein ва толага ега ва юкори глисемик индексга ега",
-        inggridentsInfo:
-            "картошка 1 кг\nсметана 2 ош кошик\nсут 1 стакан\nеритилган сариёг ъ 2 ош кошик\nмайдаланган cheddar 100 г"),
+        Cost: "40 000",
+        moreInfo: "The advantage of barbecue is that"
+            "some that he even has in raw meat"
+            "it also retains vitamins. Heat"
+            "is affected by the softness of processing with:"
+            "It is not boiling, in which the nutrients"
+            "most of it flows into the broth, and vitamins"
+            "with almost complete breakdown, it is not fried in oil.\n\n"
+            "By the time the contents of the kebab are removed from the fire"
+            "Retains vitamins of Group B, vitamin A and vitamin F."
+            "The benefits of the latter, as well as,"
+            "so-called polyunsaturated fatty acids,"
+            "it improves blood circulation and normalizes brain function.",
+        inggridentsInfo: "1) Barbecue with chicken 2000 gr\n"
+            "2) Lamb shish kebab 1000 gr\n"
+            "3) Lula from beef 4 pieces\n"
+            "4) Grill additives 2 servings\n"
+            "5) Grilled potatoes 2 servings\n"
+            "6) Sauce 4 pieces\n"
+            "7) Flat bread 2 PCs."),
     Meal(
         id: 3,
-        type: "Гарнитуралар",
-        name: "Гуруч",
-        imageUrl: "assets/images/garnishes/guruch.png",
-        time: "14 МИН",
-        inggridents: "3 ИНГ",
+        type: "Different",
+        name: "Different",
+        imageUrl: "assets/images/different/assorti3.png",
+        time: "12 MIN",
+        inggridents: "7 ING",
         bannerColor: 0xFFFFC5A8,
-        Cost: "10 000",
-        inggridentsInfo:
-            "1 стакан ок гуруч\n2 чой кошик кунга бокар мойи \n1 3/4 стакан сув",
-        moreInfo:
-            "Guruchli idishlar ko'p odamlar uchun sog'lom va muvozanatli ovqatlanishning bir qismi bo'lishi mumkin. Donlarning foydali xususiyatlarining aksariyati ular tarkibidagi vitaminlar va minerallar bilan bog'liq.\n\n 100 gramm oq guruchda taxminan 15 mg magniy mavjud. Ushbu element suyak to'qimalarining muhim tarkibiy qismi bo'lib, DNK va oqsillar sintezi bilan bog'liq yuzlab fermentativ reaktsiyalarda ishtirok etadi. Bundan tashqari, u asabto'qimalarining normal ishlashi  uchun kerak."),
+        Cost: "35 000",
+        moreInfo: "The advantage of barbecue is that"
+            "some that he even has in raw meat"
+            "it also retains vitamins. Heat"
+            "is affected by the softness of processing with:"
+            "It is not boiling, in which the nutrients"
+            "most of it flows into the broth, and vitamins"
+            "with almost complete breakdown, it is not fried in oil.\n\n"
+            "By the time the contents of the kebab are removed from the fire"
+            "Retains vitamins of Group B, vitamin A and vitamin F."
+            "The benefits of the latter, as well as,"
+            "so-called polyunsaturated fatty acids,"
+            "it improves blood circulation and normalizes brain function.",
+        inggridentsInfo: "1) Barbecue with chicken 2000 gr\n"
+            "2) Lamb shish kebab 1000 gr\n"
+            "3) Lula from beef 4 pieces\n"
+            "4) Grill additives 2 servings\n"
+            "5) Grilled potatoes 2 servings\n"
+            "6) Sauce 4 pieces\n"
+            "7) Flat bread 2 PCs."),
     Meal(
         id: 4,
-        type: "Гарнитуралар",
-        name: "Grechka",
-        imageUrl: "assets/images/garnishes/grechka.png",
-        time: "13 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "10 000",
-        inggridentsInfo:
-            "Gugurtdan tayyorlangan grechka yormasi\n2 ta kichik yoki 1 ta katta baqlajon, ingichka qilib kesilgan\n4 o'rta pomidor, to'g'ralgan\n2 tish sarimsoq, mayda to'g'ralgan\n90 g yangi mozzarella, luqma kattaligiga kesilgan",
-        moreInfo:
-            "Grechka  har qanday oziq-ovqat bilan yaxshi ketadi - go'sht, tovuq, sabzavot, sut.Grechkaning eng mashhur turi - yadro, ya'ni butun qovurilgan yoki bug'da pishirilgan donalar.\n\nBu sotuvda sodir bo'ladi va yashil, ya'ni qaytaishlanmagan grechka, u eng foydali hisoblanadi, chunki u ko'proq ozuqa moddalarini saqlaydi."),
+        type: "Different",
+        name: "Dimlama",
+        imageUrl: "assets/images/different/dimlama.png",
+        time: "5 MIN",
+        inggridents: "8 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "---",
+        inggridentsInfo: "1) vegetable oil\n"
+            "2) 2 large onions, chopped\n"
+            "3) 2 medium carrots, thick sliced\n"
+            "4) 2 medium potatoes, peeled and chopped\n"
+            "5) 1 medium turnip, peeled and chopped\n"
+            "6) 200 g beef\n"
+            "7) 2 garlic onions\n"
+            "8) spices",
+        moreInfo: "Serve on a large plate and enjoy."
+            "In fact, we are in a thick vegetable sauce and spices ,"
+            "we took potatoes and carrots. This is the idea. By the way,"
+            "this dish is often mixed with basma.\n\n"
+            "There a lot of vegetable meat to a cold pot"
+            "is placed and the result is a roast with a minimum of sauce"
+            "a mass of vegetables is obtained. We have a slightly different technology."),
     Meal(
         id: 5,
-        type: "Garnituralar",
-        name: "Non",
-        imageUrl: "assets/images/garnishes/non.png",
-        time: "5 МИН",
-        inggridents: "5 ИНГ",
+        type: "Different",
+        name: "Palov",
+        imageUrl: "assets/images/different/zakazosh.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFF71C3A1,
-        Cost: "4 000",
-        inggridentsInfo:
-            "Un-450g\nSuv-300ml\nXamirturush (yangi) - 10g\nTuz-7g\nQora sedana",
-        moreInfo:
-            "Oziq moddalarning eng ko'p miqdori kepak qo'shilishi bilan to'liq donlardan tayyorlangan xamirturushsiz mahsulotlarda mavjud. Oddiy oq nonda foydali moddalar va tolalar deyarli yo'q, chunki uni tayyorlash uchun sayqallangan dondan un ishlatiladi - qobig'i bo'lmagan xom ashyo.\n\nU shunchaki barcha afzalliklarni o'z ichiga oladi. Qanchalik kam don qayta ishlansa, ular shunchalik uzoq hazm qilinadi va organizmni buning uchun muhim moddalar bilan ta'minlaydi."),
+        Cost: "21 000",
+        inggridentsInfo: "1) 600 g beef\n"
+            "2) 600g laser rice\n"
+            "3) carrots 600 g\n"
+            "4) quince 1 PC\n"
+            "5) Refined Sunflower Oil 150 ml",
+        moreInfo: " Despite the high calorie content,"
+            "it does not weigh down the stomach, it is quickly digested, 98%"
+            "to absorbed.Its beneficial properties for the body"
+            "among increase physical endurance,"
+            "from fatigue, severe illnesses and"
+            "there is a rapid recovery after injuries.\n\n"
+            "With regular use, vision improves,"
+            "protein metabolism accelerates, immune response"
+            "accelerates, nervous and reproductive systems"
+            "work is normalized."),
   ];
 }
