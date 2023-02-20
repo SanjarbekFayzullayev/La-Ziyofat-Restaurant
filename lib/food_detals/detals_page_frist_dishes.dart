@@ -4,10 +4,10 @@ import 'package:provider/provider.dart';
 import 'package:easy_localization/easy_localization.dart';
 import '../Moduls/meal_moduls.dart';
 
-class DetlisPage extends StatelessWidget {
+class DetlisFristDishesDetals extends StatelessWidget {
   int selectdIndex;
 
-  DetlisPage(this.selectdIndex, {Key? key}) : super(key: key);
+  DetlisFristDishesDetals(this.selectdIndex, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +31,7 @@ class DetlisPage extends StatelessWidget {
                 onPressed: () {
                   mainProvider.isItemSelected(false);
                 },
-                icon: const Icon(
+                icon:const Icon(
                   Icons.arrow_back_ios_new_outlined,
                   size: 36,
                   color: Colors.white,
@@ -189,22 +189,23 @@ class DetlisPage extends StatelessWidget {
     switch (context.locale.toString()) {
       case "uz_UZ":
         {
-          return Meal.garnishesUZ;
+          return Meal.shashlikmealUZ;
         }
       case "uz_KR":
         {
-          return Meal.garnishesKR;
+          return Meal.shashlikmealKR;
         }
       case "ru_RU":
         {
-          return Meal.garnishesRU;
+          return Meal.shashlikmealRU;
         }
       case "en_US":
         {
-          return Meal.garnishesEN;
+          return Meal.shashlikmealEN;
         }
     }
-    return Meal.garnishesUZ;
+    return Meal.shashlikmealUZ;
   }
 }
+
 

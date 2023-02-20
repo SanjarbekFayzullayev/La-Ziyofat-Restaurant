@@ -188,25 +188,22 @@ class DetlisPageSalads extends StatelessWidget {
     switch (context.locale.toString()) {
       case "uz_UZ":
         {
-          return Meal.garnishesUZ;
+          return Meal.saladsUZ;
         }
       case "uz_KR":
         {
-          return Meal.garnishesKR;
+          return Meal.saladsKR;
         }
       case "ru_RU":
         {
-          return Meal.garnishesRU;
+          return Meal.saladsRU;
         }
       case "en_US":
         {
-          return Meal.garnishesEN;
+          return Meal.saladsEN;
         }
     }
-    return Meal.garnishesUZ;
+    return Meal.saladsUZ;
   }
 }
 
-class locala {
-
-}

@@ -23,7 +23,1191 @@ class Meal {
     this.inggridentsInfo,
   });
 
-  //Garnishes
+  //Salads screen modulo
+
+  static List<Meal> saladsUZ = [
+    Meal(
+        id: 1,
+        type: "Salatlar",
+        name: "Sezar",
+        imageUrl: "assets/images/solads/sezar.png",
+        time: "5 MIN",
+        inggridents: "4 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "Ajoyib narsa Sezar salatidan olinadi,"
+            "bu sizga tanadagi kaliyga bo'lgan ehtiyojni"
+            "qondirishga yordam beradi. Kaliy acab funktsiyasini"
+            "qo'llab-quvatlash va mushaklaringizning normal "
+            "qisqarishiga yordam berish qobiliyatiga ega.\n\n"
+            "Kaliy, shuningdek, hujayralarning harakatlanishiga"
+            "va ozuqa moddalaridan samarali foydalanishiga"
+            "yordam beradi. Ajoyib, shunday emasmi"
+            "Xulosa qilib aytadigan bo'lsak, Tsezar salatasi - siz"
+            "qabul qilishingiz mumkin bo'lgan sog'lom taom.",
+        inggridentsInfo: "1) Aysberg salatasi-400 gr\n"
+            "2) Tovuq filesi-280 gr\n"
+            "3) Gilos pomidorlari - 10 dona\m"
+            "4) Non - 220 gr\n"
+            "5) Parmesan-80 gr"),
+    Meal(
+        id: 2,
+        type: "Salatlar",
+        name: "Smakziyofat",
+        imageUrl: "assets/images/solads/smakziyofat.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "22 000",
+        moreInfo: "Salatni oziq-ovqatda muntazam"
+            "iste'mol qilish miya faoliyatini"
+            "yaxshilaydi, uyquni normallashtiradi"
+            "va uyqusizlik va tashvishlardan xalos"
+            "bo'lishga yordam beradi. Salat ko'rishga"
+            "ta'sir qiladi, ko'z charchoqlarini ketkazadi,"
+            "immunitetni mustahkamlashga yordam beradi,"
+            "xolesterolni pasaytiradi va organizmdagi metabolizmni tezlashtiradi.\n\n"
+            "Salatning kimyoviy tarkibi qon tarkibiga foydali"
+            "ta'sir ko'rsatadi, shuning uchun u anemiya"
+            "sharoitida va qon bosimini barqarorlashtirishda"
+            "foydali bo'lishi mumkin.",
+        inggridentsInfo: "1) 6 dona pomidor\n"
+            "2) 150 gr pishloq\n"
+            "3) 6 bo'lak non\n"
+            "4) 4 chinnigullar sarimsoq\n"
+            "5) 150 gr mayonez\n"),
+    Meal(
+        id: 3,
+        type: "Salatlar",
+        name: "Go'sht bilan bodring",
+        imageUrl: "assets/images/solads/ogusiymyacom.png",
+        time: "3 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "25 000",
+        inggridentsInfo: "1) Bodring - 1 kg\n"
+            "2) Pulpa - 600 g\n"
+            "3) Chili qalampiri-1 dona\n"
+            "4) Piyoz-2 dona\n"
+            "5) Sarimsoq-4 chinnigullar.",
+        moreInfo: "Bodring va go'shtning ajoyib koreys"
+            "salatasi ko'plab mamlakatlarda xushbo'y,"
+            "qoniqarli va mazali bo'lgan mashhur taomdir.\n\n"
+            "Taom nafaqat mazali, balki juda foydali,"
+            "chunki ishlatiladigan ingredientlar tanaga"
+            "foydali ta'sir ko'rsatadi. Salaa bir-biriga mos"
+            "keladigan oddiy, arzon ingredientlar va ziravorlardan iborat."),
+    Meal(
+        id: 4,
+        type: "Salatlar",
+        name: "Quvnoqlik",
+        imageUrl: "assets/images/solads/bodrost.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "25 000",
+        inggridentsInfo: "1) Taxminan 200 g Feta\n"
+            "2) 4-5 yangi bodring\n"
+            "3) 1-2 selderey sopi\n"
+            "4) Salat barglari\n"
+            "5) 1 tup yashil piyoz",
+        moreInfo: "Salatni oziq-ovqatda muntazam"
+            "iste'mol qilish miya faoliyatini"
+            "yaxshilaydi, uyquni normallashtiradi"
+            "va uyqusizlik va tashvishlardan xalos"
+            "bo'lishga yordam beradi. Salat ko'rishga"
+            "ta'sir qiladi, ko'z charchoqlarini ketkazadi,"
+            "immunitetni mustahkamlashga yordam beradi,"
+            "xolesterolni pasaytiradi va organizmdagi metabolizmni tezlashtiradi.\n\n"
+            "Salatning kimyoviy tarkibi qon tarkibiga foydali"
+            "ta'sir ko'rsatadi, shuning uchun u anemiya"
+            "sharoitida va qon bosimini barqarorlashtirishda"
+            "foydali bo'lishi mumkin."),
+    Meal(
+        id: 5,
+        type: "Salatlar",
+        name: "Xonimlar injiqligi",
+        imageUrl: "assets/images/solads/damiskiykapriz.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFF71C3A1,
+        Cost: "28 000",
+        inggridentsInfo: "1) 300 g qaynatilgan go'sht (mol go'shti)\n"
+            "2) 2 bosh piyoz\n"
+            "3) 5 tuxum\n"
+            "4) bir osh qoshiq shakar\n"
+            "5) bir choy qoshiq sirka 9%",
+        moreInfo: "Lady's Caprice salatining ko'plab"
+            "retseptlari, shuningdek, ayollarning"
+            "injiqliklari sabablari mavjud.\n\n"
+            "Ammo klassik variant hali ham salat"
+            "tovuq va ananas bilan xonimning injiqligi"
+            "hisoblanadi. Yumshoq tovuq go'shti, "
+            "shirin va nordon ananas va tiniq"
+            "yong'oqning ajoyib kombinatsiyasi"
+            "hatto eng tirishqoq ayolni ham xursand qiladi ."),
+    Meal(
+        id: 6,
+        type: "Salatlar",
+        name: "Erkaklar injiqligi",
+        imageUrl: "assets/images/solads/mujskoykapriz.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "«Mujskoy kapriz» — ko’pchilik eng sevimli"
+            "salatlaridan biri hisoblanadi. Uning tarkibida"
+            "turli go’shtlar mavjudligi sababli,"
+            "erkaklar ko’proq uni xush ko’rishadi.\n\n"
+            "Ushbu salatning afzalligi — u juda"
+            "to’yimli hisoblanadi, hatto asosiy"
+            "taomning o’rnini bosishga ham qodir.,",
+        inggridentsInfo: "1) 100 gr kurka (dudlangan )\n"
+            "2) 100 gr jambon (tovuq yoki ot go'shti kolbasa (kazi)\n"
+            "3) 100 gr kolbasa (dudlangan )\n"
+            "4) 100 gr pishloq (menda golland bor )\n"
+            "5) 100 gr bodring (yangi )"),
+    Meal(
+        id: 7,
+        type: "Salatlar",
+        name: "Opera",
+        imageUrl: "assets/images/solads/opera.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "28 000",
+        moreInfo: "Oziqlanish, biotexnologiya va oziq-ovqat"
+            "xavfsizligi bo'yicha Federal tadqiqot "
+            "markazining dietologi Natalya Denisova"
+            "AiFga nima uchun bargli marulni ratsionga"
+            "kiritish maqsadga muvofiqligini aytdi .\n\n"
+            "Salat past kaloriyali sabzavot mahsulotidir,"
+            "100 g uchun atigi 16 kkal. Bu deyarli 90% suv,"
+            "2% uglevodlar va 1,5% protein. Shunga ko'ra,"
+            "ushbu mahsulot o'z vaznini saqlab qolish yoki"
+            "kilogramm berishni xohlaydiganlar uchun juda mos keladi.",
+        inggridentsInfo: "1) 300 g tovuq jigari\n"
+            "2) 1 olma\n"
+            "3) 1 piyoz\n"
+            "4) 50 g qarag'ay yong'oqlari\n"
+            "5) Salat barglari"),
+    Meal(
+        id: 8,
+        type: "Salatlar",
+        name: "Kuku uyasi",
+        imageUrl: "assets/images/solads/gnezdokukusha.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "20 000",
+        inggridentsInfo: "1) tovuq (fileto) - 500 g\n"
+            "2) tuxum oqi-5 dona\n"
+            "3) tuzlangan yoki tuzlangan bodring-200-250 g\n"
+            "4) kartoshka-500 g\n"
+            "5) o'simlik yog'i (kartoshkani qovurish uchun) — taxminan 50 ml",
+        moreInfo: "Kuku uyasi salatasi bayramona"
+            "stolni samarali to'ldiradigan oddiy,"
+            "ammo hayratlanarli darajada chiroyli"
+            "taomlar toifasiga kiradi. Ushbu salatda"
+            "bitta retsept yo'q, u turli xil ingredientlardan"
+            "tayyorlanadi, lekin ular tepada tuxum"
+            "qo'yilgan qush uyasi ko'rinishidagi"
+            "yagona dizayn bilan birlashtirilgan.\n\n"
+            "Ingredientlar chiziqlar bilan kesilgan,"
+            "bir-biriga aralashtiriladi va marul barglarida"
+            "slaydga yotqiziladi, uyaga o'xshashlikka"
+            "erishishga yordam beradi. Bu bodring,"
+            "karam, ko'katlar, go'sht yoki tovuq"
+            "filesi, sabzi, pishloq va boshqalar bo'lishi mumkin."),
+    Meal(
+        id: 9,
+        type: "Salatlar",
+        name: "Forsaj",
+        imageUrl: "assets/images/solads/forsaj.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        inggridentsInfo: "1) Yurak (qaynatilgan) - 300 g\n"
+            "2) Bodring — yoki tuzlangan) - 3-4 dona\n"
+            "3) Oq karam / karam-100-150 g\n"
+            "4) Sorrel (yangi)-1 tup\n"
+            "5) Piyoz-1 dona",
+        moreInfo: "Salatni oziq-ovqatda muntazam"
+            "iste'mol qilish miya faoliyatini"
+            "yaxshilaydi, uyquni normallashtiradi"
+            "va uyqusizlik va tashvishlardan xalos"
+            "bo'lishga yordam beradi. Salat ko'rishga"
+            "ta'sir qiladi, ko'z charchoqlarini ketkazadi,"
+            "immunitetni mustahkamlashga yordam beradi,"
+            "xolesterolni pasaytiradi va organizmdagi metabolizmni tezlashtiradi.\n\n"
+            "Salatning kimyoviy tarkibi qon tarkibiga foydali"
+            "ta'sir ko'rsatadi, shuning uchun u anemiya"
+            "sharoitida va qon bosimini barqarorlashtirishda"
+            "foydali bo'lishi mumkin."),
+    Meal(
+        id: 10,
+        type: "Salatlar",
+        name: "Vitaminli",
+        imageUrl: "assets/images/solads/vitaminiysolad.png",
+        time: "6 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        inggridentsInfo: "1) Sabzi\n"
+            "2) Qattiq pishloq\n"
+            "3) Sarimsoq\n"
+            "4) Tuz\n"
+            "5) Mayonez",
+        moreInfo: "Taomning nomi o'zi uchun gapiradi."
+            "Bu ko'plab vitaminlar va minerallarning manbai."
+            "Ushbu salatning kunlik so'rilishi bilan tanani "
+            "vitaminlar bilan boyitadi, immunitetni himoya"
+            "qilish va ohangni oshiradi, kuch beradi."
+            "Shuningdek, u ovqat hazm qilish traktining"
+            "organlariga ta'sirini rag'batlantiradi va"
+            "organizmdagi metabolizmni barqarorlashtiradi.\n\n"
+            "Vitaminli salat teri osti yog'ini tezroq yoqish"
+            "va to'plangan toksinlar va toksinlarni "
+            "tozalashga yordam beradi. Shuning uchun bu"
+            "salat vazn yo'qotish uchun eng yaxshi variant hisoblanadi."
+            "Shuningdek, u qonning biokimyoviy tarkibini"
+            "yaxshilaydi va uning mikrosirkulyasiyasini oshiradi."),
+    Meal(
+        id: 11,
+        type: "Salatlar",
+        name: "Maxsus",
+        imageUrl: "assets/images/solads/osobiy.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "28 000",
+        inggridentsInfo: "1)Pomidor - 2 dona\n"
+            "2) Bodring - 2 dona"
+            "3) Bolgar qizil qalampir - 1 dona\N"
+            "4) Kichik sabzi - 2 dona\n"
+            "5) Muzlatilgan qisqichbaqalar - 1 paket (1 kg)",
+        moreInfo: "Salatni oziq-ovqatda muntazam"
+            "iste'mol qilish miya faoliyatini"
+            "yaxshilaydi, uyquni normallashtiradi"
+            "va uyqusizlik va tashvishlardan xalos"
+            "bo'lishga yordam beradi. Salat ko'rishga"
+            "ta'sir qiladi, ko'z charchoqlarini ketkazadi,"
+            "immunitetni mustahkamlashga yordam beradi,"
+            "xolesterolni pasaytiradi va organizmdagi metabolizmni tezlashtiradi.\n\n"
+            "Salatning kimyoviy tarkibi qon tarkibiga foydali"
+            "ta'sir ko'rsatadi, shuning uchun u anemiya"
+            "sharoitida va qon bosimini barqarorlashtirishda"
+            "foydali bo'lishi mumkin."),
+    Meal(
+        id: 12,
+        type: "Salatlar",
+        name: "Qirollik",
+        imageUrl: "assets/images/solads/kopolevskiy.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "20 000",
+        inggridentsInfo: "1) Dudlangan tovuq ko'kragi 200 g"
+            "2) Konservalangan ananas 300 g\n"
+            "3) Qaynatilgan kartoshka 2 dona\n"
+            "4) Tuxum 4 dona\n"
+            "5) Mayonez 200 g",
+        moreInfo: "Salatni oziq-ovqatda muntazam"
+            "iste'mol qilish miya faoliyatini"
+            "yaxshilaydi, uyquni normallashtiradi"
+            "va uyqusizlik va tashvishlardan xalos"
+            "bo'lishga yordam beradi. Salat ko'rishga"
+            "ta'sir qiladi, ko'z charchoqlarini ketkazadi,"
+            "immunitetni mustahkamlashga yordam beradi,"
+            "xolesterolni pasaytiradi va organizmdagi metabolizmni tezlashtiradi.\n\n"
+            "Salatning kimyoviy tarkibi qon tarkibiga foydali"
+            "ta'sir ko'rsatadi, shuning uchun u anemiya"
+            "sharoitida va qon bosimini barqarorlashtirishda"
+            "foydali bo'lishi mumkin."),
+  ];
+  static List<Meal> saladsKR = [
+    Meal(
+        id: 1,
+        type: "Салатлар",
+        name: "Сезар",
+        imageUrl: "assets/images/solads/sezar.png",
+        time: "5 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "Ажойиб нарса Сезар салатидан олинади,"
+            "бу сизга танадаги калийга бўлган ехтиёжни"
+            "кондиришга ёрдам беради. Калий аcаб функциясини"
+            "кўллаб-куватлаш ва мушакларингизнинг normal"
+            "кискаришига ёрдам бериш кобилиятига ега.\n\n"
+            "Калий, шунингдек, хужайраларнинг харакатланишига"
+            "ва озука моддаларидан самарали фойдаланишига"
+            "ёрдам беради. Ажойиб, шундай емасми?"
+            "Хулоса килиб айтадиган бўлсак, Цезар салатаси - сиз"
+            "кабул килишингиз мумкин бўлган соглом таом.",
+        inggridentsInfo: "1) Айсберг салатаси-400 гр\n"
+            "2) Товук филеси-280 гр\n"
+            "3) Гилос помидорлари-10 дона\n"
+            "4) Нон-220 гр\n"
+            "5) Parmesan-80 гр"),
+    Meal(
+        id: 2,
+        type: "Салатлар",
+        name: "Смакзиёфат",
+        imageUrl: "assets/images/solads/smakziyofat.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "22 000",
+        moreInfo: "Салатни озик-овкатда мунтазам"
+            "истеъмол килиш мия фаолиятини"
+            "яхшилайди, уйкуни нормаллаштиради"
+            "ва уйкусизлик ва ташвишлардан халос"
+            "бўлишга ёрдам беради. Салат кўришга"
+            "таъсир килади, кўз чарчокларини кетказади,"
+            "иммунитетни мустахкамлашга ёрдам беради,"
+            "холестеролни пасайтиради ва организмдаги метаболизмни тезлаштиради.\n\n"
+            "Салатнинг кимёвий таркиби кон таркибига фойдали"
+            "таъсир кўрсатади, шунинг учун у анемия"
+            "шароитида ва кон босимини баркарорлаштиришда фойдали бўлиши мумкин.",
+        inggridentsInfo: "1)  дона помидор (менда катта)\n"
+            "2) 150 гр пишлок\n"
+            "3) 6 бўлак нон\n"
+            "4) 4 чиннигуллар саримсок\n"
+            "5) 150 гр маёнез"),
+    Meal(
+        id: 3,
+        type: "Салатлар",
+        name: "Гўшт билан бодринг",
+        imageUrl: "assets/images/solads/ogusiymyacom.png",
+        time: "3 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "25 000",
+        inggridentsInfo: "1) Бодринг - 1 кг\n"
+            "2) Пулпа - 600 г\n"
+            "3) Chili калампири-1 дона\n"
+            "4) Пиёз-2 дона\n"
+            "5) Саримсок-4 чиннигуллар.",
+        moreInfo: "Бодринг ва гўштнинг ажойиб корейс"
+            "салатаси кўплаб мамлакатларда хушбўй,"
+            "коникарли ва мазали бўлган машхур таомдир.\n\n"
+            "Таом нафакат мазали, балки жуда фойдали,"
+            "чунки ишлатиладиган ингредиентлар танага"
+            "фойдали таъсир кўрсатади. Салаа бир-бирига мос"
+            "келадиган оддий, арзон ингредиентлар ва зираворлардан иборат."),
+    Meal(
+        id: 4,
+        type: "Салатлар",
+        name: "Кувноклик",
+        imageUrl: "assets/images/solads/bodrost.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "25 000",
+        inggridentsInfo: "1) Тахминан 200 г Фета\n"
+            "2) 4-5 янги бодринг\n"
+            "3) 1-2 селдерей сопи\n"
+            "4) Салат барглари (менда аралаш бор)\n"
+            "5) 1 туп яшил пиёз",
+        moreInfo: "Салатни озик-овкатда мунтазам"
+            "истеъмол килиш мия фаолиятини"
+            "яхшилайди, уйкуни нормаллаштиради"
+            "ва уйкусизлик ва ташвишлардан халос"
+            "бўлишга ёрдам беради. Салат кўришга"
+            "таъсир килади, кўз чарчокларини кетказади,"
+            "иммунитетни мустахкамлашга ёрдам беради,"
+            "холестеролни пасайтиради ва организмдаги метаболизмни тезлаштиради.\n\n"
+            "Салатнинг кимёвий таркиби кон таркибига фойдали"
+            "таъсир кўрсатади, шунинг учун у анемия"
+            "шароитида ва кон босимини баркарорлаштиришда фойдали бўлиши мумкин."),
+    Meal(
+        id: 5,
+        type: "Салатлар",
+        name: "Хонимлар инжиклиги",
+        imageUrl: "assets/images/solads/damiskiykapriz.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFF71C3A1,
+        Cost: "28 000",
+        inggridentsInfo: "1) 300 г кайнатилган гўшт (мол гўшти)\n"
+            "2) 2 бош пиёз\n"
+            "3) 5 тухум\n"
+            "4) бир ош кошик шакар\n"
+            "5) бир чой кошик сирка 9%",
+        moreInfo: "Ладйъс Caprice салатининг кўплаб"
+            "рецептлари, шунингдек, аёлларнинг"
+            "инжикликлари сабаблари мавжуд.\n\n"
+            "Аммо классик variant хали хам салат"
+            "товук ва ананас билан хонимнинг инжиклиги"
+            "хисобланади. Юмшок товук гўшти,"
+            "ширин ва нордон ананас ва тиник"
+            "ёнгокнинг ажойиб комбинацияси"
+            "хатто енг тиришкок аёлни хам хурсанд килади ."),
+    Meal(
+        id: 6,
+        type: "Салатлар",
+        name: "Еркаклар инжиклиги",
+        imageUrl: "assets/images/solads/mujskoykapriz.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "<<Мужской каприз>> — кўпчилик енг севимли"
+            "салатларидан бири хисобланади. Унинг таркибида"
+            "турли гўштлар мавжудлиги сабабли,"
+            "еркаклар кўпрок уни хуш кўришади.\n\n"
+            "Ушбу салатнинг афзаллиги — у жуда"
+            "тўйимли хисобланади, хатто асосий"
+            "таомнинг ўрнини босишга хам кодир.",
+        inggridentsInfo: "1) 100 гр курка (дудланган )\n"
+            "2) 100 гр жамбон (товук ёки от гўшти колбаса (кази))\n"
+            "3) 100 гр колбаса (дудланган )\n"
+            "4) 100 гр пишлок (менда голланд бор )\n"
+            "5) 100 гр бодринг (янги )"),
+    Meal(
+        id: 7,
+        type: "Салатлар",
+        name: "Опера",
+        imageUrl: "assets/images/solads/opera.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "28 000",
+        moreInfo: "Озикланиш, биотехнология ва озик-овкат"
+            "хавфсизлиги бўйича Federal тадкикот"
+            "марказининг диетологи Natalya Денисова"
+            "Аифга нима учун баргли марулни рационга"
+            "киритиш максадга мувофиклигини айтди .\n\n"
+            "Салат паст калорияли сабзавот махсулотидир,"
+            "100 г учун атиги 16 ккал. Бу деярли 90% сув,"
+            "2% углеводлар ва 1,5% protein. Шунга кўра,"
+            "ушбу махсулот ўз вазнини саклаб колиш ёки"
+            "килограмм беришни хохлайдиганлар учун жуда мос келади.",
+        inggridentsInfo: "1) 300 г товук жигари\n"
+            "2) 1 олма\n"
+            "3) 1 пиёз\n"
+            "4) 50 г карагай ёнгоклари\n"
+            "5) Салат барглари"),
+    Meal(
+        id: 8,
+        type: "Салатлар",
+        name: "Куку уяси",
+        imageUrl: "assets/images/solads/gnezdokukusha.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "20 000",
+        inggridentsInfo: "1) товук (филето) - 500 г\n"
+            "2) тухум оки-5 дона\n"
+            "3) тузланган ёки тузланган бодринг-200-250 г\n"
+            "4) картошка-500 г\n"
+            "5) ўсимлик ёги (картошкани ковуриш учун) — тахминан 50 мл",
+        moreInfo: "Куку уяси салатаси байрамона"
+            "столни самарали тўлдирадиган оддий,"
+            "аммо хайратланарли даражада чиройли"
+            "таомлар тоифасига киради. Ушбу салатда"
+            "битта рецепт йўк, у турли хил ингредиентлардан"
+            "тайёрланади, лекин улар тепада тухум"
+            "кўйилган куш уяси кўринишидаги"
+            "ягона дизайн билан бирлаштирилган.\n\n"
+            "Ингредиентлар чизиклар билан кесилган,"
+            "бир-бирига аралаштирилади ва марул баргларида"
+            "слайдга ёткизилади, уяга ўхшашликка"
+            "еришишга ёрдам беради. Бу бодринг,"
+            "карам, кўкатлар, гўшт ёки товук"
+            "филеси, сабзи, пишлок ва бошкалар бўлиши мумкин."),
+    Meal(
+        id: 9,
+        type: "Салатлар",
+        name: "Форсаж",
+        imageUrl: "assets/images/solads/forsaj.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "Салатни озик-овкатда мунтазам"
+            "истеъмол килиш мия фаолиятини"
+            "яхшилайди, уйкуни нормаллаштиради"
+            "ва уйкусизлик ва ташвишлардан халос"
+            "бўлишга ёрдам беради. Салат кўришга"
+            "таъсир килади, кўз чарчокларини кетказади,"
+            "иммунитетни мустахкамлашга ёрдам беради,"
+            "холестеролни пасайтиради ва организмдаги метаболизмни тезлаштиради.\n\n"
+            "Салатнинг кимёвий таркиби кон таркибига фойдали"
+            "таъсир кўрсатади, шунинг учун у анемия"
+            "шароитида ва кон босимини баркарорлаштиришда фойдали бўлиши мумкин.",
+        inggridentsInfo: "1) Юрак (кайнатилган) - 300 г\n"
+            "2) Бодринг — ёки тузланган) - 3-4 дона\n"
+            "3) Ок карам / карам-100-150 г\n"
+            "4) Sorrel (янги)-1 туп\n"
+            "5) Пиёз-1 дона"),
+    Meal(
+        id: 10,
+        type: "Салатлар",
+        name: "Витаминли",
+        imageUrl: "assets/images/solads/vitaminiysolad.png",
+        time: "6 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Таомнинг номи ўзи учун гапиради."
+            "Бу кўплаб витаминлар ва минералларнинг манбаи."
+            "Ушбу салатнинг кунлик сўрилиши билан танани"
+            "витаминлар билан бойитади, иммунитетни ҳимоя"
+            "килиш ва оҳангни оширади, куч беради."
+            "Шунингдек, у овкат ҳазм килиш трактининг"
+            "органларига таъсирини рағбатлантиради ва"
+            "организмдаги метаболизмни баркарорлаштиради.\n\n"
+            "Витаминли салат тери ости ёғини тезрок ёкиш"
+            "ва тўпланган токсинлар ва токсинларни"
+            "тозалашга ёрдам беради. Шунинг учун бу"
+            "салат вазн йўкотиш учун енг яхши variant ҳисобланади."
+            "Шунингдек, у коннинг биокимёвий таркибини"
+            "яхшилайди ва унинг микросиркуляциясини оширади.",
+        inggridentsInfo: "1) Сабзи\n"
+            "2) каттик пишлок\n"
+            "3) Саримсок\n"
+            "4) Туз\n"
+            "5) Маёнез"),
+    Meal(
+        id: 11,
+        type: "Салатлар",
+        name: "Махсус",
+        imageUrl: "assets/images/solads/osobiy.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "28 000",
+        inggridentsInfo: "1) Помидор - 2 дона\n"
+            "2)Бодринг - 2 дона\n"
+            "3) Болгар кизил калампир - 1 дона\n"
+            "4) Кичик сабзи - 2 дона\n"
+            "5) Музлатилган кискичбакалар - 1 пакет (1 кг)",
+        moreInfo: "Салатни озик-овкатда мунтазам"
+            "истеъмол килиш мия фаолиятини"
+            "яхшилайди, уйкуни нормаллаштиради"
+            "ва уйкусизлик ва ташвишлардан халос"
+            "бўлишга ёрдам беради. Салат кўришга"
+            "таъсир килади, кўз чарчокларини кетказади,"
+            "иммунитетни мустахкамлашга ёрдам беради,"
+            "холестеролни пасайтиради ва организмдаги метаболизмни тезлаштиради.\n\n"
+            "Салатнинг кимёвий таркиби кон таркибига фойдали"
+            "таъсир кўрсатади, шунинг учун у анемия"
+            "шароитида ва кон босимини баркарорлаштиришда фойдали бўлиши мумкин."),
+    Meal(
+        id: 12,
+        type: "Салатлар",
+        name: "Кироллик",
+        imageUrl: "assets/images/solads/kopolevskiy.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "20 000",
+        inggridentsInfo: "1) Копченая куриная грудка 200 г\n"
+            "2) Консервированный ананас 300 г\n"
+            "3) Отварной картофель 2 штуки\n"
+            "4) Яйца 4 штуки\n"
+            "5) Майонез 200 г",
+        moreInfo: "Салатни озик-овкатда мунтазам"
+            "истеъмол килиш мия фаолиятини"
+            "яхшилайди, уйкуни нормаллаштиради"
+            "ва уйкусизлик ва ташвишлардан халос"
+            "бўлишга ёрдам беради. Салат кўришга"
+            "таъсир килади, кўз чарчокларини кетказади,"
+            "иммунитетни мустахкамлашга ёрдам беради,"
+            "холестеролни пасайтиради ва организмдаги метаболизмни тезлаштиради.\n\n"
+            "Салатнинг кимёвий таркиби кон таркибига фойдали"
+            "таъсир кўрсатади, шунинг учун у анемия"
+            "шароитида ва кон босимини баркарорлаштиришда фойдали бўлиши мумкин."),
+  ];
+  static List<Meal> saladsRU = [
+    Meal(
+        id: 1,
+        type: "Салаты",
+        name: "Цезарь",
+        imageUrl: "assets/images/solads/sezar.png",
+        time: "5 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "Что-то чудесное получается из салата Цезарь,"
+            "это поможет вам снизить потребность организма в калии."
+            "помогает удовлетворить. Функция калия acab"
+            "поддержка и нормальное состояние ваших мышц"
+            "обладает способностью способствовать сокращению.\n\n"
+            "Калий также влияет на подвижность клеток"
+            "и эффективного использования питательных веществ"
+            "помогает. Отлично, правда?"
+            "Подводя итог, салат Цезарь - вы"
+            "здоровая пища, которую можно есть.",
+        inggridentsInfo: "1) Айсбергский салатаси-400 г\n"
+            "2) Филе Товук-280 г\n"
+            "3) Гильос помидорлари - 10 дона\n"
+            "4) Не - 220 г\n"
+            "5) Пармезан-80 г"),
+    Meal(
+        id: 2,
+        type: "Салаты",
+        name: "Смакзиёфат",
+        imageUrl: "assets/images/solads/smakziyofat.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "22 000",
+        moreInfo: "Регулярное употребление салата в пищу"
+            "потребление мозговой активности"
+            "улучшает, нормализует сон"
+            "и избавиться от бессонницы и беспокойства"
+            "помогает быть. Салат видеть"
+            "снимает напряжение глаз,"
+            "помогает укрепить иммунитет,"
+            "снижает уровень холестерина и улучшает обмен веществ в организме.ускоряет.\n\n"
+            "Химический состав салата полезен для крови"
+            "эффект, так что это анемия"
+            "и в стабилизации артериального давления может быть полезно.",
+        inggridentsInfo: "1) 6 помидоров (у меня большие)\n"
+            "2) 150 гр сыра\n"
+            "3) 6 ломтиков хлеба\n"
+            "4) 4 зубчика чеснока\n"
+            "5) 150 гр майонеза"),
+    Meal(
+        id: 3,
+        type: "Салаты",
+        name: "Огурси с мясом",
+        imageUrl: "assets/images/solads/ogusiymyacom.png",
+        time: "3 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "25 000",
+        inggridentsInfo: "1) Огурцы - 1 кг"
+            "2) Мякоть-600 г\n"
+            "3) Перец чили-1 шт\n"
+            "4) Лук-2 шт\n"
+            "5) Чеснок-4 зубчика",
+        moreInfo: "Отличный корейский огурец и мясо"
+            "салат ароматный во многих странах,"
+            "популярное блюдо, сытное и вкусное.\n\n"
+            "Блюдо не только вкусное, но и очень полезное"
+            "потому что ингредиенты, используемые для тела"
+            "оказывает благотворное влияние. Салаа подходит друг другу"
+            "он состоит из простых, недорогих ингредиентов и специй."),
+    Meal(
+        id: 4,
+        type: "Салаты",
+        name: "Бодрость",
+        imageUrl: "assets/images/solads/bodrost.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "25 000",
+        inggridentsInfo: "1) Около 200 г феты\n"
+            "2) 4-5 свежих огурцов\n"
+            "3) 1-2 стебля сельдерея\n"
+            "4) Листья салата (у меня есть смесь)\n"
+            "5) 1 пучок зеленого лука",
+        moreInfo: "Регулярное употребление салата в пищу"
+            "потребление мозговой активности"
+            "улучшает, нормализует сон"
+            "и избавиться от бессонницы и беспокойства"
+            "помогает быть. Салат видеть"
+            "снимает напряжение глаз,"
+            "помогает укрепить иммунитет,"
+            "снижает уровень холестерина и улучшает обмен веществ в организме.ускоряет.\n\n"
+            "Химический состав салата полезен для крови"
+            "эффект, так что это анемия"
+            "и в стабилизации артериального давления может быть полезно"),
+    Meal(
+        id: 5,
+        type: "Салаты",
+        name: "Дамиский Каприз",
+        imageUrl: "assets/images/solads/damiskiykapriz.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFF71C3A1,
+        Cost: "28 000",
+        inggridentsInfo: "1) 300 г отварного мяса (говядины)\n"
+            "2) 2 головки лука\n"
+            "3) 5 яиц\n"
+            "4) столовая ложка сахара\n"
+            "5) чайная ложка уксуса 9%",
+        moreInfo: "Много салата lady's Caprice"
+            "рецепты также женские"
+            "есть причины капризов.\n\n"
+            "Но классический вариант - это все же Салат"
+            "дамская прихоть с курицей и ананасом"
+            "считается. Нежное куриное мясо,"
+            "кисло-сладкий ананас и хрустящий"
+            "отличное сочетание грецких орехов"
+            "порадует даже самую прилежную женщину ."),
+    Meal(
+        id: 6,
+        type: "Салаты",
+        name: "Мужская  каприз",
+        imageUrl: "assets/images/solads/mujskoykapriz.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: " <<Мужская капризница>> — любимец многих"
+            "салатов. В его составе"
+            "из-за наличия разных видов мяса,"
+            "мужчинам это нравится больше.\n\n"
+            "Преимущество этого салата в том, что он очень"
+            "питательный, даже базовый"
+            "он также может заменить еду.",
+        inggridentsInfo: "1) 100 гр Индейка (копчёная )\n"
+            "2) 100 гр Ветчина (куриная или колбаса из конины (казы))\n"
+            "3) 100 гр Колбаса (копчёная )\n"
+            "4) 100 гр Сыр (у меня голландский )\n"
+            "5) 100 гр Огурцы (свежие )"),
+    Meal(
+        id: 7,
+        type: "Салаты",
+        name: "Опера",
+        imageUrl: "assets/images/solads/opera.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "28 000",
+        moreInfo: "Питание, биотехнология и еда"
+            "Федеральное исследование безопасности"
+            "диетолог центра Натальи Денисовой"
+            "Почему листовой салат на диете aif"
+            "сказал, что было бы целесообразно включить .\n\n"
+            "Салат-низкокалорийный овощной продукт,"
+            "Всего 16 ккал на 100 г. Это почти 90% воды,"
+            "2% углеводов и 1,5% белка. Соответственно,"
+            "этот продукт предназначен для поддержания собственного веса или"
+            "идеально подходит для тех, кто хочет похудеть.",
+        inggridentsInfo: "1) 300 г товук жигари\n"
+            "2) 1 олма\n"
+            "3) 1 пиёз\n"
+            "4) 50 г карагай ёнгоклари\n"
+            "5) Салат барглари"),
+    Meal(
+        id: 8,
+        type: "Салаты",
+        name: "Гнездо кукушки",
+        imageUrl: "assets/images/solads/gnezdokukusha.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "20 000",
+        inggridentsInfo: "1) курица (филе) - 500 г\n"
+            "2) яичные белки-5 штук\n"
+            "3) соленые или маринованные огурцы-200-250 г\n"
+            "4) Картофель-500 г\n"
+            "5) растительное масло (для жарки картофеля) — около 50 мл",
+        moreInfo: "Праздничный салат из кукушиного гнезда"
+            "простой, который эффективно заполняет стол"
+            "но удивительно красиво"
+            "относится к категории блюд. В этом салате"
+            "нет единого рецепта, он состоит из разных ингредиентов"
+            "готово, но они яйца сверху"
+            "в виде отложенного птичьего гнезда"
+            "в сочетании с единым дизайном.\n\n"
+            "Ингредиенты нарезать соломкой,"
+            "смешать вместе и в листьях салата"
+            "укладывается на горку, по подобию улья"
+            "помогает достичь. Это огурец,"
+            "капуста, зелень, мясо или курица"
+            "это может быть филе, морковь, сыр и так далее."),
+    Meal(
+        id: 9,
+        type: "Салаты",
+        name: "Форсаж",
+        imageUrl: "assets/images/solads/forsaj.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "Регулярное употребление салата в пищу"
+            "потребление мозговой активности"
+            "улучшает, нормализует сон"
+            "и избавиться от бессонницы и беспокойства"
+            "помогает быть. Салат видеть"
+            "снимает напряжение глаз,"
+            "помогает укрепить иммунитет,"
+            "снижает уровень холестерина и улучшает обмен веществ в организме.ускоряет.\n\n"
+            "Химический состав салата полезен для крови"
+            "эффект, так что это анемия"
+            "и в стабилизации артериального давления может быть полезно.",
+        inggridentsInfo: "1) Сердце (вареное) - 300 г\n"
+            "2) Огурцы — или соленые) - 3-4 штуки\n"
+            "3) Белокочанная капуста / Капуста-100-150 г\n"
+            "4) Щавель (свежий) -1 куст\n"
+            "5) Лук-1 штука"),
+    Meal(
+        id: 10,
+        type: "Салаты",
+        name: "Витаминний",
+        imageUrl: "assets/images/solads/vitaminiysolad.png",
+        time: "6 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Название блюда говорит само за себя."
+            "Это источник многих витаминов и минералов."
+            "При ежедневном усвоении этого салата организм"
+            "обогащает витаминами, защищает иммунитет"
+            "делает и повышает тонус, придает силы."
+            "Он также действует как стимулятор пищеварительного тракта."
+            "стимулирует воздействие на органы и"
+            "стабилизирует обмен веществ в организме.\n\n"
+            "Витаминный салат для более быстрого сжигания подкожного жира"
+            "и накопленных токсинов и шлаков"
+            "помогает очистить. Следовательно, это"
+            "салат считается лучшим вариантом для похудения."
+            "Он также определяет биохимический состав крови."
+            "улучшает кровообращение и увеличивает его микроциркуляцию.",
+        inggridentsInfo: "1) Морковь\n"
+            "2) Твердый сыр\n"
+            "3) Чеснок\n"
+            "4) Соль\n"
+            "5) Майонез"),
+    Meal(
+        id: 11,
+        type: "Салаты",
+        name: "Особый",
+        imageUrl: "assets/images/solads/osobiy.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "28 000",
+        inggridentsInfo: "1) Помидоры-2 шт\n"
+            "2) Огурцы - 2 шт\n"
+            "3) Болгарский красный перец - 1 шт\n"
+            "4) Морковь мелкая-2 штуки\n"
+            "5) Замороженные креветки - 1 упаковка (1 кг)",
+        moreInfo: "Регулярное употребление салата в пищу"
+            "потребление мозговой активности"
+            "улучшает, нормализует сон"
+            "и избавиться от бессонницы и беспокойства"
+            "помогает быть. Салат видеть"
+            "снимает напряжение глаз,"
+            "помогает укрепить иммунитет,"
+            "снижает уровень холестерина и улучшает обмен веществ в организме.ускоряет.\n\n"
+            "Химический состав салата полезен для крови"
+            "эффект, так что это анемия"
+            "и в стабилизации артериального давления может быть полезно."),
+    Meal(
+        id: 12,
+        type: "Салаты",
+        name: "Королевский",
+        imageUrl: "assets/images/solads/kopolevskiy.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "20 000",
+        inggridentsInfo: "1) Копченая куриная грудка 200 г\n"
+            "2) Консервированный ананас 300 г\n"
+            "3) Отварной картофель 2 штуки\n"
+            "4) Яйца 4 штуки\n"
+            "5) Майонез 200 г",
+        moreInfo: "Регулярное употребление салата в пищу"
+            "потребление мозговой активности"
+            "улучшает, нормализует сон"
+            "и избавиться от бессонницы и беспокойства"
+            "помогает быть. Салат видеть"
+            "снимает напряжение глаз,"
+            "помогает укрепить иммунитет,"
+            "снижает уровень холестерина и улучшает обмен веществ в организме.ускоряет.\n\n"
+            "Химический состав салата полезен для крови"
+            "эффект, так что это анемия"
+            "и в стабилизации артериального давления может быть полезно."),
+  ];
+  static List<Meal> saladsEN = [
+    Meal(
+        id: 1,
+        type: "Salads",
+        name: "Cesar",
+        imageUrl: "assets/images/solads/sezar.png",
+        time: "5 MIN",
+        inggridents: "4 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "What is great is obtained from Caesar salad,"
+            "this will give you the need for potassium in the body"
+            "helps to satisfy. Potassium ACAB function"
+            "support and normal of your muscles"
+            "has the ability to help shrink.\n\n"
+            "Potassium also contributes to the movement of cells"
+            "and to the effective use of nutrients"
+            "will help. Great, isn't it?"
+            "In conclusion, Caesar salad-you"
+            "a healthy dish that you can take.",
+        inggridentsInfo: "1) Iceberg lettuce-400 gr\n"
+            "2) Chicken fillet-280 gr\n"
+            "3) Cherry tomatoes-10 PCs\n"
+            "4) Bread-220 gr\n"
+            "5) Parmesan - 80 gr"),
+    Meal(
+        id: 2,
+        type: "Salads",
+        name: "Smakziefat",
+        imageUrl: "assets/images/solads/smakziyofat.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "22 000",
+        moreInfo: "Salad regular in food "
+            "consumption brain activity"
+            "improves, normalizes sleep"
+            "and get rid of insomnia and anxiety"
+            "helps to be. Salad dressing"
+            "affects, relieves eye fatigue,"
+            "helps strengthen immunity,"
+            "lowers cholesterol and metabolism in the body accelerates.\n\n"
+            "The chemical composition of the salad is beneficial to the composition of the blood"
+            "has an effect, so it is anemic"
+            "in conditions and stabilization of blood pressure can be useful.",
+        inggridentsInfo: "1) 6 tomatoes (I have a large one)\n"
+            "2) 150 gr of cheese\n"
+            "3) 6 slices of bread\n"
+            "4) 4 cloves of garlic\n"
+            "5) 150 gr mayonnaise"),
+    Meal(
+        id: 3,
+        type: "Salads",
+        name: "Ogursi s myasom",
+        imageUrl: "assets/images/solads/ogusiymyacom.png",
+        time: "3 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "25 000",
+        inggridentsInfo: "1) Cucumbers-1 kg\n"
+            "2) Pulp-600 g\n"
+            "3) Chili pepper-1 PC\n"
+            "4) Onions-2 PCs\n"
+            "5) Garlic-4 cloves.",
+        moreInfo: "Excellent Korean of cucumbers and meat"
+            "salad is fragrant in many countries,"
+            "it is a popular dish that is satisfying and tasty.\n\n"
+            "The dish is not only tasty, but also very healthy,"
+            "because the ingredients used are for the body"
+            "has a beneficial effect. Salaa fit together"
+            "consists of simple, affordable ingredients and spices that come."),
+    Meal(
+        id: 4,
+        type: "Salads",
+        name: "Cheerfulness",
+        imageUrl: "assets/images/solads/bodrost.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "25 000",
+        inggridentsInfo: "1) About 200 g of Feta\n"
+            "2) 4-5 fresh cucumbers\n"
+            "3) 1-2 celery stalks\n"
+            "4) Salad leaves (I have a mixture)\n"
+            "5) 1 Bush of green onions",
+        moreInfo: "Salad regular in food"
+            "consumption brain activity"
+            "improves, normalizes sleep"
+            "and get rid of insomnia and anxiety\n\n"
+            "helps to be. Salad dressing"
+            "affects, relieves eye fatigue,"
+            "helps strengthen immunity,"
+            "lowers cholesterol and metabolism in the body accelerates."),
+    Meal(
+        id: 5,
+        type: "Salads",
+        name: "Ladies ' whim",
+        imageUrl: "assets/images/solads/damiskiykapriz.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFF71C3A1,
+        Cost: "28 000",
+        inggridentsInfo: "1) 300 g of boiled meat (beef)\n"
+            "2) 2 heads of onions\n"
+            "3) 5 eggs\n"
+            "4) a tablespoon of sugar\n"
+            "5) a teaspoon of vinegar 9%",
+        moreInfo: "Lots of Lady's Caprice salad "
+            "recipes, as well as women's"
+            "there are reasons for their whims.\n\n"
+            "But the classic option is still salad"
+            "lady's whim with chicken and pineappleis. Soft chicken meat,"
+            "sweet and sour pineapple and crispy amazing combination of nuts"
+            "it will delight even the most diligent woman ."),
+    Meal(
+        id: 6,
+        type: "Salads",
+        name: "Men's whim",
+        imageUrl: "assets/images/solads/mujskoykapriz.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "<<Mujskoy capriz>> — - most favorite"
+            "it is considered one of the salads. In its composition"
+            "due to the presence of various meats,"
+            "men are more likely to please him.\n\n"
+            "The advantage of this salad is that it is very"
+            "it is nutritious, even basic"
+            "it is also able to replace food.",
+        inggridentsInfo: "1) 100 gr turkey (smoked )\n"
+            "2) 100 gr ham (chicken or horse meat sausage (kazi))\n"
+            "3) 100 gr sausage (smoked )\n"
+            "4) 100 gr of cheese (I have Dutch )\n"
+            "5) 100 gr cucumbers (fresh )"),
+    Meal(
+        id: 7,
+        type: "Salads",
+        name: "Opera",
+        imageUrl: "assets/images/solads/opera.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "28 000",
+        moreInfo: "Nutrition, biotechnology and food"
+            "federal study on safety"
+            "nutritionist of the center Natalia Denisova"
+            "AiFga why ration leaf lettuce"
+            "the inclusion said it was appropriate .\n\n"
+            "Salad is a low-calorie vegetable product,"
+            "Only 16 kcal per 100 g. It is almost 90% water,"
+            "2% carbohydrates and 1.5% protein. According to,"
+            "this product can be used to maintain its weight or"
+            "perfect for those who want to lose weight.",
+        inggridentsInfo: "1) 300 g chicken liver\n"
+            "2) 1 Apple\n"
+            "3) 1 onion\n"
+            "4) 50 g pine nuts\n"
+            "5) Salad leaves"),
+    Meal(
+        id: 8,
+        type: "Salads",
+        name: "Cuckoo slot",
+        imageUrl: "assets/images/solads/gnezdokukusha.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "20 000",
+        inggridentsInfo: "1)chicken (fillet) - 500 g\n"
+            "2) egg white-5 PCs\n"
+            "3) pickled or pickled cucumbers-200-250\n"
+            "4) potatoes-500 g\n"
+            "5) vegetable oil (for frying potatoes) - about 50 ml",
+        moreInfo: "Cuckoo nest salad festive"
+            "simple, effectively filling the table,"
+            "but surprisingly beautiful"
+            "belongs to the category of dishes. In this salad"
+            "there is not a single recipe, it is made from different ingredients"
+            "prepared, but they are eggs on top"
+            "in the form of a laid bird's nest"
+            "combined with a single design.\n\n"
+            "Ingredients cut into strips,"
+            "mixed together and in lettuce leaves"
+            "to be laid on a slide, to resemble a slot"
+            "helps to achieve. This is a cucumber,"
+            "cabbage, greens, meat or chicken"
+            "there may be fillets, carrots, cheese, etc."),
+    Meal(
+        id: 9,
+        type: "Salads",
+        name: "Forsaj",
+        imageUrl: "assets/images/solads/forsaj.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "28 000",
+        moreInfo: "Salad regular in food "
+            "consumption brain activity"
+            "improves, normalizes sleep"
+            "and get rid of insomnia and anxiety"
+            "helps to be. Salad dressing"
+            "affects, relieves eye fatigue,"
+            "helps strengthen immunity,"
+            "lowers cholesterol and metabolism in the body accelerates.\n\n"
+            "The chemical composition of the salad is beneficial to the composition of the blood"
+            "has an effect, so it is anemic"
+            "in conditions and stabilization of blood pressure can be useful.",
+        inggridentsInfo: "1) Heart (boiled) - 300 g\n"
+            "2) Cucumbers — or pickled) - 3-4 pieces\n"
+            "3) White cabbage / cabbage-100-150 g\n"
+            "4) Sorrel (fresh)-1 Bush\n"
+            "5) Onions-1 PC"),
+    Meal(
+        id: 10,
+        type: "Salads",
+        name: "Vitamins",
+        imageUrl: "assets/images/solads/vitaminiysolad.png",
+        time: "6 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "The name of the dish speaks for itself"
+            "It is a source of many vitamins and minerals."
+            "Body with daily absorption of this salad"
+            "enriches with vitamins, protects immunity"
+            "make and tone increases, gives strength."
+            "It is also part of the digestive tract"
+            "stimulates the effect on the organs and"
+            "stabilizes the body's metabolism.\n\n"
+            "Vitamin salad activate subcutaneous fat faster"
+            "and accumulated toxins and toxins"
+            "helps to clean. Therefore, it is"
+            "salad is considered the best option for weight loss."
+            "It also determines the biochemical composition of the blood"
+            "improves and increases its microcirculation.",
+        inggridentsInfo: "1) Carrots\n"
+            "2) Hard cheese\n"
+            "3) Garlic\n"
+            "4) Salt\n"
+            "5) Mayonnaise"),
+    Meal(
+        id: 11,
+        type: "Salads",
+        name: "Special",
+        imageUrl: "assets/images/solads/osobiy.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "28 000",
+        inggridentsInfo: "1) Tomatoes-2 PCs.\n"
+            "2) Cucumbers-2 PCs\n"
+            "3) Bulgarian red pepper-1 PC\n"
+            "4) Small carrots-2 PCs\n"
+            "5) Frozen shrimp-1 Package (1 kg)",
+        moreInfo: "Salad regular in food "
+            "consumption brain activity"
+            "improves, normalizes sleep"
+            "and get rid of insomnia and anxiety"
+            "helps to be. Salad dressing"
+            "affects, relieves eye fatigue,"
+            "helps strengthen immunity,"
+            "lowers cholesterol and metabolism in the body accelerates.\n\n"
+            "The chemical composition of the salad is beneficial to the composition of the blood"
+            "has an effect, so it is anemic"
+            "in conditions and stabilization of blood pressure can be useful."),
+    Meal(
+        id: 12,
+        type: "Salads",
+        name: "The kingdom",
+        imageUrl: "assets/images/solads/kopolevskiy.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "20 000",
+        inggridentsInfo: "1) Smoked chicken breast 200 g\n"
+            "2) Canned pineapple 300 g\n"
+            "3) Boiled potatoes 2 PCs\n"
+            "4) Eggs 4 pieces\n"
+            "5) Mayonnaise 200 g",
+        moreInfo: "Salad regular in food"
+            "consumption brain activity"
+            "improves, normalizes sleep"
+            "and get rid of insomnia and anxiety\n\n"
+            "helps to be. Salad dressing"
+            "affects, relieves eye fatigue,"
+            "helps strengthen immunity,"
+            "lowers cholesterol and metabolism in the body accelerates."),
+  ];
+
+  //Garnishes  mould
 
   static List<Meal> garnishesUZ = [
     Meal(
@@ -183,7 +1367,7 @@ class Meal {
             "У шунчаки барча афзалликларни ўз ичига олади."
             "канчалик кам дон кайта ишланса, улар шунчалик"
             "узок хазм килинади ва организмни бунинг учун"
-            "мухим моддалар билан таъминлайди.")
+            "мухим моддалар билан таъминлайди."),
   ];
   static List<Meal> garnishesRU = [
     Meal(
@@ -407,277 +1591,280 @@ class Meal {
             "provides essential substances."),
   ];
 
-//Solad screen moudul
-  static List<Meal> melaUZ = [
+  //First Dishes mould
+  static List<Meal> friDishesUZ = [
     Meal(
         id: 1,
-        type: "Гарнитуралар",
-        name: "Kartoshka",
-        imageUrl: "assets/images/garnishes/kortefelnifri.png",
-        time: "10 МИН",
-        inggridents: "4 ИНГ",
+        type: "Birinchi taomla",
+        name: "Uyg'urcha lag'mon",
+        imageUrl: "assets/images/bitinchiovqatlar/uygurlagman.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFFF2DFE1,
-        Cost: "12 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, protein ва толага ега ва юкори глисемик индексга ега.",
-        inggridentsInfo:
-            "ковуриш учун 1 кг картошка\nЧукур ковуриш учун ўсимлик ёги\nЎрта майдаланган денгиз тузи\nХизмат килиш учун яхши ketchup"),
+        Cost: "25 000",
+        moreInfo: "Lagman organizm uchun foydalidir."
+            "Bulyonga cilantro, maydanoz, piyoz va"
+            "boshqa o'tlarni qo'shing, sabzavotlardan"
+            "foydalanishni unutmang. Lekin siz uni har"
+            "kuni iste'mol qila olmaysiz, chunki u "
+            "nafaqat to'yimli, balki yuqori kaloriya hisoblanadi.\n\n"
+            "Shuningdek, oshqozon kasalliklari bilan"
+            "og'rigan odamlar uchun uni tez-tez va"
+            "ko'p miqdorda ishlatish tavsiya etilmaydi."
+            "Lagman ko'pincha stolga bayramona taom sifatida"
+            "yoki shunchaki sinash uchun buyuriladi."
+            "Kundalik foydalanish uchun juda yaxshi emas.",
+        inggridentsInfo: "1) mol go'shti yoki qo'zichoq: 500 gramm\n"
+            "2) lampochka: 2 ta katta\n"
+            "3) Xitoy karam: 5 varaq\n"
+            "4) qizil bolgar qalampiri: 3 dona\n"
+            "5) yashil bolgar qalampiri: 3 dona"),
     Meal(
         id: 2,
-        type: "Гарнитуралар",
-        name: "Пюре",
-        imageUrl: "assets/images/garnishes/pyure.png",
-        time: "7 МИН",
-        inggridents: "6 ИНГ",
+        type: "Birinchi taomla",
+        name: "Sho'rva",
+        imageUrl: "assets/images/bitinchiovqatlar/shurva.png",
+        time: "7 MIN",
+        inggridents: "11 ING",
         bannerColor: 0xFFDCC7B1,
-        Cost: "15 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, у protein ва толага ега ва юкори глисемик индексга ега",
-        inggridentsInfo:
-            "картошка 1 кг\nсметана 2 ош кошик\nсут 1 стакан\nеритилган сариёг ъ 2 ош кошик\nмайдаланган cheddar 100 г"),
+        Cost: "20 000",
+        moreInfo: "Sho'rva immunitetni oshiradimi? "
+            "Albatta Ha. Sabzavotli sho'rva "
+            "juda ko'p turli xil vitaminlar,"
+            "minerallarni o'z ichiga oladi,"
+            "shuningdek, ichakdagi bakteriyalarimiz"
+            "juda yaxshi ko'radigan tolaga boy."
+            "Shuning uchun sho'rva yaxshi. \n\n"
+            "Ba'zi kichik tadqiqotlar tovuq"
+            "bulyoni immunitet tizimiga ijobiy"
+            "ta'sir ko'rsatadi. Issiq tovuq"
+            "sho'rva ham tomoq og'rig'ini "
+            "tinchlantirishga yordam beradi.",
+        inggridentsInfo: "1) Qo'zi go'shti - 1,5 kg\n"
+            "2) Kartoshka - 3 dona\n"
+            "3) Sabzi - 2 dona\n"
+            "4) Piyoz - 2 dona\n"
+            "5) Sholg'om - 2 dona\n"
+            "6) Pomidor - 2 dona\n"
+            "7) qalampir - 1 dona\n"
+            "8) Chilli - 2 dona\n"
+            "9) No'xat - 2 dona Ko'katlar\n"
+            "10) Tuz\n"
+            "11) qalampir"),
     Meal(
         id: 3,
-        type: "Гарнитуралар",
-        name: "Гуруч",
-        imageUrl: "assets/images/garnishes/guruch.png",
-        time: "14 МИН",
-        inggridents: "3 ИНГ",
+        type: "Birinchi taomla",
+        name: "Okroshka",
+        imageUrl: "assets/images/bitinchiovqatlar/okroshka.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFFFFC5A8,
-        Cost: "10 000",
-        inggridentsInfo:
-            "1 stakan oq guruch\n2 choy qoshiq kunga boqar moyi\n1 3/4 stakan suv",
-        moreInfo:
-            "Guruchli idishlar ko'p odamlar uchun sog'lom va muvozanatli ovqatlanishning bir qismi bo'lishi mumkin. Donlarning foydali xususiyatlarining aksariyati ular tarkibidagi vitaminlar va minerallar bilan bog'liq.\n\n 100 gramm oq guruchda taxminan 15 mg magniy mavjud. Ushbu element suyak to'qimalarining muhim tarkibiy qismi bo'lib, DNK va oqsillar sintezi bilan bog'liq yuzlab fermentativ reaktsiyalarda ishtirok etadi. Bundan tashqari, u asabto'qimalarining normal ishlashi  uchun kerak."),
+        Cost: "--",
+        inggridentsInfo: "1) 1 litr zardob\n"
+            "2) 2 ta tovuq tuxumi\n"
+            "3) Yarim stakan smetana\n"
+            "4) 2 osh qoshiq xantal\n"
+            "5) Qaynatilgan kolbasa",
+        moreInfo: "Eng qimmatli sut mahsulotlaridan"
+            "biri bo'lgan kefirga okroshka "
+            "ham foydalidir, chunki kiruvchi oziq-ovqatning"
+            "hazm bo'lishini oshiradi\n\n"
+            "metabolizmni normallashtirishga"
+            "hissa qo'shadi, stress, yomon "
+            "odatlar, noto'g'ri ovqatlanish"
+            "va uyqusizlik tufayli zaiflashgan tanani davolaydi;"
+            "teri va sochning yaxshi holati,"
+            "shuningdek, asab tizimining normal"
+            "ishlashi uchun zarur bo'lgan ko'plab"
+            "foydali oziq moddalar (ayniqsa, kaltsiy)"
+            "va B vitaminlariga boy."),
     Meal(
         id: 4,
-        type: "Гарнитуралар",
-        name: "Grechka",
-        imageUrl: "assets/images/garnishes/grechka.png",
-        time: "13 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "10 000",
-        inggridentsInfo:
-            "Gugurtdan tayyorlangan grechka yormasi\n2 ta kichik yoki 1 ta katta baqlajon, ingichka qilib kesilgan\n4 o'rta pomidor, to'g'ralgan\n2 tish sarimsoq, mayda to'g'ralgan\n90 g yangi mozzarella, luqma kattaligiga kesilgan",
-        moreInfo:
-            "Grechka  har qanday oziq-ovqat bilan yaxshi ketadi - go'sht, tovuq, sabzavot, sut.Grechkaning eng mashhur turi - yadro, ya'ni butun qovurilgan yoki bug'da pishirilgan donalar.\n\nBu sotuvda sodir bo'ladi va yashil, ya'ni qaytaishlanmagan grechka, u eng foydali hisoblanadi, chunki u ko'proq ozuqa moddalarini saqlaydi."),
+        type: "Birinchi taomla",
+        name: "No'xat sho'rva",
+        imageUrl: "assets/images/bitinchiovqatlar/nuxashurva.png",
+        time: "8 MIN",
+        inggridents: "6 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "--",
+        inggridentsInfo: "1) No'xat pyuresi-2 briket\n"
+            "2) Oq karam\n"
+            "3) Piyoz - 1 dona\n"
+            "4) Sabzi - 1 dona\n"
+            "5) Pomidor - 2 dona\n"
+            "6) go'sht",
+        moreInfo: "No'xat sho'rvasida mushak to'qimasini "
+            "qurish uchun zarur bo'lgan yuqori"
+            "sifatli o'simlik oqsili mavjud. "
+            "Mahsulot tarkibida miya faoliyati"
+            "(kalorizator) uchun zarur bo'lgan juda"
+            "ko'p glutamik kislota mavjud. \n\n"
+            "No'xat sho'rvasining maxsus musiqiyligi"
+            "uchun sabab bo'lgan hazm bo'lmaydigan xun"
+            "tolasi ichak motorikasini yaxshilaydi va"
+            "oshqozon-ichak traktining ko'plab kasalliklari"
+            "uchun profilaktika chorasi hisoblanadi."
+            "No'xat sho'rvasi kaliy yetkazib beruvchisi"
+            "hisoblanishi mumkin , yurak-qon tomir"
+            "tizimining normal ishlashi uchun zarur."),
     Meal(
         id: 5,
-        type: "Garnituralar",
-        name: "Non",
-        imageUrl: "assets/images/garnishes/non.png",
-        time: "5 МИН",
-        inggridents: "5 ИНГ",
+        type: "Birinchi taomla",
+        name: "Borscht",
+        imageUrl: "assets/images/bitinchiovqatlar/borsh.png",
+        time: "6 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFF71C3A1,
-        Cost: "4 000",
-        inggridentsInfo:
-            "Un-450g\nSuv-300ml\nXamirturush (yangi) - 10g\nTuz-7g\nQora sedana",
-        moreInfo:
-            "Oziq moddalarning eng ko'p miqdori kepak qo'shilishi bilan to'liq donlardan tayyorlangan xamirturushsiz mahsulotlarda mavjud. Oddiy oq nonda foydali moddalar va tolalar deyarli yo'q, chunki uni tayyorlash uchun sayqallangan dondan un ishlatiladi - qobig'i bo'lmagan xom ashyo.\n\nU shunchaki barcha afzalliklarni o'z ichiga oladi. Qanchalik kam don qayta ishlansa, ular shunchalik uzoq hazm qilinadi va organizmni buning uchun muhim moddalar bilan ta'minlaydi."),
-  ];
-  static List<Meal> melaKR = [
+        Cost: "22 000",
+        inggridentsInfo: "1) Suyakdagi mol go'shti 600 g\n"
+            "2) Suv 4 l\n"
+            "3) Sabzi 2 dona\n"
+            "4) Piyoz 1 dona\n"
+            "5) Lavlagi 1 dona.",
+        moreInfo: "Tayyorlash usulidan qat'i nazar,"
+            "o'zaro muvozanatli turli xil "
+            "sabzavotlarning yuqori miqdori"
+            "tufayli borscht tanaga ijobiy ta'sir ko'rsatadi.\n\n"
+            "Tananing tez to'yinganligini, ichaklarni"
+            "va tanani zaharli moddalar va metallardan"
+            "yumshoq tozalashga yordam beradi. Bu yaxshi"
+            "xoleretik ta'sirga ega, jigarni bo'shatadi va"
+            "organizmdagi metabolik jarayonlarni tezlashtiradi."
+            "Qonning biokimyoviy tarkibini yaxshilaydi va"
+            "gematopoez jarayonlarini rag'batlantiradi."),
     Meal(
-        id: 1,
-        type: "Гарнитуралар",
-        name: "Kartoshka",
-        imageUrl: "assets/images/garnishes/kortefelnifri.png",
-        time: "10 МИН",
-        inggridents: "4 ИНГ",
+        id: 6,
+        type: "Birinchi taomla",
+        name: "Mastava",
+        imageUrl: "assets/images/bitinchiovqatlar/mostava.png",
+        time: "6 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFFF2DFE1,
-        Cost: "12 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, protein ва толага ега ва юкори глисемик индексга ега.",
-        inggridentsInfo:
-            "ковуриш учун 1 кг картошка\nЧукур ковуриш учун ўсимлик ёги\nЎрта майдаланган денгиз тузи\nХизмат килиш учун яхши ketchup"),
+        Cost: "18 000",
+        moreInfo: "Mastava o'zbek taomidir, garchi "
+            "ko'plab oshxonalarda shunga o'xshash narsa bor."
+            "Va mastava juda boshqacha. Eng keng tarqalgan"
+            "qo'zichoq suyaklarida pishiriladi, undan keyin"
+            "katta go'shtli go'sht qo'shiladi. \n\n"
+            "Mening ta'm va rang da - bu barcha"
+            "holatlar uchun eng mos variant. Albatta,"
+            "siz boshqa narsa emas, balki mastavani pishirmasangiz."
+            "Mastavaning barcha turlari uchun mahsulotlar to'plami deyarli bir xil.",
+        inggridentsInfo: "1) 500 g mol go'shti\n"
+            "2) 200 g guruch\n"
+            "3) 300 g piyoz\n"
+            "4) 200 g sabzi\n"
+            "5) 200 g kartoshka"),
     Meal(
-        id: 2,
-        type: "Гарнитуралар",
-        name: "Пюре",
-        imageUrl: "assets/images/garnishes/pyure.png",
-        time: "7 МИН",
-        inggridents: "6 ИНГ",
+        id: 7,
+        type: "Birinchi taomla",
+        name: "Tovuq sho'rva",
+        imageUrl: "assets/images/bitinchiovqatlar/touqshorva.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFFDCC7B1,
         Cost: "15 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, у protein ва толага ега ва юкори глисемик индексга ега",
-        inggridentsInfo:
-            "картошка 1 кг\nсметана 2 ош кошик\nсут 1 стакан\nеритилган сариёг ъ 2 ош кошик\nмайдаланган cheddar 100 г"),
+        moreInfo: " Parranda go'shti bulyoni immunitet"
+            "tizimiga ijobiy ta'sir ko'rsatadi."
+            "Idish erta bosqichda sovuqqa qarshi kurashda"
+            "mukammal yordam beradi, organizmga virusli"
+            "infektsiyalar va gripp bilan kurashishga yordam beradi."
+            "Agar ilgari bu bayonot ko'proq an'analarni yashirgan bo'lsa,"
+            "bugungi kunda bu faktlar ko'plab tibbiy tadqiqotlar bilan tasdiqlangan.\n\n"
+            "Yurak mushaklarining faoliyatini yaxshilaydi,"
+            "chunki undagi moddalar majmuasi uning hajmiga,"
+            "shuningdek, qon tomirlari devorlarining"
+            "qalinligiga ta'sir qiladi. Profilaktik chora sifatida"
+            "normal yurak ritmini saqlab qolish uchun kuniga"
+            "100 ml dan ortiq konsentrlangan tovuq"
+            "bulonini iste'mol qilish tavsiya etiladi.",
+        inggridentsInfo: "1) Suv\n"
+            "2) Tovuq ko'krak filesi\n"
+            "3) Pomidor o'z sharbatida\n"
+            "4) Bug'langan guruch\n"
+            "5) Piyoz"),
     Meal(
-        id: 3,
-        type: "Гарнитуралар",
-        name: "Гуруч",
-        imageUrl: "assets/images/garnishes/guruch.png",
-        time: "14 МИН",
-        inggridents: "3 ИНГ",
+        id: 8,
+        type: "Birinchi taomla",
+        name: "Chuchvara",
+        imageUrl: "assets/images/bitinchiovqatlar/chuchvara.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFFFFC5A8,
-        Cost: "10 000",
-        inggridentsInfo:
-            "1 stakan oq guruch\n2 choy qoshiq kunga boqar moyi\n1 3/4 stakan suv",
-        moreInfo:
-            "Guruchli idishlar ko'p odamlar uchun sog'lom va muvozanatli ovqatlanishning bir qismi bo'lishi mumkin. Donlarning foydali xususiyatlarining aksariyati ular tarkibidagi vitaminlar va minerallar bilan bog'liq.\n\n 100 gramm oq guruchda taxminan 15 mg magniy mavjud. Ushbu element suyak to'qimalarining muhim tarkibiy qismi bo'lib, DNK va oqsillar sintezi bilan bog'liq yuzlab fermentativ reaktsiyalarda ishtirok etadi. Bundan tashqari, u asabto'qimalarining normal ishlashi  uchun kerak."),
+        Cost: "20 000",
+        inggridentsInfo: "1) Un - 2,5 osh qoshiq\n"
+            "2) Tuxum - 1 dona\n"
+            "3) Suv - 1 osh qoshiq\n"
+            "4) Mol go'shti-250 g\n"
+            "5) Cho'chqa go'shti-200 g",
+        moreInfo: "Chuchvara foydali xususiyatlari"
+            "faqat uning tarkibiga kiritilgan"
+            "mahsulotlarning qimmatli xususiyatlariga bog'liq.\n\n"
+            "Masalan, an'anaviy ravishda bu taomni"
+            "tayyorlash uchun ishlatiladigan bug'doy"
+            "uni tolaning boy manbai bo'lib , shuningdek,"
+            "B vitaminlari va vitamin PP ni o'z ichiga oladi ."
+            "Undagi mineral komponentdan quyidagilarni ajratish mumkin"
+            "magniy , mis ,sink ,fosfor , temir . "),
     Meal(
-        id: 4,
-        type: "Гарнитуралар",
-        name: "Grechka",
-        imageUrl: "assets/images/garnishes/grechka.png",
-        time: "13 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "10 000",
-        inggridentsInfo:
-            "Gugurtdan tayyorlangan grechka yormasi\n2 ta kichik yoki 1 ta katta baqlajon, ingichka qilib kesilgan\n4 o'rta pomidor, to'g'ralgan\n2 tish sarimsoq, mayda to'g'ralgan\n90 g yangi mozzarella, luqma kattaligiga kesilgan",
-        moreInfo:
-            "Grechka  har qanday oziq-ovqat bilan yaxshi ketadi - go'sht, tovuq, sabzavot, sut.Grechkaning eng mashhur turi - yadro, ya'ni butun qovurilgan yoki bug'da pishirilgan donalar.\n\nBu sotuvda sodir bo'ladi va yashil, ya'ni qaytaishlanmagan grechka, u eng foydali hisoblanadi, chunki u ko'proq ozuqa moddalarini saqlaydi."),
-    Meal(
-        id: 5,
-        type: "Garnituralar",
-        name: "Non",
-        imageUrl: "assets/images/garnishes/non.png",
-        time: "5 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "4 000",
-        inggridentsInfo:
-            "Un-450g\nSuv-300ml\nXamirturush (yangi) - 10g\nTuz-7g\nQora sedana",
-        moreInfo:
-            "Oziq moddalarning eng ko'p miqdori kepak qo'shilishi bilan to'liq donlardan tayyorlangan xamirturushsiz mahsulotlarda mavjud. Oddiy oq nonda foydali moddalar va tolalar deyarli yo'q, chunki uni tayyorlash uchun sayqallangan dondan un ishlatiladi - qobig'i bo'lmagan xom ashyo.\n\nU shunchaki barcha afzalliklarni o'z ichiga oladi. Qanchalik kam don qayta ishlansa, ular shunchalik uzoq hazm qilinadi va organizmni buning uchun muhim moddalar bilan ta'minlaydi."),
-  ];
-  static List<Meal> melaRU = [
-    Meal(
-        id: 1,
-        type: "Гарнитуралар",
-        name: "Kartoshka",
-        imageUrl: "assets/images/garnishes/kortefelnifri.png",
-        time: "10 МИН",
-        inggridents: "4 ИНГ",
+        id: 9,
+        type: "Birinchi taomla",
+        name: "Mampar",
+        imageUrl: "assets/images/bitinchiovqatlar/mampar.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFFF2DFE1,
-        Cost: "12 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, protein ва толага ега ва юкори глисемик индексга ега.",
-        inggridentsInfo:
-            "ковуриш учун 1 кг картошка\nЧукур ковуриш учун ўсимлик ёги\nЎрта майдаланган денгиз тузи\nХизмат килиш учун яхши ketchup"),
+        Cost: "18 000",
+        moreInfo: "Manpar - O'rta Osiyo oshxonasining taomidir, "
+            "uning variantlari mintaqaviy jihatdan farq qiladi,"
+            "ammo ozgina. Bu ko'p komponentli taom bo'lib,"
+            "uni asta-sekin, yaxshi kayfiyat bilan pishirish kerak.\n\n"
+            "Kartoshka qo'shilgan variantlar mavjud, ularsiz ham bor."
+            "Xarakterli - turli xil ziravorlar mavjudligi."
+            "Manparda faqat besh xil qalampir bor."
+            "Bundan tashqari, koriander, ba'zan bir oz"
+            "yulduz qizilmiya qo'shing. Men uchun, "
+            "pishirish paytida, bu qalin sho'rvaga yashil"
+            "turp qo'shish odatiy hol emas edi."
+            "Shunday qilib, tatib ko'rish qiziqarli bo'ldi. ",
+        inggridentsInfo: "1) bug'doy uni-400 g\n"
+            "2) tovuq tuxumlari - 2 dona\n"
+            "3) tuz - 0,3 choy qoshiq\n"
+            "4) suv - 100 g\n"
+            "5) o'simlik yog'i - 10 g"),
     Meal(
-        id: 2,
-        type: "Гарнитуралар",
-        name: "Пюре",
-        imageUrl: "assets/images/garnishes/pyure.png",
-        time: "7 МИН",
-        inggridents: "6 ИНГ",
+        id: 10,
+        type: "Birinchi taomla",
+        name: "Tiftel",
+        imageUrl: "assets/images/bitinchiovqatlar/tiftel.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
         bannerColor: 0xFFDCC7B1,
-        Cost: "15 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, у protein ва толага ега ва юкори глисемик индексга ега",
-        inggridentsInfo:
-            "картошка 1 кг\nсметана 2 ош кошик\nсут 1 стакан\nеритилган сариёг ъ 2 ош кошик\nмайдаланган cheddar 100 г"),
-    Meal(
-        id: 3,
-        type: "Гарнитуралар",
-        name: "Гуруч",
-        imageUrl: "assets/images/garnishes/guruch.png",
-        time: "14 МИН",
-        inggridents: "3 ИНГ",
-        bannerColor: 0xFFFFC5A8,
-        Cost: "10 000",
-        inggridentsInfo:
-            "1 stakan oq guruch\n2 choy qoshiq kunga boqar moyi\n1 3/4 stakan suv",
-        moreInfo:
-            "Guruchli idishlar ko'p odamlar uchun sog'lom va muvozanatli ovqatlanishning bir qismi bo'lishi mumkin. Donlarning foydali xususiyatlarining aksariyati ular tarkibidagi vitaminlar va minerallar bilan bog'liq.\n\n 100 gramm oq guruchda taxminan 15 mg magniy mavjud. Ushbu element suyak to'qimalarining muhim tarkibiy qismi bo'lib, DNK va oqsillar sintezi bilan bog'liq yuzlab fermentativ reaktsiyalarda ishtirok etadi. Bundan tashqari, u asabto'qimalarining normal ishlashi  uchun kerak."),
-    Meal(
-        id: 4,
-        type: "Гарнитуралар",
-        name: "Grechka",
-        imageUrl: "assets/images/garnishes/grechka.png",
-        time: "13 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "10 000",
-        inggridentsInfo:
-            "Gugurtdan tayyorlangan grechka yormasi\n2 ta kichik yoki 1 ta katta baqlajon, ingichka qilib kesilgan\n4 o'rta pomidor, to'g'ralgan\n2 tish sarimsoq, mayda to'g'ralgan\n90 g yangi mozzarella, luqma kattaligiga kesilgan",
-        moreInfo:
-            "Grechka  har qanday oziq-ovqat bilan yaxshi ketadi - go'sht, tovuq, sabzavot, sut.Grechkaning eng mashhur turi - yadro, ya'ni butun qovurilgan yoki bug'da pishirilgan donalar.\n\nBu sotuvda sodir bo'ladi va yashil, ya'ni qaytaishlanmagan grechka, u eng foydali hisoblanadi, chunki u ko'proq ozuqa moddalarini saqlaydi."),
-    Meal(
-        id: 5,
-        type: "Garnituralar",
-        name: "Non",
-        imageUrl: "assets/images/garnishes/non.png",
-        time: "5 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "4 000",
-        inggridentsInfo:
-            "Un-450g\nSuv-300ml\nXamirturush (yangi) - 10g\nTuz-7g\nQora sedana",
-        moreInfo:
-            "Oziq moddalarning eng ko'p miqdori kepak qo'shilishi bilan to'liq donlardan tayyorlangan xamirturushsiz mahsulotlarda mavjud. Oddiy oq nonda foydali moddalar va tolalar deyarli yo'q, chunki uni tayyorlash uchun sayqallangan dondan un ishlatiladi - qobig'i bo'lmagan xom ashyo.\n\nU shunchaki barcha afzalliklarni o'z ichiga oladi. Qanchalik kam don qayta ishlansa, ular shunchalik uzoq hazm qilinadi va organizmni buning uchun muhim moddalar bilan ta'minlaydi."),
-  ];
-  static List<Meal> melaEN = [
-    Meal(
-        id: 1,
-        type: "Гарнитуралар",
-        name: "Kartoshka",
-        imageUrl: "assets/images/garnishes/kortefelnifri.png",
-        time: "10 МИН",
-        inggridents: "4 ИНГ",
-        bannerColor: 0xFFF2DFE1,
-        Cost: "12 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, protein ва толага ега ва юкори глисемик индексга ега.",
-        inggridentsInfo:
-            "ковуриш учун 1 кг картошка\nЧукур ковуриш учун ўсимлик ёги\nЎрта майдаланган денгиз тузи\nХизмат килиш учун яхши ketchup"),
-    Meal(
-        id: 2,
-        type: "Гарнитуралар",
-        name: "Пюре",
-        imageUrl: "assets/images/garnishes/pyure.png",
-        time: "7 МИН",
-        inggridents: "6 ИНГ",
-        bannerColor: 0xFFDCC7B1,
-        Cost: "15 000",
-        moreInfo:
-            "Картошка дунёдаги енг машxур ва кўп киррали овкатлардан биридир. У турли хил тўйимли ва мазали таомларни тайёрлаш учунишлатилиши мумкин.\n\nАммо шунга карамай,картошка билан xамма нарса жуда оддий емас.Бир томондан, у C, Б6 витаминлари, калий, марганец, магний, фолий кислотасини ўз ичига олади.Бошка томондан, бу илдиз сабзавот асосан углеводлардан иборат бўлиб, у protein ва толага ега ва юкори глисемик индексга ега",
-        inggridentsInfo:
-            "картошка 1 кг\nсметана 2 ош кошик\nсут 1 стакан\nеритилган сариёг ъ 2 ош кошик\nмайдаланган cheddar 100 г"),
-    Meal(
-        id: 3,
-        type: "Гарнитуралар",
-        name: "Гуруч",
-        imageUrl: "assets/images/garnishes/guruch.png",
-        time: "14 МИН",
-        inggridents: "3 ИНГ",
-        bannerColor: 0xFFFFC5A8,
-        Cost: "10 000",
-        inggridentsInfo:
-            "1 stakan oq guruch\n2 choy qoshiq kunga boqar moyi\n1 3/4 stakan suv",
-        moreInfo:
-            "Guruchli idishlar ko'p odamlar uchun sog'lom va muvozanatli ovqatlanishning bir qismi bo'lishi mumkin. Donlarning foydali xususiyatlarining aksariyati ular tarkibidagi vitaminlar va minerallar bilan bog'liq.\n\n 100 gramm oq guruchda taxminan 15 mg magniy mavjud. Ushbu element suyak to'qimalarining muhim tarkibiy qismi bo'lib, DNK va oqsillar sintezi bilan bog'liq yuzlab fermentativ reaktsiyalarda ishtirok etadi. Bundan tashqari, u asabto'qimalarining normal ishlashi  uchun kerak."),
-    Meal(
-        id: 4,
-        type: "Гарнитуралар",
-        name: "Grechka",
-        imageUrl: "assets/images/garnishes/grechka.png",
-        time: "13 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "10 000",
-        inggridentsInfo:
-            "Gugurtdan tayyorlangan grechka yormasi\n2 ta kichik yoki 1 ta katta baqlajon, ingichka qilib kesilgan\n4 o'rta pomidor, to'g'ralgan\n2 tish sarimsoq, mayda to'g'ralgan\n90 g yangi mozzarella, luqma kattaligiga kesilgan",
-        moreInfo:
-            "Grechka  har qanday oziq-ovqat bilan yaxshi ketadi - go'sht, tovuq, sabzavot, sut.Grechkaning eng mashhur turi - yadro, ya'ni butun qovurilgan yoki bug'da pishirilgan donalar.\n\nBu sotuvda sodir bo'ladi va yashil, ya'ni qaytaishlanmagan grechka, u eng foydali hisoblanadi, chunki u ko'proq ozuqa moddalarini saqlaydi."),
-    Meal(
-        id: 5,
-        type: "Garnituralar",
-        name: "Non",
-        imageUrl: "assets/images/garnishes/non.png",
-        time: "5 МИН",
-        inggridents: "5 ИНГ",
-        bannerColor: 0xFF71C3A1,
-        Cost: "4 000",
-        inggridentsInfo:
-            "Un-450g\nSuv-300ml\nXamirturush (yangi) - 10g\nTuz-7g\nQora sedana",
-        moreInfo:
-            "Oziq moddalarning eng ko'p miqdori kepak qo'shilishi bilan to'liq donlardan tayyorlangan xamirturushsiz mahsulotlarda mavjud. Oddiy oq nonda foydali moddalar va tolalar deyarli yo'q, chunki uni tayyorlash uchun sayqallangan dondan un ishlatiladi - qobig'i bo'lmagan xom ashyo.\n\nU shunchaki barcha afzalliklarni o'z ichiga oladi. Qanchalik kam don qayta ishlansa, ular shunchalik uzoq hazm qilinadi va organizmni buning uchun muhim moddalar bilan ta'minlaydi."),
+        Cost: "20 000",
+        moreInfo: "The name of the dish speaks for itself"
+            "It is a source of many vitamins and minerals."
+            "Body with daily absorption of this salad"
+            "enriches with vitamins, protects immunity"
+            "make and tone increases, gives strength."
+            "It is also part of the digestive tract"
+            "stimulates the effect on the organs and"
+            "stabilizes the body's metabolism.\n\n"
+            "Vitamin salad activate subcutaneous fat faster"
+            "and accumulated toxins and toxins"
+            "helps to clean. Therefore, it is"
+            "salad is considered the best option for weight loss."
+            "It also determines the biochemical composition of the blood"
+            "improves and increases its microcirculation.",
+        inggridentsInfo: "1) qiyma go'sht - 200 g\n"
+            "2) tuxumli makaron-40 g\n"
+            "3) tuxum - 1 dona\n"
+            "4) dumaloq guruch-30 g\n"
+            "5) kartoshka - 2 ta ildiz"),
+
   ];
 
-//Shashlik skreen moudul
+  //Kebab screen mould
+
   static List<Meal> shashlikmealUZ = [
     Meal(
         id: 1,
@@ -1192,7 +2379,7 @@ class Meal {
     Meal(
         id: 5,
         type: "Different",
-        name: "Palov",
+        name: "Ordering pilaf",
         imageUrl: "assets/images/different/zakazosh.png",
         time: "10 MIN",
         inggridents: "5 ING",

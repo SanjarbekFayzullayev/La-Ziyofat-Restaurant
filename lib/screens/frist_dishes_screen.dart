@@ -1,42 +1,43 @@
 import 'dart:io';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:la_ziyofat_restaurant/food_detals/detals_page_frist_dishes.dart';
 import 'package:la_ziyofat_restaurant/food_detals/detals_page_shahslik.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
 import 'package:la_ziyofat_restaurant/widget/product_screen.dart';
 import 'package:provider/provider.dart';
 import '../Moduls/meal_moduls.dart';
-class ShashlikPage extends StatefulWidget {
+class FristDishesPage extends StatefulWidget {
 
-  const ShashlikPage( {Key? key}) : super(key: key);
+  const FristDishesPage( {Key? key}) : super(key: key);
 
   @override
-  State<ShashlikPage> createState() => _ShashlikPageState();
+  State<FristDishesPage> createState() => _FristDishesPageState();
 }
 
-class _ShashlikPageState extends State<ShashlikPage> {
+class _FristDishesPageState extends State<FristDishesPage> {
   @override
   Widget build(BuildContext context) {
     List<Meal> getLocala() {
       switch (context.locale.toString()) {
         case "uz_UZ":
           {
-            return Meal.shashlikmealUZ;
+            return Meal.friDishesUZ;
           }
         case "uz_KR":
           {
-            return Meal.shashlikmealKR;
+            return Meal.friDishesUZ;
           }
         case "ru_RU":
           {
-            return Meal.shashlikmealRU;
+            return Meal.friDishesUZ;
           }
         case "en_US":
           {
-            return Meal.shashlikmealEN;
+            return Meal.friDishesUZ;
           }
       }
-      return Meal.shashlikmealUZ;
+      return Meal.friDishesUZ;
     }
     var mainProvider = Provider.of<MainProvayder>(context, listen: false);
     return WillPopScope(
@@ -51,7 +52,7 @@ mainProvider.isItemSelected(false);
       child:Consumer<MainProvayder>(builder: (context,date,child){
         return     SafeArea(
           child: (mainProvider.getItemSelected())
-              ? DetlisPageShashlik(mainProvider.getItemIndex())
+              ? DetlisFristDishesDetals(mainProvider.getItemIndex())
               : Scaffold(
             body: LayoutBuilder(
               builder: (BuildContext context, BoxConstraints constraints){

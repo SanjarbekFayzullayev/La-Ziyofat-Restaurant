@@ -1,21 +1,20 @@
 import 'dart:io';
-
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:la_ziyofat_restaurant/food_detals/detals_page.dart';
+import 'package:la_ziyofat_restaurant/food_detals/detals_page_salads.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
 import 'package:la_ziyofat_restaurant/widget/product_screen.dart';
 import 'package:provider/provider.dart';
 import '../Moduls/meal_moduls.dart';
 
-class GarnishesScreen extends StatefulWidget {
-  const GarnishesScreen({Key? key}) : super(key: key);
+class SoladsScreen extends StatefulWidget {
+  const SoladsScreen({Key? key}) : super(key: key);
 
   @override
-  State<GarnishesScreen> createState() => _GarnishesScreenState();
+  State<SoladsScreen> createState() => _SoladsScreenState();
 }
 
-class _GarnishesScreenState extends State<GarnishesScreen> {
+class _SoladsScreenState extends State<SoladsScreen> {
   @override
   Widget build(BuildContext context) {
     final mainProvider = Provider.of<MainProvayder>(context, listen: false);
@@ -30,7 +29,7 @@ class _GarnishesScreenState extends State<GarnishesScreen> {
       builder: (context, date, child) {
         return SafeArea(
           child: (mainProvider.getItemSelected())
-              ? DetlisPage(mainProvider.getItemIndex())
+              ? DetlisPageSalads(mainProvider.getItemIndex())
               : Scaffold(
                   body: LayoutBuilder(
                     builder:
@@ -84,21 +83,21 @@ class _GarnishesScreenState extends State<GarnishesScreen> {
     switch (context.locale.toString()) {
       case "uz_UZ":
         {
-          return Meal.garnishesUZ;
+          return Meal.saladsUZ;
         }
       case "uz_KR":
         {
-          return Meal.garnishesKR;
+          return Meal.saladsKR;
         }
       case "ru_RU":
         {
-          return Meal.garnishesRU;
+          return Meal.saladsRU;
         }
       case "en_US":
         {
-          return Meal.garnishesEN;
+          return Meal.saladsEN;
         }
     }
-    return Meal.garnishesUZ;
+    return Meal.saladsUZ;
   }
 }

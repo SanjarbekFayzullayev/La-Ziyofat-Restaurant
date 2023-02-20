@@ -208,6 +208,4 @@ class DetlisPageShashlik extends StatelessWidget {
   }
 }
 
-class locala {
 
-}

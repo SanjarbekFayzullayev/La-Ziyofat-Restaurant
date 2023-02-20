@@ -1,8 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
+import 'package:la_ziyofat_restaurant/screens/frist_dishes_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/garnishes_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/shashlik_screen.dart';
+import 'package:la_ziyofat_restaurant/screens/solads_screen.dart';
 import 'package:provider/provider.dart';
 import '../Moduls/lang.dart';
 
@@ -16,7 +18,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   //Screens
   final List<Widget> _pages = [
+    const SoladsScreen(),
     const GarnishesScreen(),
+    const FristDishesPage(),
     const ShashlikPage(),
     Container(
       height: double.infinity,
@@ -136,7 +140,15 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ),
                               ),
                               icon: const SizedBox()),
-                           NavigationRailDestination(
+                          NavigationRailDestination(
+                              label: RotatedBox(
+                                quarterTurns: -1,
+                                child: Text(
+                                  "firstdishes".tr(),
+                                ),
+                              ),
+                              icon: const SizedBox()),
+                          NavigationRailDestination(
                               label: RotatedBox(
                                 quarterTurns: -1,
                                 child: Text("different".tr()),
