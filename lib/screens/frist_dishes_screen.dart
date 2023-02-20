@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:la_ziyofat_restaurant/food_detals/detals_page_frist_dishes.dart';
-import 'package:la_ziyofat_restaurant/food_detals/detals_page_shahslik.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
 import 'package:la_ziyofat_restaurant/widget/product_screen.dart';
 import 'package:provider/provider.dart';
@@ -37,6 +36,7 @@ class _FristDishesPageState extends State<FristDishesPage> {
             return Meal.friDishesUZ;
           }
       }
+
       return Meal.friDishesUZ;
     }
     var mainProvider = Provider.of<MainProvayder>(context, listen: false);
