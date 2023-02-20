@@ -1592,6 +1592,7 @@ class Meal {
   ];
 
 
+
   //First Dishes mould
   static List<Meal> friDishesUZ = [
     Meal(
