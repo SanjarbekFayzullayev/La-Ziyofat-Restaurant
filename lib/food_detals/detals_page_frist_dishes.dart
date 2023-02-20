@@ -189,22 +189,22 @@ class DetlisFristDishesDetals extends StatelessWidget {
     switch (context.locale.toString()) {
       case "uz_UZ":
         {
-          return Meal.shashlikmealUZ;
+          return Meal.friDishesUZ;
         }
       case "uz_KR":
         {
-          return Meal.shashlikmealKR;
+          return Meal.friDishesKR;
         }
       case "ru_RU":
         {
-          return Meal.shashlikmealRU;
+          return Meal.friDishesRU;
         }
       case "en_US":
         {
-          return Meal.shashlikmealEN;
+          return Meal.friDishesEN;
         }
     }
-    return Meal.shashlikmealUZ;
+    return Meal.friDishesUZ;
   }
 }
 

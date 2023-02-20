@@ -555,15 +555,15 @@ class Meal {
         moreInfo: "Таомнинг номи ўзи учун гапиради."
             "Бу кўплаб витаминлар ва минералларнинг манбаи."
             "Ушбу салатнинг кунлик сўрилиши билан танани"
-            "витаминлар билан бойитади, иммунитетни ҳимоя"
-            "килиш ва оҳангни оширади, куч беради."
-            "Шунингдек, у овкат ҳазм килиш трактининг"
-            "органларига таъсирини рағбатлантиради ва"
+            "витаминлар билан бойитади, иммунитетни химоя"
+            "килиш ва охангни оширади, куч беради."
+            "Шунингдек, у овкат хазм килиш трактининг"
+            "органларига таъсирини рагбатлантиради ва"
             "организмдаги метаболизмни баркарорлаштиради.\n\n"
-            "Витаминли салат тери ости ёғини тезрок ёкиш"
+            "Витаминли салат тери ости ёгини тезрок ёкиш"
             "ва тўпланган токсинлар ва токсинларни"
             "тозалашга ёрдам беради. Шунинг учун бу"
-            "салат вазн йўкотиш учун енг яхши variant ҳисобланади."
+            "салат вазн йўкотиш учун енг яхши variant хисобланади."
             "Шунингдек, у коннинг биокимёвий таркибини"
             "яхшилайди ва унинг микросиркуляциясини оширади.",
         inggridentsInfo: "1) Сабзи\n"
@@ -1595,7 +1595,7 @@ class Meal {
   static List<Meal> friDishesUZ = [
     Meal(
         id: 1,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "Uyg'urcha lag'mon",
         imageUrl: "assets/images/bitinchiovqatlar/uygurlagman.png",
         time: "8 MIN",
@@ -1621,7 +1621,7 @@ class Meal {
             "5) yashil bolgar qalampiri: 3 dona"),
     Meal(
         id: 2,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "Sho'rva",
         imageUrl: "assets/images/bitinchiovqatlar/shurva.png",
         time: "7 MIN",
@@ -1653,7 +1653,7 @@ class Meal {
             "11) qalampir"),
     Meal(
         id: 3,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "Okroshka",
         imageUrl: "assets/images/bitinchiovqatlar/okroshka.png",
         time: "8 MIN",
@@ -1680,7 +1680,7 @@ class Meal {
             "va B vitaminlariga boy."),
     Meal(
         id: 4,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "No'xat sho'rva",
         imageUrl: "assets/images/bitinchiovqatlar/nuxashurva.png",
         time: "8 MIN",
@@ -1709,7 +1709,7 @@ class Meal {
             "tizimining normal ishlashi uchun zarur."),
     Meal(
         id: 5,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "Borscht",
         imageUrl: "assets/images/bitinchiovqatlar/borsh.png",
         time: "6 MIN",
@@ -1734,7 +1734,7 @@ class Meal {
             "gematopoez jarayonlarini rag'batlantiradi."),
     Meal(
         id: 6,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "Mastava",
         imageUrl: "assets/images/bitinchiovqatlar/mostava.png",
         time: "6 MIN",
@@ -1757,7 +1757,7 @@ class Meal {
             "5) 200 g kartoshka"),
     Meal(
         id: 7,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "Tovuq sho'rva",
         imageUrl: "assets/images/bitinchiovqatlar/touqshorva.png",
         time: "8 MIN",
@@ -1785,7 +1785,7 @@ class Meal {
             "5) Piyoz"),
     Meal(
         id: 8,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "Chuchvara",
         imageUrl: "assets/images/bitinchiovqatlar/chuchvara.png",
         time: "9 MIN",
@@ -1808,7 +1808,7 @@ class Meal {
             "magniy , mis ,sink ,fosfor , temir . "),
     Meal(
         id: 9,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "Mampar",
         imageUrl: "assets/images/bitinchiovqatlar/mampar.png",
         time: "4 MIN",
@@ -1834,33 +1834,811 @@ class Meal {
             "5) o'simlik yog'i - 10 g"),
     Meal(
         id: 10,
-        type: "Birinchi taomla",
+        type: "Birinchi taomlar",
         name: "Tiftel",
         imageUrl: "assets/images/bitinchiovqatlar/tiftel.png",
         time: "9 MIN",
         inggridents: "5 ING",
         bannerColor: 0xFFDCC7B1,
         Cost: "20 000",
-        moreInfo: "The name of the dish speaks for itself"
-            "It is a source of many vitamins and minerals."
-            "Body with daily absorption of this salad"
-            "enriches with vitamins, protects immunity"
-            "make and tone increases, gives strength."
-            "It is also part of the digestive tract"
-            "stimulates the effect on the organs and"
-            "stabilizes the body's metabolism.\n\n"
-            "Vitamin salad activate subcutaneous fat faster"
-            "and accumulated toxins and toxins"
-            "helps to clean. Therefore, it is"
-            "salad is considered the best option for weight loss."
-            "It also determines the biochemical composition of the blood"
-            "improves and increases its microcirculation.",
+        moreInfo: "Erta bolalikdan bizga sho'rvalarning qanday "
+            "foydalari borligi aytiladi. Tushlik har doim "
+            "birinchi taom bilan bog'liq, bir vaqtning "
+            "o'zida samimiy va engil, uzoq vaqt davomida energiya berishga qodir.\n\n"
+            " Har qanday lazzat uchun ko'plab sho'rvalar mavjud, ular xizmat qilish "
+            "harorati, pishirish uchun ishlatiladigan suyuqlik, asosiy komponent"
+            " va pishirish texnologiyasi bilan farqlanadi.",
         inggridentsInfo: "1) qiyma go'sht - 200 g\n"
             "2) tuxumli makaron-40 g\n"
             "3) tuxum - 1 dona\n"
             "4) dumaloq guruch-30 g\n"
             "5) kartoshka - 2 ta ildiz"),
-
+  ];
+  static List<Meal> friDishesKR = [
+    Meal(
+        id: 1,
+        type: "Биринчи таомлар",
+        name: "Уйгурча лагмон",
+        imageUrl: "assets/images/bitinchiovqatlar/uygurlagman.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "25 000",
+        moreInfo: "Лагман организм учун фойдалидир."
+            "Булёнга cilantro, майданоз, пиёз ва"
+            "бошка ўтларни кўшинг, сабзавотлардан"
+            "фойдаланишни унутманг. Лекин сиз уни хар"
+            "куни истеъмол кила олмайсиз, чунки у "
+            "нафакат тўйимли, балки юкори калория хисобланади.\n\n"
+            "Шунингдек, ошкозон касалликлари билан"
+            "огриган одамлар учун уни тез-тез ва"
+            "кўп микдорда ишлатиш тавсия етилмайди."
+            "Лагман кўпинча столга байрамона таом сифатида"
+            "ёки шунчаки синаш учун буюрилади."
+            "Кундалик фойдаланиш учун жуда яхши емас.",
+        inggridentsInfo: "1) мол гўшти ёки кўзичок: 500 gramm\n"
+            "2) лампочка: 2 та катта\n"
+            "3) Хитой карам: 5 варак\n"
+            "4) кизил болгар калампири: 3 дона\n"
+            "5) яшил болгар калампири: 3 дона"),
+    Meal(
+        id: 2,
+        type: "Биринчи таомлар",
+        name: "Шўрва",
+        imageUrl: "assets/images/bitinchiovqatlar/shurva.png",
+        time: "7 МИН",
+        inggridents: "11 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Шўрва иммунитетни оширадими? "
+            "Албатта ха. Сабзавотли шўрва "
+            "жуда кўп турли хил витаминлар,"
+            "минералларни ўз ичига олади,"
+            "шунингдек, ичакдаги бактерияларимиз"
+            "жуда яхши кўрадиган толага бой."
+            "Шунинг учун шўрва яхши. \n\n"
+            "Баъзи кичик тадкикотлар товук"
+            "булёни иммунитет тизимига ижобий"
+            "таъсир кўрсатади. Иссик товук"
+            "шўрва хам томок огригини "
+            "тинчлантиришга ёрдам беради.",
+        inggridentsInfo: "1) кўзи гўшти - 1,5 кг\n"
+            "2) Картошка - 3 дона\n"
+            "3) Сабзи - 2 дона\n"
+            "4) Пиёз - 2 дона\n"
+            "5) Шолгом - 2 дона\n"
+            "6) Помидор - 2 дона\n"
+            "7) калампир - 1 дона\n"
+            "8) Chilli - 2 дона\n"
+            "9) Нўхат - 2 дона Кўкатлар\n"
+            "10) Туз\n"
+            "11) калампир"),
+    Meal(
+        id: 3,
+        type: "Биринчи таомлар",
+        name: "Okroshka",
+        imageUrl: "assets/images/bitinchiovqatlar/okroshka.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) 1 литр зардоб\n"
+            "2) 2 та товук тухуми\n"
+            "3) Ярим стакан сметана\n"
+            "4) 2 ош кошик хантал\n"
+            "5) кайнатилган колбаса",
+        moreInfo: "Енг кимматли сут махсулотларидан"
+            "бири бўлган кефирга окрошка "
+            "хам фойдалидир, чунки кирувчи озик-овкатнинг"
+            "хазм бўлишини оширади\n\n"
+            "метаболизмни нормаллаштиришга"
+            "хисса кўшади, stress, ёмон "
+            "одатлар, нотўгри овкатланиш"
+            "ва уйкусизлик туфайли заифлашган танани даволайди;"
+            "тери ва сочнинг яхши холати,"
+            "шунингдек, асаб тизимининг normal"
+            "ишлаши учун зарур бўлган кўплаб"
+            "фойдали озик моддалар (айникса, калций)"
+            "ва Б витаминларига бой."),
+    Meal(
+        id: 4,
+        type: "Биринчи таомлар",
+        name: "Нўхат шўрва",
+        imageUrl: "assets/images/bitinchiovqatlar/nuxashurva.png",
+        time: "8 МИН",
+        inggridents: "6 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "--",
+        inggridentsInfo: "1) Нўхат пюреси-2 брикет\n"
+            "2) Ок карам\n"
+            "3) Пиёз - 1 дона\n"
+            "4) Сабзи - 1 дона\n"
+            "5) Помидор - 2 дона\n"
+            "6) гўшт",
+        moreInfo: "Нўхат шўрвасида мушак тўкимасини "
+            "куриш учун зарур бўлган юкори"
+            "сифатли ўсимлик оксили мавжуд. "
+            "Махсулот таркибида мия фаолияти"
+            "(калоризатор) учун зарур бўлган жуда"
+            "кўп глутамик кислота мавжуд. \n\n"
+            "Нўхат шўрвасининг махсус мусикийлиги"
+            "учун сабаб бўлган хазм бўлмайдиган хун"
+            "толаси ичак моторикасини яхшилайди ва"
+            "ошкозон-ичак трактининг кўплаб касалликлари"
+            "учун профилактика чораси хисобланади."
+            "Нўхат шўрваси калий етказиб берувчиси"
+            "хисобланиши мумкин , юрак-кон томир"
+            "тизимининг normal ишлаши учун зарур."),
+    Meal(
+        id: 5,
+        type: "Биринчи таомлар",
+        name: "Борсчт",
+        imageUrl: "assets/images/bitinchiovqatlar/borsh.png",
+        time: "6 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFF71C3A1,
+        Cost: "22 000",
+        inggridentsInfo: "1) Суякдаги мол гўшти 600 г\n"
+            "2) Сув 4 л\n"
+            "3) Сабзи 2 дона\n"
+            "4) Пиёз 1 дона\n"
+            "5) Лавлаги 1 дона.",
+        moreInfo: "Тайёрлаш усулидан катъи назар,"
+            "ўзаро мувозанатли турли хил "
+            "сабзавотларнинг юкори микдори"
+            "туфайли борсчт танага ижобий таъсир кўрсатади.\n\n"
+            "Тананинг тез тўйинганлигини, ичакларни"
+            "ва танани заҳарли моддалар ва металлардан"
+            "юмшок тозалашга ёрдам беради. Бу яхши"
+            "холеретик таъсирга ега, жигарни бўшатади ва"
+            "организмдаги метаболик жараёнларни тезлаштиради."
+            "коннинг биокимёвий таркибини яхшилайди ва"
+            "гематопоез жараёнларини рагбатлантиради."),
+    Meal(
+        id: 6,
+        type: "Биринчи таомлар",
+        name: "Мастава",
+        imageUrl: "assets/images/bitinchiovqatlar/mostava.png",
+        time: "6 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "18 000",
+        moreInfo: "Мастава ўзбек таомидир, гарчи "
+            "кўплаб ошхоналарда шунга ўхшаш нарса бор."
+            "Ва мастава жуда бошкача. Енг кенг таркалган"
+            "кўзичок суякларида пиширилади, ундан кейин"
+            "катта гўштли гўшт кўшилади. \n\n"
+            "Менинг таъм ва ранг да - бу барча"
+            "ҳолатлар учун енг мос variant. Албатта,"
+            "сиз бошка нарса емас, балки маставани пиширмасангиз."
+            "Маставанинг барча турлари учун маҳсулотлар тўплами деярли бир хил.",
+        inggridentsInfo: "1) 500 г мол гўшти\n"
+            "2) 200 г гуруч\n"
+            "3) 300 г пиёз\n"
+            "4) 200 г сабзи\n"
+            "5) 200 г картошка"),
+    Meal(
+        id: 7,
+        type: "Биринчи таомлар",
+        name: "Товук шўрва",
+        imageUrl: "assets/images/bitinchiovqatlar/touqshorva.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "15 000",
+        moreInfo: "Парранда гўшти булёни иммунитет"
+            "тизимига ижобий таъсир кўрсатади."
+            "Идиш ерта боскичда совукка карши курашда"
+            "мукаммал ёрдам беради, организмга вирусли"
+            "инфекциялар ва грипп билан курашишга ёрдам беради."
+            "Агар илгари бу баёнот кўпрок анъаналарни яширган бўлса,"
+            "бугунги кунда бу фактлар кўплаб тиббий тадкикотлар билан тасдикланган.\n\n"
+            "Юрак мушакларининг фаолиятини яхшилайди,"
+            "чунки ундаги моддалар мажмуаси унинг ҳажмига,"
+            "шунингдек, кон томирлари деворларининг"
+            "калинлигига таъсир килади. Профилактик чора сифатида"
+            "normal юрак ритмини саклаб колиш учун кунига"
+            "100 мл дан ортик консентрланган товук"
+            "булонини истеъмол килиш тавсия етилади.",
+        inggridentsInfo: "1) Сув\n"
+            "2) Товук кўкрак филеси\n"
+            "3) Помидор ўз шарбатида\n"
+            "4) Бугланган гуруч\n"
+            "5) Пиёз"),
+    Meal(
+        id: 8,
+        type: "Биринчи таомлар",
+        name: "Чучвара",
+        imageUrl: "assets/images/bitinchiovqatlar/chuchvara.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "20 000",
+        inggridentsInfo: "1) Ун - 2,5 ош кошик\n"
+            "2) Тухум - 1 дона\n"
+            "3) Сув - 1 ош кошик\n"
+            "4) Мол гўшти-250 г\n"
+            "5) Чўчка гўшти-200 г",
+        moreInfo: "Чучвара фойдали хусусиятлари"
+            "факат унинг таркибига киритилган"
+            "маҳсулотларнинг кимматли хусусиятларига боглик.\n\n"
+            "Масалан, анъанавий равишда бу таомни"
+            "тайёрлаш учун ишлатиладиган бугдой"
+            "уни толанинг бой манбаи бўлиб , шунингдек,"
+            "Б витаминлари ва vitamin ПП ни ўз ичига олади ."
+            "Ундаги mineral компонентдан куйидагиларни ажратиш мумкин"
+            "магний , мис ,синк ,фосфор , темир ."),
+    Meal(
+        id: 9,
+        type: "Биринчи таомлар",
+        name: "Мампар",
+        imageUrl: "assets/images/bitinchiovqatlar/mampar.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "18 000",
+        moreInfo: "Манпар - Ўрта Осиё ошхонасининг таомидир, "
+            "унинг вариантлари минтакавий жиҳатдан фарк килади,"
+            "аммо озгина. Бу кўп компонентли таом бўлиб,"
+            "уни аста-секин, яхши кайфият билан пишириш керак.\n\n"
+            "Картошка кўшилган вариантлар мавжуд, уларсиз ҳам бор."
+            "Характерли - турли хил зираворлар мавжудлиги."
+            "Манпарда факат беш хил калампир бор."
+            "Бундан ташкари, кориандер, баъзан бир оз"
+            "юлдуз кизилмия кўшинг. Мен учун, "
+            "пишириш пайтида, бу калин шўрвага яшил"
+            "турп кўшиш одатий ҳол емас еди."
+            "Шундай килиб, татиб кўриш кизикарли бўлди. ",
+        inggridentsInfo: "1) бугдой уни-400 г\n"
+            "2) товук тухумлари - 2 дона\n"
+            "3) туз - 0,3 чой кошик\n"
+            "4) сув - 100 г\n"
+            "5) ўсимлик ёги - 10 г"),
+    Meal(
+        id: 10,
+        type: "Биринчи таомлар",
+        name: "Тифтел",
+        imageUrl: "assets/images/bitinchiovqatlar/tiftel.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Ерта болаликдан бизга шўрваларнинг кандай "
+            "фойдалари борлиги айтилади. Тушлик ҳар доим "
+            "биринчи таом билан боғлик, бир вактнинг "
+            "ўзида самимий ва енгил, узок вакт давомида енергия беришга кодир.\n\n"
+            "Ҳар кандай лаззат учун кўплаб шўрвалар мавжуд, улар хизмат килиш "
+            "ҳарорати, пишириш учун ишлатиладиган суюклик, асосий компонент"
+            "ва пишириш технологияси билан фаркланади.",
+        inggridentsInfo: "1) кийма гўшт - 200 г\n"
+            "2) тухумли макарон-40 г\n"
+            "3) тухум - 1 дона\n"
+            "4) думалок гуруч-30 г\n"
+            "5) картошка - 2 та илдиз"),
+  ];
+  static List<Meal> friDishesRU = [
+    Meal(
+        id: 1,
+        type: "Первые блюда",
+        name: "Уйгурский лагман",
+        imageUrl: "assets/images/bitinchiovqatlar/uygurlagman.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "25 000",
+        moreInfo: "Лагман полезен для организма."
+            "Добавьте в бульон кинзу, петрушку, лук и"
+            "добавить другие травы, из овощей"
+            "не забудьте использовать. Но вы не должны"
+            "ты не можешь есть в день, потому что это"
+            "он не только питательный, но и высококалорийный.\n\n"
+            "Также при заболеваниях желудка"
+            "для людей, которые болеют, это часто и"
+            "не рекомендуется использовать в больших количествах."
+            "Лагман часто подают к столу как праздничное блюдо"
+            "или его просто прописывают, чтобы попробовать."
+            "Не очень подходит для повседневного использования.",
+        inggridentsInfo: "1) говядина или баранина: 500 грамм\n"
+            "2) лампочка: 2 больших\n"
+            "3) Пекинская капуста: 5 листов\n"
+            "4) красный болгарский перец: 3 штуки\n"
+            "5) Зеленый болгарский перец: 3 штуки"),
+    Meal(
+        id: 2,
+        type: "Первые блюда",
+        name: "Суп",
+        imageUrl: "assets/images/bitinchiovqatlar/shurva.png",
+        time: "7 МИН",
+        inggridents: "11 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Повышает ли суп иммунитет? "
+            "Конечно, Да. Овощной суп "
+            "так много разных витаминов,"
+            "содержит минералы,"
+            "а также наши кишечные бактерии"
+            "богат клетчаткой, которую очень любит."
+            "Вот почему суп хорош. \n\n"
+            "Некоторые небольшие исследования курицы"
+            "бульон положительный для иммунной системы"
+            "оказывает влияние. Горячая курица"
+            "суп тоже от боли в горле"
+            "помогает успокоиться.",
+        inggridentsInfo: "1) баранина - 1,5 кг\n"
+            "2) Картофель - 3 штуки\n"
+            "3) Морковь - 2 штуки\n"
+            "4) Лук - 2 штуки\n"
+            "5) репа - 2 штуки\n"
+            "6) Помидоры-2 штуки\n"
+            "7) перец - 1 штука\n"
+            "8) перец чили-2 штуки\n"
+            "9) горох - 2 штуки зелени\n"
+            "10) Соль\n"
+            "11) перец"),
+    Meal(
+        id: 3,
+        type: "Первые блюда",
+        name: "Окрошка",
+        imageUrl: "assets/images/bitinchiovqatlar/okroshka.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) 1 литр сыворотки\n"
+            "2) 2 куриных яйца\n"
+            "3) полстакана сметаны\n"
+            "4) 2 столовые ложки горчицы\n"
+            "5) вареная колбаса",
+        moreInfo: "Из самых ценных молочных продуктов"
+            "окрошка на кефире одна "
+            "также полезно, потому что нежелательной пищи"
+            "повышает усвояемость\n\n"
+            "к нормализации обмена веществ"
+            "способствует, стресс, плохо"
+            "привычки, неправильное питание"
+            "и исцеляет организм, ослабленный бессонницей"
+            "хорошее состояние кожи и волос,"
+            "также нормальная нервная система"
+            "много, чтобы работать"
+            "полезные питательные вещества (особенно кальций)"
+            "и богат витаминами группы В."),
+    Meal(
+        id: 4,
+        type: "Первые блюда",
+        name: "Гороховый суп",
+        imageUrl: "assets/images/bitinchiovqatlar/nuxashurva.png",
+        time: "8 МИН",
+        inggridents: "6 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "--",
+        inggridentsInfo: "1) гороховая каша-2 брикета\n"
+            "2) белокочанная капуста\n"
+            "3) Лук - 1 штука\n"
+            "4) Морковь - 1 шт.\n"
+            "5) Помидоры-2 штуки\n"
+            "6) Мясо",
+        moreInfo: "Мышечная ткань в гороховом супе"
+            "вершина, необходимая для наращивания"
+            "есть качественный растительный белок. "
+            "Мозговая активность в продукте"
+            "очень важно для (калоризатора)"
+            "глутаминовой кислоты много. \n\n"
+            "Особая музыкальность горохового супа"
+            "неперевариваемая диета, вызывающая"
+            "клетчатка улучшает перистальтику кишечника и"
+            "многие заболевания желудочно-кишечного тракта"
+            "является профилактической мерой."
+            "Гороховый суп поставщик калия"
+            "расчетливый, сердечно-сосудистый"
+            "необходим для нормального функционирования системы."),
+    Meal(
+        id: 5,
+        type: "Первые блюда",
+        name: "Борщ",
+        imageUrl: "assets/images/bitinchiovqatlar/borsh.png",
+        time: "6 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFF71C3A1,
+        Cost: "22 000",
+        inggridentsInfo: "1) говядина на кости 600 г\n"
+            "2) вода 4 л\n"
+            "3) Морковь 2 штуки\n"
+            "4) Лук 1 шт\n"
+            "5) свекла 1 шт.",
+        moreInfo: "Независимо от способа приготовления"
+            "сбалансированное разнообразие"
+            "высокое содержание овощей"
+            "благодаря этому борщ оказывает положительное влияние на организм.\n\n"
+            "Быстрое насыщение организма, кишечника"
+            "и избавить организм от токсичных веществ и металлов"
+            "помогает мягкая очистка. Это хорошо"
+            "обладает желчегонным действием, расслабляет печень и"
+            "ускоряет обменные процессы в организме."
+            "Улучшает биохимический состав крови и"
+            "стимулирует процессы кроветворения."),
+    Meal(
+        id: 6,
+        type: "Первые блюда",
+        name: "Мастава",
+        imageUrl: "assets/images/bitinchiovqatlar/mostava.png",
+        time: "6 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "18 000",
+        moreInfo: "Мастава-узбекское блюдо, хотя "
+            "на многих кухнях есть что-то подобное."
+            "А мастава совсем другая. Самый распространенный"
+            "запеченный на бараньих костях, после этого"
+            "добавляется большой кусок говяжьего фарша. \n\n"
+            "На мой вкус и цвет-это все"
+            "самый подходящий вариант для случаев. Конечно,"
+            "если вы не готовите маставу, а не что-то еще."
+            "Набор продуктов для всех видов маставы практически одинаков.",
+        inggridentsInfo: "1) 500 г говядины\n"
+            "2) 200 г риса\n"
+            "3) 300 г лука\n"
+            "4) 200 г моркови\n"
+            "5) 200 г картофеля"),
+    Meal(
+        id: 7,
+        type: "Первые блюда",
+        name: "Куриный суп",
+        imageUrl: "assets/images/bitinchiovqatlar/touqshorva.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "15 000",
+        moreInfo: "Птичий бульон иммунитет"
+            "положительно влияет на организм человека."
+            "Горшок в борьбе с простудой на ранней стадии"
+            "отлично помогает, вирусно воздействует на организм"
+            "помогает бороться с инфекциями и гриппом."
+            "Если раньше это утверждение скрывало больше традиций,"
+            "сегодня эти факты подтверждены многочисленными медицинскими исследованиями.\n\n"
+            "Улучшает работу сердечной мышцы,"
+            "потому что комплекс веществ в нем равен его объему,"
+            "а также стенок кровеносных сосудов"
+            "влияет на толщину. В качестве профилактической меры"
+            "в день для поддержания нормального сердечного ритма"
+            "Более 100 мл концентрированной курицы"
+            "рекомендуется употреблять бульон.",
+        inggridentsInfo: "1) Вода\n"
+            "2) Филе куриной грудки\n"
+            "3) Помидоры в собственном соку\n"
+            "4) Рис на пару\n"
+            "5) Лук"),
+    Meal(
+        id: 8,
+        type: "Первые блюда",
+        name: "Пельмени",
+        imageUrl: "assets/images/bitinchiovqatlar/chuchvara.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "20 000",
+        inggridentsInfo: "1) Мука-2,5 столовых ложки\n"
+            "2) Яйца-1 шт\n"
+            "3) Вода-1 столовая ложка\n"
+            "4) Говядина-250 г\n"
+            "5) Свинина-200 г",
+        moreInfo: "Полезные свойства клецок "
+            "входит только в его состав"
+            "зависит от ценных свойств изделий.\n\n"
+            "Например, это блюдо традиционно подают с"
+            "пшеница, используемая для приготовления"
+            "это богатый источник клетчатки, а также,"
+            "Содержит витамины группы В и витамин РР ."
+            "Из минерального компонента в нем можно выделить:"
+            "магний , медь ,цинк ,фосфор , железо ."),
+    Meal(
+        id: 9,
+        type: "Первые блюда",
+        name: "Мампар",
+        imageUrl: "assets/images/bitinchiovqatlar/mampar.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "18 000",
+        moreInfo: "Манпар-блюдо среднеазиатской кухни, "
+            "его варианты различаются по регионам,"
+            "но немного. Это многокомпонентное блюдо"
+            "его нужно готовить медленно, с хорошим настроением.\n\n"
+            "Есть варианты с добавлением картофеля, есть и без него."
+            "Характерно наличие различных приправ."
+            "В манпаре всего пять видов перца."
+            "Плюс кориандр, иногда немного"
+            "добавьте звездчатыйilс. Для меня,"
+            "во время приготовления Зелень превращается в густой суп"
+            "добавление редиса не было чем-то необычным."
+            "Так что попробовать было весело.",
+        inggridentsInfo: "1) Мука пшеничная-400 г\n"
+            "2) куриные яйца - 2 штуки\n"
+            "3) Соль-0,3 чайной ложки\n"
+            "4) вода-100 г\n"
+            "5) растительное масло-10 г"),
+    Meal(
+        id: 10,
+        type: "Первые блюда",
+        name: "Тифтел",
+        imageUrl: "assets/images/bitinchiovqatlar/tiftel.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Какие супы нам с раннего детства "
+            "говорят, что есть преимущества. Обед всегда "
+            "связано с первым блюдом, когда-то"
+            "искренний и легкий в себе, способный надолго заряжать энергией.\n\n"
+            "Есть много супов на любой вкус, которые можно подавать"
+            "температура, жидкость, используемая для приготовления пищи, основной компонент"
+            "и отличается технологией приготовления.",
+        inggridentsInfo: "1) Фарш - 200 г\n"
+            "2) яичная лапша-40 г\n"
+            "3) Яйцо-1 шт.\n"
+            "4) круглый рис-30 г\n"
+            "5) Картофель-2 клубня"),
+  ];
+  static List<Meal> friDishesEN = [
+    Meal(
+        id: 1,
+        type: "First dishes",
+        name: "Uyghur Lagman",
+        imageUrl: "assets/images/bitinchiovqatlar/uygurlagman.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "25 000",
+        moreInfo: "Lagman is useful for the body."
+            "Cilantro, parsley, onion and in broth"
+            "add other herbs, from vegetables"
+            "don't forget to use it. But you have it every"
+            "you can't eat the day because it is"
+            "not only nutritious, but also high in calories.\n\n"
+            "Also with stomach diseases"
+            "for people who suffer it often and"
+            "it is not recommended to use in large quantities."
+            "Lagman often served on the table as a festive dish"
+            "or simply ordered to try."
+            "Not very good for everyday use.",
+        inggridentsInfo: "1) beef or lamb: 500 grams\n"
+            "2) bulb: 2 large\N"
+            "3) Chinese cabbage: 5 sheets\n"
+            "4) red bell pepper: 3 pieces\n"
+            "5) green bell pepper: 3 pieces"),
+    Meal(
+        id: 2,
+        type: "First dishes",
+        name: "Soup",
+        imageUrl: "assets/images/bitinchiovqatlar/shurva.png",
+        time: "7 MIN",
+        inggridents: "11 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Does soup increase immunity? "
+            "Of Course Yes. Vegetable soup "
+            "a lot of different vitamins,"
+            "contains minerals,"
+            "as well as our bacteria in the intestine"
+            "rich in fiber, which I love very much."
+            "So the soup is good. \n\n"
+            "Some small studies chicken"
+            "broth positive for the immune system"
+            "has an impact. Hot chicken"
+            "soup is also a sore throat "
+            "helps to calm down.",
+        inggridentsInfo: "1) lamb meat - 1.5 kg\n"
+            "2) potatoes-3 pcs\n"
+            "3) carrots-2 PCs\n"
+            "4) onions-2 PCs\n"
+            "5) turnip - 2 PCs\n"
+            "6) tomatoes-2 PCs\n"
+            "7) pepper-1 piece\n"
+            "8) Chilli - 2 pieces\n"
+            "9) peas - 2 pieces of Greens\n"
+            "10) dust\n"
+            "11) pepper"),
+    Meal(
+        id: 3,
+        type: "First dishes",
+        name: "Akrashka",
+        imageUrl: "assets/images/bitinchiovqatlar/okroshka.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) 1 liter of whey\n"
+            "2) 2 chicken eggs\n"
+            "3) half a glass of sour cream\n"
+            "4) 2 tablespoons of mustard\n"
+            "5) boiled sausage",
+        moreInfo: "From the most valuable dairy products"
+            "okroshka on kefir with one "
+            "also useful because of the unwanted food"
+            "increases digestion\n\n"
+            "to normalize metabolism"
+            "contributes, stress, bad "
+            "habits, unhealthy diet"
+            "and heals the body weakened by insomnia;"
+            "good condition of skin and hair,"
+            "also, the nervous system is normal"
+            "many needed to work"
+            "useful nutrients (especially calcium)"
+            "and rich in B vitamins."),
+    Meal(
+        id: 4,
+        type: "First dishes",
+        name: "Pea soup",
+        imageUrl: "assets/images/bitinchiovqatlar/nuxashurva.png",
+        time: "8 MIN",
+        inggridents: "6 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "--",
+        inggridentsInfo: "1) pea puree-2 briquettes\n"
+            "2) white cabbage\n"
+            "3) onions-1 piece\n"
+            "4) carrots-1 piece\n"
+            "5) tomatoes-2 PCs\n"
+            "6) meat",
+        moreInfo: "Muscle tissue in pea soup "
+            "the top necessary to build"
+            "there is quality vegetable protein. "
+            "Brain activity in the composition of the product"
+            "much needed for (calorizator)"
+            "there is a lot of glutamic acid. \n\n"
+            "The special musicality of pea soup"
+            "the reason for the indigestible diet"
+            "fiber improves intestinal motility and"
+            "many diseases of the gastrointestinal tract"
+            "is a preventive measure for."
+            "Pea soup potassium supplier"
+            "can be counted , cardiovascular"
+            "necessary for the normal operation of the system."),
+    Meal(
+        id: 5,
+        type: "First dishes",
+        name: "Borscht",
+        imageUrl: "assets/images/bitinchiovqatlar/borsh.png",
+        time: "6 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFF71C3A1,
+        Cost: "22 000",
+        inggridentsInfo: "1) beef on the bone 600 g\n"
+            "2) Water 4 l\n"
+            "3) carrots 2 PCs\n"
+            "4) onion 1 piece\n"
+            "5) beets 1 PC.",
+        moreInfo: "Regardless of the method of preparation"
+            "mutually balanced variety "
+            "high amount of vegetables"
+            "due to borscht has a positive effect on the body.\n\n"
+            "Rapid saturation of the body, intestines"
+            "and the body from toxic substances and metals"
+            "helps with gentle cleansing. It's good"
+            "has a choleretic effect, relaxes the liver and"
+            "accelerates metabolic processes in the body."
+            "Improves the biochemical composition of blood and"
+            "stimulates the processes of hematopoiesis."),
+    Meal(
+        id: 6,
+        type: "First dishes",
+        name: "Mastava",
+        imageUrl: "assets/images/bitinchiovqatlar/mostava.png",
+        time: "6 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "18 000",
+        moreInfo: "Mastava is an Uzbek dish, although "
+            "there is something similar in many kitchens."
+            "And mastava is very different. The most common"
+            "cooked on lamb bones, after it"
+            "a large piece of meat is added. \n\n"
+            "At my taste and color - that's all"
+            "the most suitable option for occasions. Of course,"
+            "unless you cook mastava, not something else."
+            "The set of products for all types of mastava is almost the same.",
+        inggridentsInfo: "1) 500 g beef\n"
+            "2) 200 g of rice\n"
+            "3) 300 g onion\n"
+            "4) 200 g carrots\n"
+            "5) 200 g of potatoes"),
+    Meal(
+        id: 7,
+        type: "First dishes",
+        name: "Chicken soup",
+        imageUrl: "assets/images/bitinchiovqatlar/touqshorva.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "15 000",
+        moreInfo: "Poultry broth immunity"
+            "has a positive effect on the system."
+            "The dish in the fight against Frost at an early stage"
+            "perfectly helps, viral to the body"
+            "helps fight infections and flu."
+            "If earlier this statement hid more traditions,"
+            "today, these facts are confirmed by numerous medical studies.\n\n"
+            "Improves the functioning of the heart muscle,"
+            "because the complex of substances in it depends on its size,"
+            "also of the walls of blood vessels"
+            "affects the thickness. As a preventive measure"
+            "per day to maintain a normal heart rhythm"
+            "More than 100 ml of concentrated chicken"
+            "it is recommended to eat broth.",
+        inggridentsInfo: "1) water\n"
+            "2) chicken breast fillet\n"
+            "3) tomatoes in their own juice\n"
+            "4) steamed rice\n"
+            "5) onion"),
+    Meal(
+        id: 8,
+        type: "First dishes",
+        name: "Dumplings",
+        imageUrl: "assets/images/bitinchiovqatlar/chuchvara.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "20 000",
+        inggridentsInfo: "1) flour - 2.5 tablespoons\n"
+            "2) eggs-1 piece\n"
+            "3) Water - 1 tablespoon\n"
+            "4) beef-250 g\n"
+            "5) pork-200 g",
+        moreInfo: "Useful properties of dumplings"
+            "only included in its composition"
+            "depends on the valuable properties of the products.\n\n"
+            "For example, traditionally this dish"
+            "wheat used for preparation"
+            "it is also a rich source of fiber,"
+            "Contains B vitamins and vitamin PP ."
+            "The following can be distinguished from the mineral component in it"
+            "magnesium ,copper ,zinc , phosphorus, iron ."),
+    Meal(
+        id: 9,
+        type: "First dishes",
+        name: "Mampar",
+        imageUrl: "assets/images/bitinchiovqatlar/mampar.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "18 000",
+        moreInfo: "Manpar is a dish of Central Asian cuisine,"
+            "its options vary regionally,"
+            "but a little. This is a multi-component dish,"
+            "it should be cooked slowly, with a good mood.\n\n"
+            "There are options with the addition of potatoes, there are without them."
+            "Characteristic is the presence of various spices."
+            "There are only five different peppers in manpar."
+            "Also coriander, sometimes a little"
+            "add star anise. For me,"
+            "during cooking, green to this thick soup"
+            "it was not uncommon to add radishes."
+            "So it was interesting to taste.",
+        inggridentsInfo: "1) wheat flour-400 g\n"
+            "2) chicken eggs-2 pcs\n"
+            "3) salt - 0.3 teaspoons\n"
+            "4) water-100 g\n"
+            "5) vegetable oil-10 g"),
+    Meal(
+        id: 10,
+        type: "First dishes",
+        name: "Tiftel",
+        imageUrl: "assets/images/bitinchiovqatlar/tiftel.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+          moreInfo: "What kind of soups to us from early childhood "
+              "it is said to have benefits. Lunch is always "
+              "associated with the first meal, at the same time "
+              "sincere and light in itself, capable of energizing for a long time.\n\n"
+              "There are many soups for every taste, they are served "
+              "temperature, liquid used for cooking, main component"
+              "and differ in cooking technology.",
+        inggridentsInfo: "1) minced meat - 200 g\n"
+            "2) pasta with eggs-40 g\n"
+            "3) eggs - 1 piece\n"
+            "4) round rice-30 g\n"
+            "5) potatoes-2 tubers"),
   ];
 
   //Kebab screen mould

@@ -25,15 +25,15 @@ class _FristDishesPageState extends State<FristDishesPage> {
           }
         case "uz_KR":
           {
-            return Meal.friDishesUZ;
+            return Meal.friDishesKR;
           }
         case "ru_RU":
           {
-            return Meal.friDishesUZ;
+            return Meal.friDishesRU;
           }
         case "en_US":
           {
-            return Meal.friDishesUZ;
+            return Meal.friDishesEN;
           }
       }
 
