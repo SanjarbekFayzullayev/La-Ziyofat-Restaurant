@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
       locale: context.locale,
       color:const Color(0xFF175B8F),
       title: "La-Ziyofat Restaurant",
-      theme: ThemeData(fontFamily: "Manrope"),
+      // theme: ThemeData(fontFamily: "Manrope"),
       home: MyHomePage(),
     );
   }

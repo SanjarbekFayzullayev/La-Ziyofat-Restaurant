@@ -36,11 +36,11 @@ flutter:
     - assets/traslaton/
 
 
-  fonts:
-    - family: Manrope
-      fonts:
-        - asset: assets/fonts/Manrope-Regular.ttf
-          style: italic
+#  fonts:
+#    - family: Manrope
+#      fonts:
+#        - asset: assets/fonts/Manrope-Regular.ttf
+#          style: italic
 
 
 animated_native_splash:
