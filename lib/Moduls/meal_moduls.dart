@@ -1591,8 +1591,6 @@ class Meal {
             "provides essential substances."),
   ];
 
-
-
   //First Dishes mould
   static List<Meal> friDishesUZ = [
     Meal(
@@ -1990,7 +1988,7 @@ class Meal {
             "сабзавотларнинг юкори микдори"
             "туфайли борсчт танага ижобий таъсир кўрсатади.\n\n"
             "Тананинг тез тўйинганлигини, ичакларни"
-            "ва танани заҳарли моддалар ва металлардан"
+            "ва танани захарли моддалар ва металлардан"
             "юмшок тозалашга ёрдам беради. Бу яхши"
             "холеретик таъсирга ега, жигарни бўшатади ва"
             "организмдаги метаболик жараёнларни тезлаштиради."
@@ -2011,9 +2009,9 @@ class Meal {
             "кўзичок суякларида пиширилади, ундан кейин"
             "катта гўштли гўшт кўшилади. \n\n"
             "Менинг таъм ва ранг да - бу барча"
-            "ҳолатлар учун енг мос variant. Албатта,"
+            "холатлар учун енг мос variant. Албатта,"
             "сиз бошка нарса емас, балки маставани пиширмасангиз."
-            "Маставанинг барча турлари учун маҳсулотлар тўплами деярли бир хил.",
+            "Маставанинг барча турлари учун махсулотлар тўплами деярли бир хил.",
         inggridentsInfo: "1) 500 г мол гўшти\n"
             "2) 200 г гуруч\n"
             "3) 300 г пиёз\n"
@@ -2036,7 +2034,7 @@ class Meal {
             "Агар илгари бу баёнот кўпрок анъаналарни яширган бўлса,"
             "бугунги кунда бу фактлар кўплаб тиббий тадкикотлар билан тасдикланган.\n\n"
             "Юрак мушакларининг фаолиятини яхшилайди,"
-            "чунки ундаги моддалар мажмуаси унинг ҳажмига,"
+            "чунки ундаги моддалар мажмуаси унинг хажмига,"
             "шунингдек, кон томирлари деворларининг"
             "калинлигига таъсир килади. Профилактик чора сифатида"
             "normal юрак ритмини саклаб колиш учун кунига"
@@ -2063,7 +2061,7 @@ class Meal {
             "5) Чўчка гўшти-200 г",
         moreInfo: "Чучвара фойдали хусусиятлари"
             "факат унинг таркибига киритилган"
-            "маҳсулотларнинг кимматли хусусиятларига боглик.\n\n"
+            "махсулотларнинг кимматли хусусиятларига боглик.\n\n"
             "Масалан, анъанавий равишда бу таомни"
             "тайёрлаш учун ишлатиладиган бугдой"
             "уни толанинг бой манбаи бўлиб , шунингдек,"
@@ -2080,16 +2078,16 @@ class Meal {
         bannerColor: 0xFFF2DFE1,
         Cost: "18 000",
         moreInfo: "Манпар - Ўрта Осиё ошхонасининг таомидир, "
-            "унинг вариантлари минтакавий жиҳатдан фарк килади,"
+            "унинг вариантлари минтакавий жихатдан фарк килади,"
             "аммо озгина. Бу кўп компонентли таом бўлиб,"
             "уни аста-секин, яхши кайфият билан пишириш керак.\n\n"
-            "Картошка кўшилган вариантлар мавжуд, уларсиз ҳам бор."
+            "Картошка кўшилган вариантлар мавжуд, уларсиз хам бор."
             "Характерли - турли хил зираворлар мавжудлиги."
             "Манпарда факат беш хил калампир бор."
             "Бундан ташкари, кориандер, баъзан бир оз"
             "юлдуз кизилмия кўшинг. Мен учун, "
             "пишириш пайтида, бу калин шўрвага яшил"
-            "турп кўшиш одатий ҳол емас еди."
+            "турп кўшиш одатий хол емас еди."
             "Шундай килиб, татиб кўриш кизикарли бўлди. ",
         inggridentsInfo: "1) бугдой уни-400 г\n"
             "2) товук тухумлари - 2 дона\n"
@@ -2106,11 +2104,11 @@ class Meal {
         bannerColor: 0xFFDCC7B1,
         Cost: "20 000",
         moreInfo: "Ерта болаликдан бизга шўрваларнинг кандай "
-            "фойдалари борлиги айтилади. Тушлик ҳар доим "
-            "биринчи таом билан боғлик, бир вактнинг "
+            "фойдалари борлиги айтилади. Тушлик хар доим "
+            "биринчи таом билан боглик, бир вактнинг "
             "ўзида самимий ва енгил, узок вакт давомида енергия беришга кодир.\n\n"
-            "Ҳар кандай лаззат учун кўплаб шўрвалар мавжуд, улар хизмат килиш "
-            "ҳарорати, пишириш учун ишлатиладиган суюклик, асосий компонент"
+            "хар кандай лаззат учун кўплаб шўрвалар мавжуд, улар хизмат килиш "
+            "харорати, пишириш учун ишлатиладиган суюклик, асосий компонент"
             "ва пишириш технологияси билан фаркланади.",
         inggridentsInfo: "1) кийма гўшт - 200 г\n"
             "2) тухумли макарон-40 г\n"
@@ -2629,18 +2627,2068 @@ class Meal {
         inggridents: "5 ING",
         bannerColor: 0xFFDCC7B1,
         Cost: "20 000",
-          moreInfo: "What kind of soups to us from early childhood "
-              "it is said to have benefits. Lunch is always "
-              "associated with the first meal, at the same time "
-              "sincere and light in itself, capable of energizing for a long time.\n\n"
-              "There are many soups for every taste, they are served "
-              "temperature, liquid used for cooking, main component"
-              "and differ in cooking technology.",
+        moreInfo: "What kind of soups to us from early childhood "
+            "it is said to have benefits. Lunch is always "
+            "associated with the first meal, at the same time "
+            "sincere and light in itself, capable of energizing for a long time.\n\n"
+            "There are many soups for every taste, they are served "
+            "temperature, liquid used for cooking, main component"
+            "and differ in cooking technology.",
         inggridentsInfo: "1) minced meat - 200 g\n"
             "2) pasta with eggs-40 g\n"
             "3) eggs - 1 piece\n"
             "4) round rice-30 g\n"
             "5) potatoes-2 tubers"),
+  ];
+
+  //Second foods
+  static List<Meal> secondFoodsUZ = [
+    Meal(
+        id: 1,
+        type: "Ikkinchi taomlar",
+        name: "Ziyofat osh",
+        imageUrl: "assets/images/secondfoods/ziyofatosh.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "26 000",
+        moreInfo: "Mazali, sifatli taom – salomatlik va"
+            "yaxshi kayfiyat garovi. Hozirgi kunda"
+            "sharqona taomlar tobora ommalashib bormoqda."
+            "Chaikhana Ai-Vai ushbu toifadagi taomlarning"
+            "keng assortimentini taklif etadi.\n\n"
+            "Tayyor ovqat tayyorlash va sotishga ixtisoslashgan"
+            "ko'plab korxonalar palov yoki o'zbek"
+            "oshxonasining boshqa taomlarini taklif qilishadi."
+            "Lekin palovni eski retsept bo'yicha pishiradigan bizmiz."
+            "Siz uni qo'ya olmaysiz va boshqa porsiyani sinab ko'rishni xohlaysiz."
+            "Hatto haqiqiy gurmeler ham hayotlarida bunday mazali"
+            "taomni tatib ko'rmaganliklarini tushunishadi.",
+        inggridentsInfo: "1) Qo'zi bo'yni-500 g\n"
+            "2) Uzoq donli guruch-500 g\n"
+            "3) Sabzi-500 g\n"
+            "4) Kungaboqar yog'i - 150 ml\n"
+            "5) Piyoz-4 bosh"),
+    Meal(
+        id: 2,
+        type: "Ikkinchi taomlar",
+        name: "Ayrim say",
+        imageUrl: "assets/images/secondfoods/ayrimsay.png",
+        time: "5 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "28 000",
+        moreInfo: "Bu taom, o'zbek tilidan farqli o'laroq,"
+            "ancha tez va kam mehnat talab qiladigan"
+            "pishiriladi. Barcha sabzavotlar qarsillab qoladi,"
+            "faqat ozgina qovuriladi, shuning uchun ular"
+            "deyarli barcha vitaminlarni saqlaydi\n\n."
+            "Ko'p miqdordagi o'tlar va ziravorlar"
+            "ushbu retseptni ta'mga boy va ajoyib "
+            "darajada mazali qiladi.",
+        inggridentsInfo: "1) Bug'doy uni 350 g\n"
+            "2) Tuxum 2 dona\n"
+            "3) Suv 400 g\n"
+            "4) Ta'mga tuz\n"
+            "5) Ta'mga ko'ra qora qalampir no'xati"),
+    Meal(
+        id: 3,
+        type: "Ikkinchi taomlar",
+        name: "Go'sht say",
+        imageUrl: "assets/images/secondfoods/gushtsay.png",
+        time: "10 MIN",
+        inggridents: "6 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "30 000",
+        inggridentsInfo: "1) mol go'shti pulpasi: 300 gramm"
+            "2) bolgar qalampiri: 1 qizil\n"
+            "3) bolgar qalampiri: 1 yashil\n"
+            "4) Xitoy karam: 4 ta o'rta barg\n"
+            "5) ziravorlar\n"
+            "6) ko'katlar",
+        moreInfo: "Go’sht Say – uyg’urcha mashhur"
+            "taomlardan biri bo’lishiga qaramay,"
+            "ammo o’zimizning deyarli barcha kafelar"
+            "taomnomasida bunday taomni uchratishimiz mumkin.\n\n"
+            "Sabzavotlar ustidan yirik qilib to'g'ralgan"
+            "jandiq va seldereyni sepib, qopqog'ini yopamiz"
+            "va past olovda 7-10 daqiqa davomida dimlab pishiramiz."
+            "Aralashtirib, issiqligida dasturxonga tortamiz."
+            "Yoqimli ishtaha!"),
+    Meal(
+        id: 4,
+        type: "Ikkinchi taomlar",
+        name: "Qo'zi oyog'i",
+        imageUrl: "assets/images/secondfoods/baraniyanojka.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "60 000",
+        inggridentsInfo: "1) qo'zining oyog'i (og'irligi taxminan 2,5 kg)\n"
+            "2) 5 osh qoshiq xantal\n"
+            "3) 5-7 chinnigullar sarimsoq\n"
+            "4) limon\n"
+            "5) 30 ml o'simlik yog'i",
+        moreInfo: "Qo'zi go'shtidagi temirning yuqori"
+            "miqdori bu go'shtni anemiya bilan"
+            "og'rigan odamlarning ratsionida "
+            "ajralmas mahsulotga aylantiradi.\n\n"
+            "Ma'lumki, tanadagi temir etishmasligi"
+            "gemoglobin darajasining pasayishiga olib"
+            "kelishi mumkin, bu esa hujayralarni kislorod"
+            "bilan ta'minlashga ta'sir qiladi."
+            "Qonning normal tarkibini tiklash (gemoglobin ishlab chiqarish)"
+            "qo'zichoq go'shtining asosiy foydasidir."),
+    Meal(
+        id: 5,
+        type: "Ikkinchi taomlar",
+        name: "Qo'zi qovurg'alari",
+        imageUrl: "assets/images/secondfoods/baraniyarebiyashka.png",
+        time: "6 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFF71C3A1,
+        Cost: "22 000",
+        inggridentsInfo: "1) Suyakdagi mol go'shti 600 g\n"
+            "2) Suv 4 l\n"
+            "3) Sabzi 2 dona\n"
+            "4) Piyoz 1 dona\n"
+            "5) Lavlagi 1 dona.",
+        moreInfo: "Tayyorlash usulidan qat'i nazar,"
+            "o'zaro muvozanatli turli xil "
+            "sabzavotlarning yuqori miqdori"
+            "tufayli borscht tanaga ijobiy ta'sir ko'rsatadi.\n\n"
+            "Tananing tez to'yinganligini, ichaklarni"
+            "va tanani zaharli moddalar va metallardan"
+            "yumshoq tozalashga yordam beradi. Bu yaxshi"
+            "xoleretik ta'sirga ega, jigarni bo'shatadi va"
+            "organizmdagi metabolik jarayonlarni tezlashtiradi."
+            "Qonning biokimyoviy tarkibini yaxshilaydi va"
+            "gematopoez jarayonlarini rag'batlantiradi."),
+    Meal(
+        id: 6,
+        type: "Ikkinchi taomlar",
+        name: "Do'lma",
+        imageUrl: "assets/images/secondfoods/dulma.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "--",
+        moreInfo: "Dolma - bu bayramona va kundalik"
+            "dasturxon uchun ajoyib bezak bo'ladigan"
+            "ajoyib sharqona taom.\n\n"
+            "Va bu mazali taomning foydaliligi"
+            "haqida nima deyishimiz mumkin!"
+            "Uzum barglarida ovqat hazm qilishni"
+            "yaxshilaydigan va organizmdagi metabolik"
+            "jarayonlarni rag'batlantiradigan ko'plab xun tolasi mavjud.",
+        inggridentsInfo: "1) Qiyma go'sht (qo'zichoq va mol go'shti): 500 g\n"
+            "2) Uzum barglari: 600 g\n"
+            "3) Yalpiz: 1 tup\n"
+            "4) Yangi shilantro: 1 tup\n"
+            "5) Yangi arpabodiyon: 1 tup"),
+    Meal(
+        id: 7,
+        type: "Ikkinchi taomlar",
+        name: "Qovurma lag'mon",
+        imageUrl: "assets/images/secondfoods/qovurmalagmon.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "26 000",
+        moreInfo: "Lag'mon O'zbekistondagi har qanday kafe,"
+            "restoran, oshxona menyusida eng keng tarqalgan"
+            "taomlardan biridir. Bu, albatta, sinab ko'rishga arziydi!"
+            "Ammo shuni ta'kidlaymizki, agar sizga uzun makaron "
+            "(uyg'ur lag'moni) berilgan bo'lsa, unda siz sabr "
+            "qilishingiz kerak bo'ladi.\n\n"
+            "Taom juda mazali, lekin uni"
+            "iste'mol qilishga ko'nikish uchun vaqt va ozgina mashq kerak bo'ladi."
+            "Toshkentdagi aksariyat restoranlarda uyg'ur lag'moni"
+            "ko'proq tayyorlanadi , o'zbek lag'moni esa Buxoro, "
+            "Samarqand viloyatlari va Farg'ona vodiysida ko'proq tayyorlanadi.",
+        inggridentsInfo: "1) piyoz-3 ta o'rta piyoz\n"
+            "2) kichik yashil turp-1 dona"
+            "3) o'rtacha pishgan pomidor – 4 dona."
+            "4) sarimsoq-1 bosh"
+            "5) o'rtacha sabzi – 2 dona."),
+    Meal(
+        id: 8,
+        type: "Ikkinchi taomlar",
+        name: "Manti",
+        imageUrl: "assets/images/secondfoods/manti.png",
+        time: "8 MIN",
+        inggridents: "4 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) 500 g (18 oz.) A/p un\n"
+            "2) 1 tuxum\N"
+            "3) 200 ml (7 fl oz.) shisha suv\n"
+            "4) 1 osh qoshiq. Kosher tuzi",
+        moreInfo: "O‘zbek oshxonasidagi taomlarni"
+            "tatib ko‘rgan inson barcha o‘zbek"
+            "taomlari  qovurilgan go‘sht va"
+            "sabzavotlarga asoslangan taomlar"
+            "deya tasavvurga ega bo‘lishi mumkin,"
+            "ammo  bu unday emas.\n\n"
+            "Bug‘da pishirilgan"
+            "taomlar ham o‘zbek oshxonasida bor."
+            "Masalan: manti-ajoyib , ishtahani"
+            "qo‘zg‘atadigan va eng muhimi foydali taomlardan biridir."),
+    Meal(
+        id: 9,
+        type: "Ikkinchi taomlar",
+        name: "Dumg'aza",
+        imageUrl: "assets/images/secondfoods/dumgaza.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "90 000",
+        moreInfo: "Dumgaza ajoyib narsa. Va juda ko'p go'sht"
+            "bo'lmasa-da, u shunchalik yumshoqki, "
+            "boshqa hech bir qismni taqqoslab bo'lmaydi."
+            "Bundan tashqari, Dumgasa kollagenning kuchli"
+            "manbai hisoblanadi. Sovuqni keltirib chiqaradigan o'sha modda.\n\n"
+            "Taom dumgaz deb ham ataladi. Va agar siz"
+            "uni qandaydir tarzda odatiy tushunchaga yaqinlashtirsangiz,"
+            "u mol go'shti dumlaridan ragu bo'ladi.",
+        inggridentsInfo: "1) ho'kiz dumlari - 1,5 kg (2 dona)\n"
+            "2) sabzi – 2 dona\n"
+            "3)ko'katlar bilan petiole selderey - 4-5 sopi\n"
+            "4) piyoz - 1 ta katta piyoz\n"
+            "5) sarimsoq - 2 chinnigullar"),
+    Meal(
+        id: 10,
+        type: "Ikkinchi taomlar",
+        name: "Qozon kabob",
+        imageUrl: "assets/images/secondfoods/qozonkabob.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "O'zbek qozon-kabob Sharq uchun"
+            "an'anaviy go'shtli taomlardan biri bo'lib, "
+            "uning kelib chiqishi haqida cheksiz"
+            "bahslashish mumkin. Kartoshka, piyoz"
+            "va ziravorlar qo'shilgan qozonda "
+            "(katta qozonda) qovurilgan va maydalangan"
+            "go'sht har qanday xalqning milliy taomlari"
+            "retseptlarida uchraydi.\n\n"
+            "Ko'chmanchilar "
+            "katta qozonni o'zlari bilan olib yurishgan, u"
+            "har qanday zamonaviy uyda uchraydi va sizga go'sht,"
+            "piyoz, kartoshka, qalampir va ziravorlar kerak bo'ladi."
+            "Go'sht va piyozni tayyorlash, qozonga yotqizish "
+            "Qozon kabobini tayyorlash qiyin emas, go'sht "
+            "sizga qanchalik mos kelishiga qarab,"
+            "jarayon bir soatdan uch soatgacha davom"
+            "etishi mumkin. Biz retseptlardan birini taklif qilamiz",
+        inggridentsInfo: "1) qo'zi go'shti: 500 gramm\n"
+            "2) kartoshka: 500 gramm\n"
+            "3) lampochka: 1\n"
+            "4) zira: yarim choy qoshiq\n"
+            "5) koriander: yarim choy qoshiq"),
+
+    //new update
+
+    Meal(
+        id: 11,
+        type: "Ikkinchi taomlar",
+        name: "Tabaka",
+        imageUrl: "assets/images/secondfoods/tabaka.png",
+        time: "12 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "45 000",
+        moreInfo: "Tovuq tabaka yoki tovuq tapaka"
+            "an'anaviy hisoblanadi gruzin"
+            "qovurilgan taom tovuq bu boshqa"
+            "Kavkaz oshxonalarida ham mashhur.\n\n"
+            "Shuningdek, u Sovet oshxonasida keng"
+            "tarqalgan restoran taomiga aylandi va"
+            "hozirgi kunda Sharqiy"
+            "Evropa va Markaziy Osiyodagi"
+            "ko'plab restoranlarda uchraydi",
+        inggridentsInfo: "1) 1 dona tovuq (vazni 600-700 g)\n"
+            "2) 2 chinnigullar sarimsoq\n"
+            "3) 1 osh qoshiq. hop-suneli\n"
+            "4) Choy qoshiq adjika (haqiqiy, pomidorsiz, quruq bo'lishi mumkin)\n"
+            "5) tuzni tatib ko'rish uchun"),
+    Meal(
+        id: 12,
+        type: "Ikkinchi taomlar",
+        name: "Jiz",
+        imageUrl: "assets/images/secondfoods/jiz.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "140 000",
+        moreInfo: "Yog 'va go'sht yog'ida oltin"
+            "rangga qovurilgan o'rta kattalikdagi"
+            "kartoshka bilan qovurilgan qovurilgan go'sht."
+            "Va go'sht quruq yoki nordon marinadda "
+            "oldindan marinadlanadi. Keling, uchta"
+            "qozon-kabobni taqqoslaylik: qo'zichoq,"
+            "parranda va mol go'shti.\n\n"
+            "Issiq yog'da "
+            "o'rta kattalikdagi tovuq bo'laklarini"
+            "qovurish uchun qancha vaqt kerak bo'ladi."
+            "20-25 daqiqa. Va qo'zichoq uchun, qovurg'a qismi?"
+            "Go'shtga qarab 25-35 daqiqa. Va mol "
+            "go'shti, bir xil o'lchamdagi bo'laklarga bo'linadi?",
+        inggridentsInfo: "1) Go'shti-2 kg\n"
+            "2) Kartoshka-1 kg\n"
+            "3) Yog ' yog'i - 200 gr\n"
+            "4) Piyoz - 300 gr\n"
+            "5) O'simlik yog'i - 120 ml"),
+    Meal(
+        id: 13,
+        type: "Ikkinchi taomlar",
+        name: "Brizol",
+        imageUrl: "assets/images/secondfoods/birzol.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "25 000",
+        inggridentsInfo: "1) 2 osh qoshiq mayonez\n"
+            "2) 400 gramm maydalangan mol go'shti\n"
+            "3) 5 dona tuxum\n"
+            "4) 2 chinnigullar sarimsoq\n"
+            "5) 3 osh qoshiq ketchup",
+        moreInfo: "Ushbu rus oshpazlik atamasining "
+            "kelib chiqishi juda noaniq."
+            "Dyuma Per o'zining Buyuk pazandachilik lug'ati"
+            "da ma'lum bir afsonaviy Markiz"
+            "Brezol bo'lganligini ta'kidlaydi,"
+            "uning xizmatkori hozir aytganidek, brizol emas,"
+            "balki brezol deb nomlangan taomni o'ylab topgan.\n\n"
+            "Shunga qaramay, odatda rus oshxonasida bu"
+            "atama yupqa kaltaklangan go'shtni, un bilan "
+            "pishirilgan go'shtni, keyin lezonni "
+            "(tuxum + sut), keyin non bo'laklarida"
+            "va qovurilgan go'shtni anglatadi. "
+            "Variant oddiyroq - yupqa omlet, pishirish"
+            "jarayonida bir tomoni piyoz va nonsiz"
+            "qiyma go'sht bilan surtiladi va ikkinchisi"
+            "bilan qoplanadi. Shunday qilib,"
+            "tasavvurning chegarasi yo'q!"),
+    Meal(
+        id: 14,
+        type: "Ikkinchi taomlar",
+        name: "Molgo'shti strogan",
+        imageUrl: "assets/images/secondfoods/befstrogan.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "30 000",
+        inggridentsInfo: "1) 600 g mol go'shti\n"
+            "2) Piyoz 1 dona\n"
+            "3) Smetana 200 ml\n"
+            "4) Tomat pastasi 1 osh qoshiq.\n"
+            "5) Un 1 osh qoshiq. l",
+        moreInfo: "Rus oshxonasi uzoq vaqtdan "
+            "beri dunyoni zabt etdi."
+            "Parijda ham, hatto Nyu-Yorkda ham,"
+            "Bangkokda ham siz rus restoranini"
+            "topasiz, u erda sizga bo'tqa, borscht,"
+            "krep, köfte, ikra taklif etiladi.\n\n"
+            "Ammo bizning milliy oshxonamizda"
+            "chet elda unchalik mashhur"
+            "bo'lmagan bir xil ahamiyatga ega"
+            "taom bor. Bu mol go'shti Stroganov."
+            "Mol go'shti stroganoff-porcini "
+            "qo'ziqorinlari qo'shilgan smetana"
+            "sousidagi mol go'shtining kichik bo'laklari."),
+    Meal(
+        id: 15,
+        type: "Ikkinchi taomlar",
+        name: "Fri go'sht",
+        imageUrl: "assets/images/secondfoods/befstrogan.png",
+        time: "6 MIN",
+        inggridents: "3 ING",
+        bannerColor: 0xFF71C3A1,
+        Cost: "38 000",
+        inggridentsInfo: "1) 500 g mol go'shti go'shti\n"
+            "2) 23 000 g smetana\n"
+            "3) 2 dona. piyoz",
+        moreInfo: "Ushbu taomning o'ziga "
+            "xos ta'mini quyuq pivo va "
+            "xantalli non beradi, ular go'shtga"
+            "qo'shiladi va uzoq vaqt davomida "
+            "pishirilganda mol go'shti ta'mini"
+            "butunlay o'zgartiradi. \n\n"
+            "Retseptda"
+            "maxsus mahsulotlar ishlatilmaganiga"
+            "qaramay, gulash juda mazali va"
+            "xushbo'y bo'lib chiqadi. Pishirish"
+            "jarayonida non shunchaki parchalanadi"
+            "va pivoda eriydi, qalinlashadi va"
+            "nihoyat ajoyib boy sous hosil qiladi."),
+    Meal(
+        id: 16,
+        type: "Ikkinchi taomlar",
+        name: "Uy kartoshkasi",
+        imageUrl: "assets/images/secondfoods/kartoshkapodomashnie.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "--",
+        moreInfo: "Kartoshkada boshqa sabzavotlar "
+            "kabi ozuqa moddalari ko'p emas. "
+            "Biroq, bu moddalarning tarkibi"
+            "inson tanasi uchun juda qimmatlidir.\n\n"
+            "Masalan, kartoshkada protein ko'p emas, "
+            "lekin uning meva tarkibidagi tarkibi"
+            "yuqori biologik qiymatga ega."
+            "Ushbu oqsillar sog'liq uchun "
+            "zarur bo'lgan noyob va muhim "
+            "aminokislotalarni o'z ichiga oladi.",
+        inggridentsInfo: "1) tuz\n"
+            "2) yog\n"
+            "3) suv\n"
+            "4) sarimsoq\n"
+            "5) kartoshka"),
+    Meal(
+        id: 17,
+        type: "Ikkinchi taomlar",
+        name: "Xitoy uslubidagi go'sht",
+        imageUrl: "assets/images/secondfoods/myasopotaiski.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "--",
+        moreInfo: "Qimmatbaho oqsildan tashqari,"
+            "har qanday go'sht B vitaminlariga boy."
+            "Ular barcha tana tizimlarining uyg'un "
+            "ishlashi uchun zarurdir. Qon hujayralarining"
+            "shakllanishida, metabolik jarayonlarda,"
+            "miya ishida ishtirok eting.\n\n"
+            "Ko'p go'sht va sink, selen."
+            "Ular immunitet tizimini"
+            "qo'llab-quvvatlaydi, "
+            "antioksidant ta'sirga ega."
+            "Selen parranda go'shtida eng ko'p.",
+        inggridentsInfo: "1) mol go'shti go'shti -450 g\n\n"
+            "2) sut -180 ml\n\n"
+            "3) shirin qalampir (qizil, sariq) -250 g\n\n"
+            "4) piyoz -300 g\n\n"
+            "5) hammayoqni barglari-60 g"),
+    Meal(
+        id: 18,
+        type: "Ikkinchi taomlar",
+        name: "Tovuqli somsa",
+        imageUrl: "assets/images/secondfoods/tovuqlisomasa.png",
+        time: "5 MIN",
+        inggridents: "6 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) un: 500 gramm\n"
+            "2) tuzlar: 10 gramm\n"
+            "3) tuxum: 1\n"
+            "4) iliq suv: 260 mililitr\n"
+            "5) Maselko margarin\n"
+            "6) tovuq go'shti",
+        moreInfo: "Tovuq go'shti B guruhi "
+            "vitaminlariga boy.Bu B6 vitamini"
+            "shamollashda immunitet tizimini"
+            "qo'llab-quvvatlaydi va B5 vitamini"
+            "metabolizmda ishtirok etadi.\n\n"
+            "Tovuqli bulyon tanani isitish,"
+            "vitaminlar bilan to'yintirish va"
+            "immunitet tizimini faollashtirish"
+            "orqali sovuq alomatlarini bartaraf"
+            "etishga yordam beradi. Eriydigan"
+            "yog' zaiflashgan tana tomonidan osongina so'riladi."),
+    Meal(
+        id: 19,
+        type: "Ikkinchi taomlar",
+        name: "Go'shtli somsa",
+        imageUrl: "assets/images/secondfoods/tovuqlisomasa.png",
+        time: "5 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "6 000",
+        moreInfo: "Qimmatbaho oqsildan tashqari,"
+            "har qanday go'sht B vitaminlariga boy."
+            "Ular barcha tana tizimlarining uyg'un "
+            "ishlashi uchun zarurdir. Qon hujayralarining"
+            "shakllanishida, metabolik jarayonlarda,"
+            "miya ishida ishtirok eting.\n\n"
+            "Ko'p go'sht va sink, selen."
+            "Ular immunitet tizimini"
+            "qo'llab-quvvatlaydi, "
+            "antioksidant ta'sirga ega."
+            "Selen parranda go'shtida eng ko'p.",
+        inggridentsInfo: "1) 1) un: 500 gramm\n"
+            "2) tuzlar: 10 gramm\n"
+            "3) tuxum: 1\n"
+            "4) iliq suv: 260 mililitr\n"
+            "5) Go'sht\n"),
+
+    Meal(
+        id: 20,
+        type: "Ikkinchi taomlar",
+        name: "Brizol",
+        imageUrl: "assets/images/secondfoods/brizol2.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "35 000",
+        inggridentsInfo: "1) 2 osh qoshiq mayonez\n"
+            "2) 400 gramm maydalangan mol go'shti\n"
+            "3) 5 dona tuxum\n"
+            "4) 2 chinnigullar sarimsoq\n"
+            "5) 3 osh qoshiq ketchup",
+        moreInfo: "Ushbu rus oshpazlik atamasining "
+            "kelib chiqishi juda noaniq."
+            "Dyuma Per o'zining Buyuk pazandachilik lug'ati"
+            "da ma'lum bir afsonaviy Markiz"
+            "Brezol bo'lganligini ta'kidlaydi,"
+            "uning xizmatkori hozir aytganidek, brizol emas,"
+            "balki brezol deb nomlangan taomni o'ylab topgan.\n\n"
+            "Shunga qaramay, odatda rus oshxonasida bu"
+            "atama yupqa kaltaklangan go'shtni, un bilan "
+            "pishirilgan go'shtni, keyin lezonni "
+            "(tuxum + sut), keyin non bo'laklarida"
+            "va qovurilgan go'shtni anglatadi. "
+            "Variant oddiyroq - yupqa omlet, pishirish"
+            "jarayonida bir tomoni piyoz va nonsiz"
+            "qiyma go'sht bilan surtiladi va ikkinchisi"
+            "bilan qoplanadi. Shunday qilib,"
+            "tasavvurning chegarasi yo'q!"),
+  ];
+  static List<Meal> secondFoodsKR = [
+    Meal(
+        id: 1,
+        type: "Иккинчи таомлар",
+        name: "Зиёфат ош",
+        imageUrl: "assets/images/secondfoods/ziyofatosh.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "26 000",
+        moreInfo: "Мазали, сифатли таом – саломатлик ва"
+            "яхши кайфият гарови. хозирги кунда"
+            "шарКона таомлар тобора оммалашиб бормоКда."
+            "Чаикхана Аи-Ваи ушбу тоифадаги таомларнинг"
+            "кенг ассортиментини таклиф етади.\n\n"
+            "Тайёр овКат тайёрлаш ва сотишга ихтисослашган"
+            "кўплаб корхоналар палов ёки ўзбек"
+            "ошхонасининг бошКа таомларини таклиф Килишади."
+            "Лекин паловни ески рецепт бўйича пиширадиган бизмиз."
+            "Сиз уни Кўя олмайсиз ва бошКа порсияни синаб кўришни хохлайсиз."
+            "хатто хаКиКий гурмелер хам хаётларида бундай мазали"
+            "таомни татиб кўрмаганликларини тушунишади.",
+        inggridentsInfo: "1) Кўзи бўйни-500 г\n"
+            "2) УзоК донли гуруч-500 г\n"
+            "3) Сабзи-500 г\n"
+            "4) КунгабоКар ёги - 150 мл\n"
+            "5) Пиёз-4 бош"),
+    Meal(
+        id: 2,
+        type: "Иккинчи таомлар",
+        name: "Айрим сай",
+        imageUrl: "assets/images/secondfoods/ayrimsay.png",
+        time: "5 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "28 000",
+        moreInfo: "Бу таом, ўзбек тилидан фарКли ўлароК,"
+            "анча тез ва кам мехнат талаб Киладиган"
+            "пиширилади. Барча сабзавотлар Карсиллаб Колади,"
+            "фаКат озгина Ковурилади, шунинг учун улар"
+            "деярли барча витаминларни саКлайди\n\n."
+            "Кўп миКдордаги ўтлар ва зираворлар"
+            "ушбу рецептни таъмга бой ва ажойиб "
+            "даражада мазали Килади.",
+        inggridentsInfo: "1)Бугдой уни 350 г\n"
+            "2) Тухум 2 дона\n"
+            "3) Сув 400 г\n"
+            "4) Таъмга туз\n"
+            "5) Таъмга кўра Кора Калампир нўхати"),
+    Meal(
+        id: 3,
+        type: "Иккинчи таомлар",
+        name: "Гўшт сай",
+        imageUrl: "assets/images/secondfoods/gushtsay.png",
+        time: "10 МИН",
+        inggridents: "6 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "30 000",
+        inggridentsInfo: "1) мол гўшти пулпаси: 300 gramm"
+            "2) болгар Калампири: 1 Кизил\n"
+            "3) болгар Калампири: 1 яшил\n"
+            "4) Хитой карам: 4 та ўрта барг\n"
+            "5) зираворлар\n"
+            "6) кўкатлар",
+        moreInfo: "Гўшт Сай – уйгурча машхур"
+            "таомлардан бири бўлишига Карамай,"
+            "аммо ўзимизнинг деярли барча кафелар"
+            "таомномасида бундай таомни учратишимиз мумкин.\n\n"
+            "Сабзавотлар устидан йирик Килиб тўгралган"
+            "жандиК ва селдерейни сепиб, КопКогини ёпамиз"
+            "ва паст оловда 7-10 даКиКа давомида димлаб пиширамиз."
+            "Аралаштириб, иссиКлигида дастурхонга тортамиз."
+            "ЁКимли иштаха!"),
+    Meal(
+        id: 4,
+        type: "Иккинчи таомлар",
+        name: "Кўзи оёги",
+        imageUrl: "assets/images/secondfoods/baraniyanojka.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "60 000",
+        inggridentsInfo: "1)кўзининг оёги (огирлиги тахминан 2,5 кг)\n"
+            "2) 5 ош кошик хантал\n"
+            "3) 5-7 чиннигуллар саримсок\n"
+            "4) лимон\n"
+            "5) 30 мл ўсимлик ёги",
+        moreInfo: "кўзи гўштидаги темирнинг юкори"
+            "микдори бу гўштни анемия билан"
+            "огриган одамларнинг рационида "
+            "ажралмас махсулотга айлантиради.\n\n"
+            "Маълумки, танадаги темир етишмаслиги"
+            "гемоглобин даражасининг пасайишига олиб"
+            "келиши мумкин, бу еса хужайраларни кислород"
+            "билан таъминлашга таъсир килади."
+            "коннинг normal таркибини тиклаш (гемоглобин ишлаб чикариш)"
+            "кўзичок гўштининг асосий фойдасидир."),
+    Meal(
+        id: 5,
+        type: "Иккинчи таомлар",
+        name: "Кўзи ковургалари",
+        imageUrl: "assets/images/secondfoods/baraniyarebiyashka.png",
+        time: "6 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFF71C3A1,
+        Cost: "22 000",
+        inggridentsInfo: "1) Суякдаги мол гўшти 600 г\n"
+            "2) Сув 4 л\n"
+            "3) Сабзи 2 дона\n"
+            "4) Пиёз 1 дона\n"
+            "5) Лавлаги 1 дона.",
+        moreInfo: "Тайёрлаш усулидан катъи назар,"
+            "ўзаро мувозанатли турли хил "
+            "сабзавотларнинг юкори микдори"
+            "туфайли борсчт танага ижобий таъсир кўрсатади.\n\n"
+            "Тананинг тез тўйинганлигини, ичакларни"
+            "ва танани захарли моддалар ва металлардан"
+            "юмшок тозалашга ёрдам беради. Бу яхши"
+            "холеретик таъсирга ега, жигарни бўшатади ва"
+            "организмдаги метаболик жараёнларни тезлаштиради."
+            "коннинг биокимёвий таркибини яхшилайди ва"
+            "гематопоез жараёнларини рагбатлантиради."),
+    Meal(
+        id: 6,
+        type: "Иккинчи таомлар",
+        name: "Дўлма",
+        imageUrl: "assets/images/secondfoods/dulma.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "--",
+        moreInfo: "Долма - бу байрамона ва кундалик"
+            "дастурхон учун ажойиб безак бўладиган"
+            "ажойиб шаркона таом.\n\n"
+            "Ва бу мазали таомнинг фойдалилиги"
+            "хакида нима дейишимиз мумкин!"
+            "Узум баргларида овкат хазм килишни"
+            "яхшилайдиган ва организмдаги метаболик"
+            "жараёнларни рагбатлантирадиган кўплаб хун толаси мавжуд.",
+        inggridentsInfo: "1) кийма гўшт (кўзичок ва мол гўшти): 500 г\n"
+            "2) Узум барглари: 600 г\n"
+            "3) Ялпиз: 1 туп\n"
+            "4) Янги шилантро: 1 туп\n"
+            "5) Янги арпабодиён: 1 туп"),
+    Meal(
+        id: 7,
+        type: "Иккинчи таомлар",
+        name: "Ковурма лагмон",
+        imageUrl: "assets/images/secondfoods/qovurmalagmon.png",
+        time: "10 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "26 000",
+        moreInfo: "Лагмон Ўзбекистондаги хар кандай кафе,"
+            "ресторан, ошхона менюсида енг кенг таркалган"
+            "таомлардан биридир. Бу, албатта, синаб кўришга арзийди!"
+            "Аммо шуни таъкидлаймизки, агар сизга узун макарон "
+            "(уйгур лагмони) берилган бўлса, унда сиз сабр "
+            "килишингиз керак бўлади.\n\n"
+            "Таом жуда мазали, лекин уни"
+            "истеъмол килишга кўникиш учун вакт ва озгина машк керак бўлади."
+            "Тошкентдаги аксарият ресторанларда уйгур лагмони"
+            "кўпрок тайёрланади , ўзбек лагмони еса Бухоро, "
+            "Самарканд вилоятлари ва Фаргона водийсида кўпрок тайёрланади.",
+        inggridentsInfo: "1) пиёз-3 та ўрта пиёз\n"
+            "2) кичик яшил турп-1 дона\n"
+            "3) ўртача пишган помидор – 4 дона.\n"
+            "4) саримсок-1 бош\n"
+            "5) ўртача сабзи – 2 дона."),
+    Meal(
+        id: 8,
+        type: "Иккинчи таомлар",
+        name: "Манти",
+        imageUrl: "assets/images/secondfoods/manti.png",
+        time: "8 МИН",
+        inggridents: "4 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) 500 г (18 оз.) А/п ун\n"
+            "2) 1 тухум\n"
+            "3) 200 мл (7 фл оз.) shisha сув\n"
+            "4) 1 ош кошик. Kosher тузи",
+        moreInfo: "Ўзбек ошхонасидаги таомларни"
+            "татиб кўрган инсон барча ўзбек"
+            "таомлари ковурилган гўшт ва"
+            "сабзавотларга асосланган таомлар"
+            "дея тасаввурга ега бўлиши мумкин,"
+            "аммо бу ундай емас.\n\n"
+            "Бугда пиширилган"
+            "таомлар хам ўзбек ошхонасида бор."
+            "Масалан: манти-ажойиб , иштахани"
+            "кўзгатадиган ва енг мухими фойдали таомлардан биридир."),
+    Meal(
+        id: 9,
+        type: "Иккинчи таомлар",
+        name: "Думгаза",
+        imageUrl: "assets/images/secondfoods/dumgaza.png",
+        time: "10 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "90 000",
+        moreInfo: "Думгаз ажойиб нарса. Ва жуда кўп гўшт"
+            "бўлмаса-да, у шунчалик юмшокки, "
+            "бошка хеч бир кисмни таккослаб бўлмайди."
+            "Бундан ташкари, Думгаса коллагеннинг кучли"
+            "манбаи хисобланади. Совукни келтириб чикарадиган ўша модда.\n\n"
+            "Таом думгаз деб хам аталади. Ва агар сиз"
+            "уни кандайдир тарзда одатий тушунчага якинлаштирсангиз,"
+            "у мол гўшти думларидан рагу бўлади.",
+        inggridentsInfo: "1) хўкиз думлари - 1,5 кг (2 дона)\n"
+            "2) сабзи – 2 дона\n"
+            "3)кўкатлар билан petiole селдерей - 4-5 сопи\n"
+            "4) пиёз - 1 та катта пиёз\n"
+            "5) саримсок - 2 чиннигуллар"),
+    Meal(
+        id: 10,
+        type: "Иккинчи таомлар",
+        name: "Козон кабоб",
+        imageUrl: "assets/images/secondfoods/qozonkabob.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Ўзбек козон-кабоб Шарк учун"
+            "анъанавий гўштли таомлардан бири бўлиб, "
+            "унинг келиб чикиши хакида чексиз"
+            "бахслашиш мумкин. Картошка, пиёз"
+            "ва зираворлар кўшилган козонда "
+            "(катта козонда) ковурилган ва майдаланган"
+            "гўшт хар кандай халкнинг миллий таомлари"
+            "рецептларида учрайди.\n\n"
+            "Кўчманчилар "
+            "катта козонни ўзлари билан олиб юришган, у"
+            "хар кандай замонавий уйда учрайди ва сизга гўшт,"
+            "пиёз, картошка, калампир ва зираворлар керак бўлади."
+            "Гўшт ва пиёзни тайёрлаш, козонга ёткизиш "
+            "козон кабобини тайёрлаш кийин емас, гўшт "
+            "сизга канчалик мос келишига караб,"
+            "жараён бир соатдан уч соатгача давом"
+            "етиши мумкин. Биз рецептлардан бирини таклиф киламиз",
+        inggridentsInfo: "1) кўзи гўшти: 500 gramm\n"
+            "2) картошка: 500 gramm\n"
+            "3) лампочка: 1\n"
+            "4) зира: ярим чой кошик\n"
+            "5) кориандер: ярим чой кошик"),
+    Meal(
+        id: 11,
+        type: "Иккинчи таомлар",
+        name: "Табака",
+        imageUrl: "assets/images/secondfoods/tabaka.png",
+        time: "12 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "45 000",
+        moreInfo: "Товук табака ёки товук тапака"
+            "анъанавий хисобланади грузин"
+            "ковурилган таом товук бу бошка"
+            "Кавказ ошхоналарида хам машхур.\n\n"
+            "Шунингдек, у Совет ошхонасида кенг"
+            "таркалган ресторан таомига айланди ва"
+            "хозирги кунда Шаркий"
+            "Европа ва Марказий Осиёдаги"
+            "кўплаб ресторанларда учрайди",
+        inggridentsInfo: "1) 1 дона товук (вазни 600-700 г)\n"
+            "2) 2 чиннигуллар саримсок\n"
+            "3) 1 ош кошик. хоп-сунели\n"
+            "4) Чой кошик аджика (хакикий, помидорсиз, курук бўлиши мумкин)\n"
+            "5) тузни татиб кўриш учун"),
+    Meal(
+        id: 12,
+        type: "Иккинчи таомлар",
+        name: "Жиз",
+        imageUrl: "assets/images/secondfoods/jiz.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "140 000",
+        moreInfo: "Ёг ъ ва гўшт ёгида олтин"
+            "рангга ковурилган ўрта катталикдаги"
+            "картошка билан ковурилган ковурилган гўшт."
+            "Ва гўшт курук ёки нордон маринадда "
+            "олдиндан маринадланади. Келинг, учта"
+            "козон-кабобни такослайлик: кўзичок,"
+            "парранда ва мол гўшти.\n\n"
+            "Иссик ёгда "
+            "ўрта катталикдаги товук бўлакларини"
+            "ковуриш учун канча вакт керак бўлади."
+            "20-25 дакика. Ва кўзичок учун, ковурга кисми?"
+            "Гўштга караб 25-35 дакика. Ва мол "
+            "гўшти, бир хил ўлчамдаги бўлакларга бўлинади?",
+        inggridentsInfo: "1) Гўшти-2 кг\n"
+            "2) Картошка-1 кг\n"
+            "3) Ёг ъ ёги - 200 гр\n"
+            "4) Пиёз - 300 гр\n"
+            "5) Ўсимлик ёги - 120 мл"),
+    Meal(
+        id: 13,
+        type: "Иккинчи таомлар",
+        name: "Бризол",
+        imageUrl: "assets/images/secondfoods/birzol.png",
+        time: "10 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "25 000",
+        inggridentsInfo: "1)2 ош кошик маёнез\n"
+            "2) 400 gramm майдаланган мол гўшти\n"
+            "3) 5 дона тухум\n"
+            "4) 2 чиннигуллар саримсок\n"
+            "5) 3 ош кошик ketchup",
+        moreInfo: "Ушбу рус ошпазлик атамасининг "
+            "келиб чикиши жуда ноаник."
+            "Дюма Пер ўзининг Буюк пазандачилик лугати"
+            "да маълум бир афсонавий Маркиз"
+            "Брезол бўлганлигини таъкидлайди,"
+            "унинг хизматкори хозир айтганидек, бризол емас,"
+            "балки брезол деб номланган таомни ўйлаб топган.\n\n"
+            "Шунга карамай, одатда рус ошхонасида бу"
+            "атама юпка калтакланган гўштни, ун билан "
+            "пиширилган гўштни, кейин лезонни "
+            "(тухум + сут), кейин нон бўлакларида"
+            "ва ковурилган гўштни англатади. "
+            "Variant оддийрок - юпка омлет, пишириш"
+            "жараёнида бир томони пиёз ва нонсиз"
+            "кийма гўшт билан суртилади ва иккинчиси"
+            "билан копланади. Шундай килиб,"
+            "тасаввурнинг чегараси йўк!"),
+    Meal(
+        id: 14,
+        type: "Иккинчи таомлар",
+        name: "Молгўшти строган",
+        imageUrl: "assets/images/secondfoods/befstrogan.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "30 000",
+        inggridentsInfo: "1) 600 г мол гўшти\n"
+            "2) Пиёз 1 дона\n"
+            "3) Сметана 200 мл\n"
+            "4) Томат пастаси 1 ош кошик.\n"
+            "5) Ун 1 ош кошик. l",
+        moreInfo: "Рус ошхонаси узок вактдан "
+            "бери дунёни забт етди."
+            "Парижда хам, хатто Ню-Ёркда хам,"
+            "Бангкокда хам сиз рус ресторанини"
+            "топасиз, у ерда сизга бўтка, борсчт,"
+            "креп, кöфте, икра таклиф етилади.\n\n"
+            "Аммо бизнинг миллий ошхонамизда"
+            "чет елда унчалик машхур"
+            "бўлмаган бир хил ахамиятга ега"
+            "таом бор. Бу мол гўшти Строганов."
+            "Мол гўшти строганофф-порcини "
+            "кўзикоринлари кўшилган сметана"
+            "соусидаги мол гўштининг кичик бўлаклари."),
+    Meal(
+        id: 15,
+        type: "Иккинчи таомлар",
+        name: "Фри гўшт",
+        imageUrl: "assets/images/secondfoods/befstrogan.png",
+        time: "6 МИН",
+        inggridents: "3 ИНГ",
+        bannerColor: 0xFF71C3A1,
+        Cost: "38 000",
+        inggridentsInfo: "1) 500 г мол гўшти гўшти\n"
+            "2) 23 000 г сметана\n"
+            "3) 2 дона. пиёз",
+        moreInfo: "Ушбу таомнинг ўзига "
+            "хос таъмини куюк пиво ва "
+            "ханталли нон беради, улар гўштга"
+            "кўшилади ва узок вакт давомида "
+            "пиширилганда мол гўшти таъмини"
+            "бутунлай ўзгартиради. \n\n"
+            "Рецептда"
+            "махсус махсулотлар ишлатилмаганига"
+            "карамай, гулаш жуда мазали ва"
+            "хушбўй бўлиб чикади. Пишириш"
+            "жараёнида нон шунчаки парчаланади"
+            "ва пивода ерийди, калинлашади ва"
+            "нихоят ажойиб бой соус хосил килади."),
+    Meal(
+        id: 16,
+        type: "Иккинчи таомлар",
+        name: "Уй картошкаси",
+        imageUrl: "assets/images/secondfoods/kartoshkapodomashnie.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "--",
+        moreInfo: "Картошкада бошка сабзавотлар "
+            "каби озука моддалари кўп емас. "
+            "Бирок, бу моддаларнинг таркиби"
+            "инсон танаси учун жуда кимматлидир.\n\n"
+            "Масалан, картошкада protein кўп емас, "
+            "лекин унинг мева таркибидаги таркиби"
+            "юкори биологик кийматга ега."
+            "Ушбу оксиллар соглик учун "
+            "зарур бўлган ноёб ва мухим "
+            "аминокислоталарни ўз ичига олади.",
+        inggridentsInfo: "1) туз\n"
+            "2) ёг\n"
+            "3) сув\n"
+            "4) саримсок\n"
+            "5) картошка"),
+    Meal(
+        id: 17,
+        type: "Иккинчи таомлар",
+        name: "Хитой услубидаги гўшт",
+        imageUrl: "assets/images/secondfoods/myasopotaiski.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "--",
+        moreInfo: "кимматбахо оксилдан ташкари,"
+            "хар кандай гўшт Б витаминларига бой."
+            "Улар барча тана тизимларининг уйгун "
+            "ишлаши учун зарурдир. кон хужайраларининг"
+            "шаклланишида, метаболик жараёнларда,"
+            "мия ishida иштирок етинг.\n\n"
+            "Кўп гўшт ва синк, селен."
+            "Улар иммунитет тизимини"
+            "кўллаб-кувватлайди, "
+            "антиоксидант таъсирга ега."
+            "Селен парранда гўштида енг кўп.",
+        inggridentsInfo: "1) мол гўшти гўшти -450 г\n\n"
+            "2) сут -180 мл\n\n"
+            "3) ширин калампир (кизил, сарик) -250 г\n\n"
+            "4) пиёз -300 г\n\n"
+            "5) хаммаёкни барглари-60 г"),
+    Meal(
+        id: 18,
+        type: "Иккинчи таомлар",
+        name: "Товукли сомса",
+        imageUrl: "assets/images/secondfoods/tovuqlisomasa.png",
+        time: "5 МИН",
+        inggridents: "6 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1)ун: 500 gramm\n"
+            "2) тузлар: 10 gramm\n"
+            "3) тухум: 1\n"
+            "4) илик сув: 260 милилитр\n"
+            "5) Маселко маргарин\n"
+            "6) товук гўшти",
+        moreInfo: "Товук гўшти Б гурухи "
+            "витаминларига бой.Бу Б6 витамини"
+            "шамоллашда иммунитет тизимини"
+            "кўллаб-кувватлайди ва Б5 витамини"
+            "метаболизмда иштирок етади.\n\n"
+            "Товукли булён танани иситиш,"
+            "витаминлар билан тўйинтириш ва"
+            "иммунитет тизимини фаоллаштириш"
+            "оркали совук аломатларини бартараф"
+            "етишга ёрдам беради. Ерийдиган"
+            "ёг ъ заифлашган тана томонидан осонгина сўрилади."),
+    Meal(
+        id: 19,
+        type: "Иккинчи таомлар",
+        name: "Гўштли сомса",
+        imageUrl: "assets/images/secondfoods/tovuqlisomasa.png",
+        time: "5 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "6 000",
+        moreInfo: "Қимматбахо оксилдан ташкари,"
+            "хар кандай гўшт Б витаминларига бой."
+            "Улар барча тана тизимларининг уйғун "
+            "ишлаши учун зарурдир. Қон хужайраларининг"
+            "шаклланишида, метаболик жараёнларда,"
+            "мия ishida иштирок етинг.\n\n"
+            "Кўп гўшт ва синк, селен."
+            "Улар иммунитет тизимини"
+            "кўллаб-кувватлайди, "
+            "антиоксидант таъсирга ега."
+            "Селен парранда гўштида енг кўп.",
+        inggridentsInfo: "1)1) ун: 500 gramm\n"
+            "2) тузлар: 10 gramm\n"
+            "3) тухум: 1\n"
+            "4) илик сув: 260 милилитр\n"
+            "5) Гўшт\n"),
+    Meal(
+        id: 20,
+        type: "Иккинчи таомлар",
+        name: "Бризол",
+        imageUrl: "assets/images/secondfoods/brizol2.png",
+        time: "10 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "35 000",
+        inggridentsInfo: "1)2 ош кошик маёнез\n"
+            "2) 400 gramm майдаланган мол гўшти\n"
+            "3) 5 дона тухум\n"
+            "4) 2 чиннигуллар саримсок\n"
+            "5) 3 ош кошик ketchup",
+        moreInfo: "Ушбу рус ошпазлик атамасининг "
+            "келиб чикиши жуда ноаник."
+            "Дюма Пер ўзининг Буюк пазандачилик луғати"
+            "да маълум бир афсонавий Маркиз"
+            "Брезол бўлганлигини таъкидлайди,"
+            "унинг хизматкори ҳозир айтганидек, бризол емас,"
+            "балки брезол деб номланган таомни ўйлаб топган.\n\n"
+            "Шунга карамай, одатда рус ошхонасида бу"
+            "атама юпка калтакланган гўштни, ун билан "
+            "пиширилган гўштни, кейин лезонни "
+            "(тухум + сут), кейин нон бўлакларида"
+            "ва ковурилган гўштни англатади. "
+            "Variant оддийрок - юпка омлет, пишириш"
+            "жараёнида бир томони пиёз ва нонсиз"
+            "кийма гўшт билан суртилади ва иккинчиси"
+            "билан копланади. Шундай килиб,"
+            "тасаввурнинг чегараси йўк!"),
+  ];
+  static List<Meal> secondFoodsRU = [
+    Meal(
+        id: 1,
+        type: "Вторые блюда",
+        name: "Вечеринка плов",
+        imageUrl: "assets/images/secondfoods/ziyofatosh.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "26 000",
+        moreInfo: "Вкусная, качественная еда-здоровье и"
+            "залог хорошего настроения. В настоящее время"
+            "восточные блюда становятся все более популярными."
+            "Чайхана Ай-Вай из этой категории блюд"
+            "предлагает широкий ассортимент.\n\n"
+            "Специализируется на приготовлении и продаже готовых блюд"
+            "многие предприятия плов или узбекский"
+            "предлагают другие блюда своей кухни."
+            "Но именно мы готовим плов по старинному рецепту."
+            "Вы не можете отложить это и хотите попробовать другую порцию."
+            "Даже настоящие гурманы так вкусны в своей жизни"
+            "они понимают, что не пробовали еду.",
+        inggridentsInfo: "1)Шея ягненка-500 г\n"
+            "2) длиннозерный рис-500 г\n"
+            "3) Морковь-500 г\n"
+            "4) подсолнечное масло - 150 мл\n"
+            "5) Лук-4 головки"),
+    Meal(
+        id: 2,
+        type: "Вторые блюда",
+        name: "Айрим сай",
+        imageUrl: "assets/images/secondfoods/ayrimsay.png",
+        time: "5 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "28 000",
+        moreInfo: "Это блюдо, в отличие от узбекского,"
+            "намного быстрее и менее трудоемко"
+            "приготовлено. Все овощи остаются хрустящими,"
+            "только слегка обжаренные, так что они"
+            "сохраняет почти все витамины\n\n."
+            "Много трав и специй"
+            "вкус этого рецепта насыщенный и великолепный"
+            "очень вкусно.",
+        inggridentsInfo: "1) пшеничная мука 350 г\n"
+            "2) яйца 2 штуки\n"
+            "3) Вода 400 г\n"
+            "4) соль по вкусу\n"
+            "5) черный перец по вкусу"),
+    Meal(
+        id: 3,
+        type: "Вторые блюда",
+        name: "Мясо сай",
+        imageUrl: "assets/images/secondfoods/gushtsay.png",
+        time: "10 МИН",
+        inggridents: "6 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "30 000",
+        inggridentsInfo: "1) говяжья мякоть: 300 грамм"
+            "2) Болгарский перец: 1 красный\n"
+            "3) Болгарский перец: 1 зеленый\n"
+            "4) Пекинская капуста: 4 средних листа\n"
+            "5) специи\n"
+            "6) Зелень",
+        moreInfo: "Мясной Сай – уйгурская знаменитость"
+            "несмотря на то, что это одно из блюд"
+            "но почти все наши собственные кафе"
+            "мы можем встретить такое блюдо в кулинарной книге.\n\n"
+            "Крупно нарезанные овощи"
+            "посыпаем тмином и сельдереем и накрываем крышкой"
+            "и тушим на медленном огне 7-10 минут."
+            "Перемешиваем и подаем на стол на огне."
+            "Приятного аппетита!"),
+    Meal(
+        id: 4,
+        type: "Вторые блюда",
+        name: "Баранья нога",
+        imageUrl: "assets/images/secondfoods/baraniyanojka.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "60 000",
+        inggridentsInfo: "1) баранья нога (вес около 2,5 кг)\n"
+            "2) 5 столовых ложек горчицы\n"
+            "3) 5-7 зубчиков чеснока\n"
+            "4) Лимон\n"
+            "5) 30 мл растительного масла",
+        moreInfo: "Высокое содержание железа в баранине"
+            "количество это мясо с анемией"
+            "в рационе больных людей"
+            "делает незаменимым продуктом.\n\n"
+            "Как известно, дефицит железа в организме"
+            "вызывая снижение уровня гемоглобина"
+            "это может привести к насыщению клеток кислородом"
+            "влияет на поставки."
+            "Восстановление нормального состава крови (выработка гемоглобина)"
+            "мясо ягненка-главное преимущество."),
+    Meal(
+        id: 5,
+        type: "Вторые блюда",
+        name: "Ребрышки ягненка",
+        imageUrl: "assets/images/secondfoods/baraniyarebiyashka.png",
+        time: "6 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFF71C3A1,
+        Cost: "22 000",
+        inggridentsInfo: "1) говядина на кости 600 г\n"
+            "2) вода 4 л\n"
+            "3) Морковь 2 штуки\n"
+            "4) Лук 1 шт\n"
+            "5) свекла 1 шт.",
+        moreInfo: "Независимо от способа приготовления"
+            "сбалансированное разнообразие"
+            "высокое содержание овощей"
+            "благодаря этому борщ оказывает положительное влияние на организм.\n\n"
+            "Быстрое насыщение организма, кишечника"
+            "и избавить организм от токсичных веществ и металлов"
+            "помогает мягкая очистка. Это хорошо"
+            "обладает желчегонным действием, расслабляет печень и"
+            "ускоряет обменные процессы в организме."
+            "Улучшает биохимический состав крови и"
+            "стимулирует процессы кроветворения."),
+    Meal(
+        id: 6,
+        type: "Вторые блюда",
+        name: "Дўлма",
+        imageUrl: "assets/images/secondfoods/dulma.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "--",
+        moreInfo: "Долма праздничная и повседневная"
+            "что станет отличным украшением стола"
+            "отличная восточная еда.\n\n"
+            "И полезность этого вкусного блюда"
+            "что мы можем сказать о!"
+            "Пищеварение в виноградных листьях"
+            "улучшает и метаболизм в организме"
+            "есть много пищевых волокон, которые стимулируют процессы.",
+        inggridentsInfo: "1) фарш (баранина и говядина): 500 г\n"
+            "2) виноградные листья: 600 г\n"
+            "3) Мята: 1 пучок\n"
+            "4) Свежая кинза: 1 пучок\n"
+            "5) свежий укроп: 1 пучок"),
+    Meal(
+        id: 7,
+        type: "Вторые блюда",
+        name: "Жареный лагман",
+        imageUrl: "assets/images/secondfoods/qovurmalagmon.png",
+        time: "10 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "26 000",
+        moreInfo: "Лагман любое кафе в Узбекистане,"
+            "ресторан, самый распространенный в меню кухни"
+            "одно из блюд. Это определенно стоит попробовать!"
+            "Но мы подчеркиваем, что если вам нужна длинная паста"
+            "если (Уйгурский лагун) дан, то ты терпение"
+            "вам нужно будет сделать.\n\n"
+            "Еда очень вкусная, но ее"
+            "чтобы привыкнуть к потреблению, нужно время и немного практики."
+            "Уйгурский лагун в большинстве ресторанов Ташкента"
+            "больше готовят , а узбекский лагман-Бухарский,"
+            "Больше готовят в Самаркандской области и Ферганской долине.",
+        inggridentsInfo: "1) лук-3 средних луковицы\n"
+            "2) маленькая зеленая редька-1 штука\n"
+            "3) помидоры средней спелости – 4 штуки.\n"
+            "4) Чеснок-1 головка\n"
+            "5) средняя морковь – 2 штуки."),
+    Meal(
+        id: 8,
+        type: "Вторые блюда",
+        name: "Манты",
+        imageUrl: "assets/images/secondfoods/manti.png",
+        time: "8 МИН",
+        inggridents: "4 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) 500 г (18 унций.) A / p un\n"
+            "2) 1 яйцо\n"
+            "3) 200 мл (7 жидких унций.) бутилированная вода\n"
+            "4) 1 столовая ложка. Кошерная соль",
+        moreInfo: "Блюда узбекской кухни"
+            "человек, который пробовал все узбекское"
+            "блюда из жареного мяса и"
+            "блюда на основе овощей"
+            "это может быть воображение,"
+            "но это не так.\n\n"
+            "Приготовленный на пару"
+            "блюда есть и в узбекской кухне."
+            "Например: манты-отличные , аппетитные"
+            "одна из самых возбуждающих и, самое главное, полезных закусок."),
+    Meal(
+        id: 9,
+        type: "Вторые блюда",
+        name: "Думгаза",
+        imageUrl: "assets/images/secondfoods/dumgaza.png",
+        time: "10 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "90 000",
+        moreInfo: "Пень-замечательная вещь. И много мяса"
+            "хотя это не так, он такой мягкий,"
+            "ни одна другая часть не может сравниться."
+            "Кроме того, ягодицы обладают сильным коллагеном"
+            "источник. Именно это вещество вызывает обморожение.\n\n"
+            "Блюдо еще называют горбушей. И если вы"
+            "как-то приблизить его к общепринятому пониманию,"
+            "это будет рагу из говяжьих хвостов.",
+        inggridentsInfo: "1) бычьи хвосты - 1,5 кг (2 штуки)\n"
+            "2) Морковь – 2 штуки\n"
+            "3) черешковый сельдерей с зеленью - 4-5 стеблей\n"
+            "4) Лук - 1 большая луковица\n"
+            "5) Чеснок - 2 зубчика"),
+    Meal(
+        id: 10,
+        type: "Вторые блюда",
+        name: "Казан кебаб",
+        imageUrl: "assets/images/secondfoods/qozonkabob.png",
+        time: "8 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Узбекский казан-кебаб для Востока"
+            "одно из традиционных мясных блюд,"
+            "бесконечно о его происхождении"
+            "можно спорить. Картофель, лук"
+            "и в горшочке со специями"
+            "(в большой кастрюле) жареный и измельченный"
+            "мясо-национальное блюдо любого народа"
+            ".\n\n"
+            "Кочевники"
+            "они несли с собой большой горшок, он"
+            "мясо, которое можно найти в любом современном доме, и оно вам понравится"
+            "вам понадобятся лук, картофель, перец и специи."
+            "Готовим мясо и лук, выкладываем в кастрюлю"
+            "Шашлык в горшочке приготовить несложно, мясо"
+            "в зависимости от того, насколько это вам подходит,"
+            "процесс занимает от одного до трех часов"
+            "может быть достаточно. Предлагаем один из рецептов",
+        inggridentsInfo: "1) баранина: 500 грамм\n"
+            "2) Картофель: 500 грамм\n"
+            "3) лампочка: 1\n"
+            "4) тмин: половина чайной ложки\n"
+            "5) кориандр: половина чайной ложки"),
+    Meal(
+        id: 11,
+        type: "Вторые блюда",
+        name: "Табака",
+        imageUrl: "assets/images/secondfoods/tabaka.png",
+        time: "12 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "45 000",
+        moreInfo: "Куриная табака или куриная тапака"
+            "традиционный грузинский"
+            "жареный цыпленок это другое"
+            "Также популярен в кавказской кухне.\n\n"
+            "Он также широко используется в советской кухне"
+            "стало распространенным блюдом в ресторане и"
+            "Восток В настоящее время"
+            "В Европе и Центральной Азии"
+            "встречается во многих ресторанах",
+        inggridentsInfo: "1) 1 курица (вес 600-700 г)\n"
+            "2) 2 зубчика чеснока\n"
+            "3) 1 столовая ложка. hop-suneli\n"
+            "4) чайная ложка аджики (настоящая, без помидоров, можно сухая)\n"
+            "5) Соль по вкусу"),
+    Meal(
+        id: 12,
+        type: "Вторые блюда",
+        name: "Джиз",
+        imageUrl: "assets/images/secondfoods/jiz.png",
+        time: "4 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "140 000",
+        moreInfo: "Золото в масле и мясном жире"
+            "жареный в цвете среднего размера"
+            "жаркое с картофелем фри."
+            "А мясо в сухом или кислом маринаде"
+            "предварительно замариновать. Давай, три"
+            "сравним казан-шашлык: баранина,"
+            "птица и говядина.\n\n"
+            "В горячем масле "
+            "кусочки курицы среднего размера"
+            "сколько времени нужно, чтобы поджариться."
+            "20-25 минут. А для баранины часть ребрышек?"
+            "25-35 минут, в зависимости от мяса. И Крот "
+            "мясо, нарезанное кусочками одинакового размера?",
+        inggridentsInfo: "1) Мясо-2 кг\n"
+            "2) Картофель-1 кг\n"
+            "3) сливочное масло - 200 гр\n"
+            "4) Лук - 300 гр\n"
+            "5) растительное масло-120 мл"),
+    Meal(
+        id: 13,
+        type: "Вторые блюда",
+        name: "Бризол",
+        imageUrl: "assets/images/secondfoods/birzol.png",
+        time: "10 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "25 000",
+        inggridentsInfo: "1) 2 столовые ложки майонеза\n"
+            "2) 400 г говяжьего фарша\n"
+            "3) 5 яиц\n"
+            "4) 2 зубчика чеснока\n"
+            "5) 3 столовые ложки кетчупа",
+        moreInfo: "Из этого русского кулинарного термина "
+            "происхождение очень неясно."
+            "Большой кулинарный словарь Дюма-Пьера"
+            "в некий легендарный Маркиз"
+            "Брезол утверждает, что это было,"
+            "не бризоль, как сейчас сказал его слуга,"
+            "может быть, кто-то придумал блюдо под названием брезол.\n\n"
+            "Тем не менее, обычно в русской кухне это"
+            "срок тонко взбитое мясо с мукой"
+            "запеченное мясо, затем лосось"
+            "(яйцо + молоко), затем в панировочных сухарях"
+            "и означает жареное мясо. "
+            "Вариант попроще - тонкий омлет, запеканка"
+            "одна сторона без лука и хлеба в процессе"
+            "натертый фаршем и второй"
+            ". Итак,"
+            "воображению нет предела!"),
+    Meal(
+        id: 14,
+        type: "Вторые блюда",
+        name: "Бефстроган из говядины",
+        imageUrl: "assets/images/secondfoods/befstrogan.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC186,
+        Cost: "30 000",
+        inggridentsInfo: "1) 600 г говядины\n"
+            "2) Лук 1 шт\n"
+            "3) Сметана 200 мл\n"
+            "4) томатная паста 1 столовая ложка.\n"
+            "5) мука 1 столовая ложка. l",
+        moreInfo: "Русская кухня давно "
+            "покорил мир с тех пор."
+            "Ни в Париже, ни даже в Нью-Йорке,"
+            "В Бангкоке тоже есть русский ресторан"
+            "найдешь, там тебе кашу, борщ,"
+            "предлагаются блины, пельмени, икра.\n\n"
+            "Но в нашей национальной кухне"
+            "менее известен за рубежом"
+            "не имеет такого же значения"
+            "есть еда. Это говядина Строганов."
+            "Бефстроганов-белые"
+            "сметана с грибами"
+            "маленькие кусочки говядины в соусе."),
+    Meal(
+        id: 15,
+        type: "Вторые блюда",
+        name: "Жареное мясо",
+        imageUrl: "assets/images/secondfoods/befstrogan.png",
+        time: "6 МИН",
+        inggridents: "3 ИНГ",
+        bannerColor: 0xFF71C3A1,
+        Cost: "38 000",
+        inggridentsInfo: "1) 500 г говяжьего фарша\n"
+            "2) 23 000 г сметаны\n"
+            "3)2 шт. лук",
+        moreInfo: "Само это блюдо "
+            "характерный вкус темного пива и"
+            "горчица дает хлеб, они к мясу"
+            "добавляется и надолго "
+            "вкус говядины при приготовлении"
+            "полностью меняет. \n\n"
+            "В рецепте"
+            "специальные продукты не используются"
+            "несмотря на это, гуляш очень вкусный и"
+            "получается ароматным. Выпечка"
+            "в процессе хлеб просто крошится"
+            "и растворяется в пиве, загустевает и"
+            "наконец-то получается отличный насыщенный соус."),
+    Meal(
+        id: 16,
+        type: "Вторые блюда",
+        name: "Домашний картофель",
+        imageUrl: "assets/images/secondfoods/kartoshkapodomashnie.png",
+        time: "7 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "--",
+        moreInfo: "Другие овощи в картофеле "
+            "в нем не так много питательных веществ. "
+            "Однако состав этих веществ"
+            "очень ценно для человеческого организма.\n\n"
+            "Например, в картофеле не так много белка,"
+            "но его содержание во фруктах"
+            "имеет высокую биологическую ценность."
+            "Эти белки полезны для здоровья"
+            "уникальный и важный, который необходим "
+            "содержит аминокислоты.",
+        inggridentsInfo: "1) соль\n"
+            "2) жир\n"
+            "3) вода\n"
+            "4) Чеснок\n"
+            "5) картофель"),
+    Meal(
+        id: 17,
+        type: "Вторые блюда",
+        name: "Xitoy uslubidagi go'sht",
+        imageUrl: "assets/images/secondfoods/myasopotaiski.png",
+        time: "9 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "--",
+        moreInfo: "Помимо ценного белка,"
+            "любое мясо богато витаминами группы В."
+            "Они гармоничны для всех систем организма"
+            "необходимо для функционирования. Клеток крови"
+            "в образовании, обменных процессах,"
+            "участвуйте в работе мозга.\n\n"
+            "Много мяса и цинка, селена."
+            "Они защищают иммунную систему"
+            "поддерживает,"
+            "обладает антиоксидантным действием."
+            "Селен наиболее распространен в птице.",
+        inggridentsInfo: "1) говяжий фарш -450 г\n"
+            "2) Молоко -180 мл\n"
+            "3) сладкий перец (красный, желтый) -250 г\n"
+            "4) Лук-порей -300 г\n"
+            "5) капустные листья-60 г"),
+    Meal(
+        id: 18,
+        type: "Вторые блюда",
+        name: "Куриная Сомса",
+        imageUrl: "assets/images/secondfoods/tovuqlisomasa.png",
+        time: "5 МИН",
+        inggridents: "6 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) мука: 500 грамм\n"
+            "2) соли: 10 грамм\n"
+            "3) Яйцо: 1\n"
+            "4) теплая вода: 260 миллилитров\n"
+            "5) Маселько маргарин\n"
+            "6) куриный бульон",
+        moreInfo: "Куриное мясо группы в "
+            "богат витаминами.Это витамин B6"
+            "иммунная система при простуде"
+            "поддерживает и витамин B5"
+            "участвует в обмене веществ.\n\n"
+            "Куриный бульон согревает тело,"
+            "насыщение витаминами и"
+            "активация иммунной системы"
+            "облегчить симптомы простуды через"
+            "помогает в достижении цели. Растворимый"
+            "жир легко усваивается ослабленным организмом."),
+    Meal(
+        id: 19,
+        type: "Вторые блюда",
+        name: "Мясная Сомса",
+        imageUrl: "assets/images/secondfoods/tovuqlisomasa.png",
+        time: "5 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "6 000",
+        moreInfo: "Помимо ценного белка,"
+            "любое мясо богато витаминами группы В."
+            "Они гармоничны для всех систем организма"
+            "необходимо для функционирования. Клеток крови"
+            "в образовании, обменных процессах,"
+            "участвуйте в работе мозга.\n\n"
+            "Много мяса и цинка, селена."
+            "Они защищают иммунную систему"
+            "поддерживает,"
+            "обладает антиоксидантным действием."
+            "Селен наиболее распространен в птице.",
+        inggridentsInfo: "1) 1) мука: 500 грамм\n"
+            "2) соли: 10 грамм\n"
+            "3) Яйцо: 1\n"
+            "4) теплая вода: 260 миллилитров\n"
+            "5) мясо\п"),
+    Meal(
+        id: 20,
+        type: "Вторые блюда",
+        name: "Бризол",
+        imageUrl: "assets/images/secondfoods/brizol2.png",
+        time: "10 МИН",
+        inggridents: "5 ИНГ",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "35 000",
+        inggridentsInfo: "1) 2 столовые ложки майонеза\n"
+            "2) 400 г говяжьего фарша\n"
+            "3) 5 яиц\n"
+            "4) 2 зубчика чеснока\n"
+            "5) 3 столовые ложки кетчупа",
+        moreInfo: "Из этого русского кулинарного термина "
+            "происхождение очень неясно."
+            "Большой кулинарный словарь Дюма-Пьера"
+            "в некий легендарный Маркиз"
+            "Брезол утверждает, что это было,"
+            "не бризоль, как сейчас сказал его слуга,"
+            "может быть, кто-то придумал блюдо под названием брезол.\n\n"
+            "Тем не менее, обычно в русской кухне это"
+            "срок тонко взбитое мясо с мукой"
+            "запеченное мясо, затем лосось"
+            "(яйцо + молоко), затем в панировочных сухарях"
+            "и означает жареное мясо. "
+            "Вариант попроще - тонкий омлет, запеканка"
+            "одна сторона без лука и хлеба в процессе"
+            "натертый фаршем и второй"
+            ". Итак,"
+            "воображению нет предела!"),
+  ];
+  static List<Meal> secondFoodsEN = [
+    Meal(
+        id: 1,
+        type: "Second dishes",
+        name: "Reception pilaf",
+        imageUrl: "assets/images/secondfoods/ziyofatosh.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "26 000",
+        moreInfo: "Delicious, quality food-health and"
+            "a guarantee of a good mood. In the present"
+            "oriental dishes are becoming increasingly popular."
+            "Chaikhana Ai-Vai of this category of dishes"
+            "offers a wide range.\n\n"
+            "Specialized in preparing and selling ready meals"
+            "many enterprises pilaf or Uzbek"
+            "they offer other dishes of their cuisine."
+            "But it is we who cook pilaf according to the old recipe."
+            "You can't put it on and you want to try another serving."
+            "Even real gourmets are so delicious in their lives"
+            "they understand that they did not taste the dish.",
+        inggridentsInfo: "1) lamb neck-500 g\n"
+            "2) long grain rice-500 g\n"
+            "3) carrots-500 g\n"
+            "4) Sunflower Oil - 150 ml\n"
+            "5) Onion-4 heads"),
+    Meal(
+        id: 2,
+        type: "Second dishes",
+        name: "Ayrim say",
+        imageUrl: "assets/images/secondfoods/ayrimsay.png",
+        time: "5 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "28 000",
+        moreInfo: "This dish, unlike the Uzbek language,"
+            "much faster and less labor intensive"
+            "cooked. All vegetables remain crispy,"
+            "only lightly fried, so they are"
+            "stores almost all vitamins\n\n."
+            "Lots of herbs and spices"
+            "this recipe is rich and wonderful in taste "
+            "makes it delicious to the extent.",
+        inggridentsInfo: "1) Wheat Flour 350 g\n"
+            "2) eggs 2 PCs\n"
+            "3) Water 400 g\n"
+            "4) salt to taste\n"
+            "5) black peppercorns to taste"),
+    Meal(
+        id: 3,
+        type: "Second dishes",
+        name: "Meat say",
+        imageUrl: "assets/images/secondfoods/gushtsay.png",
+        time: "10 MIN",
+        inggridents: "6 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "30 000",
+        inggridentsInfo: "1) beef pulp: 300 grams"
+            "2) bell pepper: 1 Red\n"
+            "3) bell pepper: 1 green\n"
+            "4) Chinese cabbage: 4 medium leaves\n"
+            "5) spices\n"
+            "6) Greens",
+        moreInfo: "Meat Say-Uyghur is popular"
+            "despite being one of the dishes,"
+            "but almost all cafes of our own"
+            "we can meet such a dish in the cookbook.\n\n"
+            "Sliced large over vegetables"
+            "we sprinkle with parsley and celery and close the lid"
+            "and we cook stewed for 7-10 minutes over low heat."
+            "We stir and serve on the table in the heat."
+            "Bon Appetit!"),
+    Meal(
+        id: 4,
+        type: "Second dishes",
+        name: "Leg of lamb",
+        imageUrl: "assets/images/secondfoods/baraniyanojka.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "60 000",
+        inggridentsInfo: "1) leg of lamb (weight about 2.5 kg)\n"
+            "2) 5 tablespoons of mustard\n"
+            "3) 5-7 cloves of garlic\n"
+            "4) port\n"
+            "5) 30 ml of vegetable oil",
+        moreInfo: "Iron top in Lamb"
+            "the amount of this meat with anemia"
+            "in the diet of sick people "
+            "makes an indispensable product.\n\n"
+            "As you know, the lack of iron in the body"
+            "leading to a decrease in hemoglobin levels"
+            "can come, which makes cells oxygen"
+            "will affect the supply."
+            "Restoration of the normal composition of the blood (production of hemoglobin)"
+            "Lamb is the main benefit of meat."),
+    Meal(
+        id: 5,
+        type: "Second dishes",
+        name: "Lamb ribs",
+        imageUrl: "assets/images/secondfoods/baraniyarebiyashka.png",
+        time: "6 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFF71C3A1,
+        Cost: "22 000",
+        inggridentsInfo: "1) beef on the bone 600 g\n"
+            "2) Water 4 l\n"
+            "3) carrots 2 PCs\n"
+            "4) onion 1 piece\n"
+            "5) beets 1 PC.",
+        moreInfo: "Regardless of the method of preparation"
+            "mutually balanced variety "
+            "high amount of vegetables"
+            "due to borscht has a positive effect on the body.\n\n"
+            "Rapid saturation of the body, intestines"
+            "and the body from toxic substances and metals"
+            "helps with gentle cleansing. It's good"
+            "has a choleretic effect, relaxes the liver and"
+            "accelerates metabolic processes in the body."
+            "Improves the biochemical composition of blood and"
+            "stimulates the processes of hematopoiesis."),
+    Meal(
+        id: 6,
+        type: "Second dishes",
+        name: "Dulma",
+        imageUrl: "assets/images/secondfoods/dulma.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "--",
+        moreInfo: "Dolma is a festive and everyday"
+            "which will be a great decoration for the table"
+            "a wonderful Oriental dish.\n\n"
+            "And the usefulness of this delicious dish"
+            "what can we say about!"
+            "Digestion in grape leaves"
+            "improving and metabolic in the body"
+            "there is a lot of dietary fiber that stimulates processes.",
+        inggridentsInfo: "1) minced meat (lamb and beef): 500 g\n"
+            "2) Grape Leaves: 600 g\n"
+            "3) mint: 1 Bush\n"
+            "4) New cilantro: 1 Bush\n"
+            "5) fresh dill: 1 Bush"),
+    Meal(
+        id: 7,
+        type: "Second dishes",
+        name: "Roast Lagman",
+        imageUrl: "assets/images/secondfoods/qovurmalagmon.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "26 000",
+        moreInfo: "Lagman is any cafe in Uzbekistan,"
+            "the most common in the restaurant, kitchen menu"
+            "one of the dishes. It's definitely worth a try!"
+            "But we note that if you like long pasta "
+            "if (Uyghur Lagman) is given, then you have patience"
+            "you will have to do.\n\n"
+            "The dish is very tasty, but it is"
+            "it takes time and a little practice to get used to consumption."
+            "Uyghur Laghman in most restaurants in Tashkent"
+            "the more prepared, the more Uzbek Lagman is Bukhara, "
+            "More prepared in the Samarkand regions and Fergana Valley.",
+        inggridentsInfo: "1) onion-3 medium onions\n"
+            "2) small green radish-1 piece"
+            "3) medium ripe tomatoes – 4 pcs."
+            "4) garlic-1 head"
+            "5) medium carrots – 2 PCs."),
+    Meal(
+        id: 8,
+        type: "Second dishes",
+        name: "Manti",
+        imageUrl: "assets/images/secondfoods/manti.png",
+        time: "8 MIN",
+        inggridents: "4 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) 500 g (18 oz.) A/p on\n"
+            "2) 1 egg\n"
+            "3) 200 ml (7 fl less.) bottled water\n"
+            "4) 1 tbsp. Kosher salt",
+        moreInfo: "Dishes of Uzbek cuisine"
+            "the man who tasted all Uzbek"
+            "dishes of fried meat and"
+            "vegetable-based dishes"
+            "it can be imagined,"
+            "but this is not so.\n\n"
+            "Steamed"
+            "the dishes are also in Uzbek cuisine."
+            "For example: manti-wonderful, appetizing"
+            "one of the provoking and most importantly useful dishes."),
+    Meal(
+        id: 9,
+        type: "Second dishes",
+        name: "Dumgaza",
+        imageUrl: "assets/images/secondfoods/dumgaza.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "90 000",
+        moreInfo: "Dumgaz is a wonderful thing. And a lot of meat"
+            "although not, it's so soft,"
+            "no other part can be compared."
+            "In addition, Dumgasa is strong in collagen"
+            "the source is. The same substance that causes colds.\n\n"
+            "The dish is also called dumgaz. And if you"
+            "if you somehow bring it closer to the usual concept,"
+            "he will be ragu from beef tails.",
+        inggridentsInfo: "1) ox tails - 1.5 kg (2 pieces)\n"
+            "2) carrots-2 PCs\n"
+            "3)petiole celery with greens - 4-5 stalks\n"
+            "4) onion-1 large onion\n"
+            "5) garlic-2 cloves"),
+    Meal(
+        id: 10,
+        type: "Second dishes",
+        name: "Pot kebab",
+        imageUrl: "assets/images/secondfoods/qozonkabob.png",
+        time: "8 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "20 000",
+        moreInfo: "Uzbek Kazan-kebab for the East"
+            "being one of the traditional meat dishes,"
+            "Infinite about its origin"
+            "one can argue. Potatoes, onions"
+            "and in a pot with spices"
+            "(in a large pot) roasted and ground"
+            "meat is the national dish of any nation"
+            "found in recipes.\n\n"
+            "Settlers "
+            "the big pot was carried with them, he said"
+            "found in any modern house and give you meat,"
+            "you will need onions, potatoes, peppers and spices."
+            "Preparing meat and onions, laying in a cauldron "
+            "Cooking Kazan kebab is not difficult, meat "
+            "depending on how well it suits you,"
+            "the process takes from one to three hours"
+            "can reach. We offer one of the recipes",
+        inggridentsInfo: "1) lamb meat: 500 grams\n"
+            "2) potatoes: 500 grams\n"
+            "3) bulb: 1\n"
+            "4) cumin: half a teaspoon\n"
+            "5) coriander: half a teaspoon"),
+
+    //new update
+
+    Meal(
+        id: 11,
+        type: "Second dishes",
+        name: "Tabaka",
+        imageUrl: "assets/images/secondfoods/tabaka.png",
+        time: "12 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "45 000",
+        moreInfo: "Chicken tabaka or chicken tapaka"
+            "traditional is Georgian"
+            "fried food chicken is another"
+            "Also popular in Caucasian cuisine.\n\n"
+            "It is also spacious in Soviet cuisine"
+            "spread has become a restaurant dish and"
+            "East now"
+            "In Europe and Central Asia"
+            "occurs in many restaurants",
+        inggridentsInfo: "1) 1 piece of chicken (weight 600-700 g)\n"
+            "2) 2 cloves of garlic\n"
+            "3) 1 tbsp. Hap-soneli\n"
+            "4) teaspoon adjika (real, without tomatoes, can be dry)\n"
+            "5) salt to taste"),
+    Meal(
+        id: 12,
+        type: "Second dishes",
+        name: "Jiz",
+        imageUrl: "assets/images/secondfoods/jiz.png",
+        time: "4 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "140 000",
+        moreInfo: "Gold in fat and meat fat"
+            "medium size fried in color"
+            "stewed roast with potatoes."
+            "And the meat in a dry or sour marinade "
+            "pre-marinated. Come on, three"
+            "let's compare Kazan-kebab: Lamb,"
+            "poultry and beef.\n\n"
+            "In hot oil "
+            "medium-sized chicken pieces"
+            "how long will it take to fry."
+            "20-25 minutes. And for the Lamb, the rib part?"
+            "25-35 minutes, depending on the meat. And goods "
+            "meat, cut into pieces of the same size?",
+        inggridentsInfo: "1) Meat-2 kg\n"
+            "2) potatoes-1 kg\n"
+            "3) butter oil - 200 gr\n"
+            "4) onion-300 gr\n"
+            "5) vegetable oil-120 ml"),
+    Meal(
+        id: 13,
+        type: "Second dishes",
+        name: "Brizal",
+        imageUrl: "assets/images/secondfoods/birzol.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "25 000",
+        inggridentsInfo: "1)2 tablespoons of mayonnaise\n"
+            "2) 400 grams of ground beef\n"
+            "3) 5 eggs\n"
+            "4) 2 cloves of garlic\n"
+            "5) 3 tablespoons of ketchup",
+        moreInfo: "Of this Russian culinary term "
+            "the origin is very uncertain."
+            "Dumas Pierre his great culinary dictionary"
+            "at a certain legendary Marquis"
+            "Emphasizes that it was Brezol,"
+            "as his servant said now, not brizol,"
+            "maybe he came up with a dish called brezol.\n\n"
+            "Nevertheless, usually in Russian cuisine it is"
+            "the term refers to thin beaten meat, with flour "
+            "cooked meat, then lezon "
+            "(egg + milk), then in breadcrumbs"
+            "and means fried meat. "
+            "The option is simpler - thin omelet, baking"
+            "one side of the process without onions and bread"
+            "rubbed with minced meat, and the second"
+            "will be covered by. So,"
+            "there is no limit to imagination!"),
+    Meal(
+        id: 14,
+        type: "Second dishes",
+        name: "Molgo strogan",
+        imageUrl: "assets/images/secondfoods/befstrogan.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC186,
+        Cost: "30 000",
+        inggridentsInfo: "1) 600 g beef\n"
+            "2) onion 1 piece\n"
+            "3) sour cream 200 ml\n"
+            "4) tomato paste 1 tbsp.\n"
+            "5) flour 1 tbsp. l",
+        moreInfo: "Russian cuisine for a long time "
+            "has since conquered the world."
+            "In Paris, even in New York,"
+            "In Bangkok, too, you can find a Russian restaurant"
+            "you will find, there you will be given porridge, borscht,"
+            "pancakes, dumplings, caviar are offered.\n\n"
+            "But in our national cuisine"
+            "less popular abroad"
+            "not the same importance"
+            "there is food. This beef Stroganov."
+            "Beef stroganoff-porcini "
+            "sour cream with mushrooms"
+            "small pieces of beef in sauce."),
+    Meal(
+        id: 15,
+        type: "Second dishes",
+        name: "Fri meat",
+        imageUrl: "assets/images/secondfoods/befstrogan.png",
+        time: "6 MIN",
+        inggridents: "3 ING",
+        bannerColor: 0xFF71C3A1,
+        Cost: "38 000",
+        inggridentsInfo: "1) 500 g beef tenderloin\n"
+            "2) 23 000 g sour cream\n"
+            "3) 2 PCs. onion",
+        moreInfo: "To this dish itself "
+            "typical taste dark beer and"
+            "mustard gives bread, they give meat"
+            "added and for a long time "
+            "taste of beef when cooked"
+            "completely changes. \n\n"
+            "In the recipe"
+            "to the fact that special products are not used"
+            "despite, goulash is very tasty and"
+            "it turns out fragrant. Cooking"
+            "in the process, bread simply crumbles"
+            "and in beer it melts, thickens and"
+            "finally forms an incredibly rich sauce."),
+    Meal(
+        id: 16,
+        type: "Second dishes",
+        name: "Home potatoes",
+        imageUrl: "assets/images/secondfoods/kartoshkapodomashnie.png",
+        time: "7 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "--",
+        moreInfo: "Other vegetables in potatoes "
+            "there are not many nutrients such as. "
+            "However, the composition of these substances"
+            "it is very valuable for the human body.\n\n"
+            "There is not much protein in potatoes, for example,"
+            "but its composition in the fruit"
+            "has a high biological value."
+            "These proteins are for health "
+            "unique and important necessary "
+            "contains amino acids.",
+        inggridentsInfo: "1) dust\n"
+            "2) fat\n"
+            "3) water\n"
+            "4) garlic\n"
+            "5) potatoes"),
+    Meal(
+        id: 17,
+        type: "Second dishes",
+        name: "Chinese style meat",
+        imageUrl: "assets/images/secondfoods/myasopotaiski.png",
+        time: "9 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFDCC7B1,
+        Cost: "--",
+        moreInfo: "In addition to valuable protein,"
+            "any meat is rich in B vitamins."
+            "They are the harmony of all body systems "
+            "it is necessary for it to work. Of the blood cells"
+            "in its formation, in metabolic processes,"
+            "participate in the work of the brain.\n\n"
+            "A lot of meat and zinc, selenium."
+            "They make the immune system"
+            "supports,"
+            "has antioxidant action."
+            "Selenium is the most abundant in poultry.",
+        inggridentsInfo: "1) beef tenderloin -450 g\n\n"
+            "2) milk -180 ml\n\n"
+            "3) sweet pepper (red, yellow) -250 g\n\n"
+            "4) onion -300 g\n\n"
+            "5) cabbage leaves-60 g"),
+    Meal(
+        id: 18,
+        type: "Second dishes",
+        name: "Somsa with chicken",
+        imageUrl: "assets/images/secondfoods/tovuqlisomasa.png",
+        time: "5 MIN",
+        inggridents: "6 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "--",
+        inggridentsInfo: "1) flour: 500 grams\n"
+            "2) salts: 10 grams\n"
+            "3) seeds: 1\n"
+            "4) warm water: 260 milliliters\n"
+            "5) Maselko margarine\n"
+            "6) chicken meat",
+        moreInfo: "Chicken meat Group B "
+            "rich in vitamins.This is vitamin B6"
+            "the immune system in case of colds"
+            "supports and vitamin B5"
+            "participates in metabolism.\n\n"
+            "Chicken broth to warm the body,"
+            "saturate with vitamins and"
+            "activation of the immune system"
+            "eliminate cold symptoms through"
+            "helps to make. Soluble"
+            "fat is easily absorbed by a weakened body."),
+    Meal(
+        id: 19,
+        type: "Second dishes",
+        name: "Meat somsa",
+        imageUrl: "assets/images/secondfoods/tovuqlisomasa.png",
+        time: "5 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFF2DFE1,
+        Cost: "6 000",
+        moreInfo: "In addition to valuable protein,"
+            "any meat is rich in B vitamins."
+            "They are the harmony of all body systems "
+            "it is necessary for it to work. Of the blood cells"
+            "in its formation, in metabolic processes,"
+            "participate in the work of the brain.\n\n"
+            "A lot of meat and zinc, selenium."
+            "They make the immune system"
+            "supports,"
+            "has antioxidant action."
+            "Selenium is the most abundant in poultry.",
+        inggridentsInfo: "1) 1) flour: 500 grams\n"
+            "2) salts: 10 grams\n"
+            "3) seeds: 1\n"
+            "4) warm water: 260 milliliters\n"
+            "5) meat\n"),
+
+    Meal(
+        id: 20,
+        type: "Second dishes",
+        name: "Brizal",
+        imageUrl: "assets/images/secondfoods/brizol2.png",
+        time: "10 MIN",
+        inggridents: "5 ING",
+        bannerColor: 0xFFFFC5A8,
+        Cost: "35 000",
+        inggridentsInfo: "1)2 tablespoons of mayonnaise\n"
+            "2) 400 grams of ground beef\n"
+            "3) 5 eggs\n"
+            "4) 2 cloves of garlic\n"
+            "5) 3 tablespoons of ketchup",
+        moreInfo: "Of this Russian culinary term "
+            "the origin is very uncertain."
+            "Dumas Pierre his great culinary dictionary"
+            "at a certain legendary Marquis"
+            "Emphasizes that it was Brezol,"
+            "as his servant said now, not brizol,"
+            "maybe he came up with a dish called brezol.\n\n"
+            "Nevertheless, usually in Russian cuisine it is"
+            "the term refers to thin beaten meat, with flour "
+            "cooked meat, then lezon "
+            "(egg + milk), then in breadcrumbs"
+            "and means fried meat. "
+            "The option is simpler - thin omelet, baking"
+            "one side of the process without onions and bread"
+            "rubbed with minced meat, and the second"
+            "will be covered by. So,"
+            "there is no limit to imagination!"),
   ];
 
   //Kebab screen mould

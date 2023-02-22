@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
 import 'package:la_ziyofat_restaurant/screens/frist_dishes_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/garnishes_screen.dart';
+import 'package:la_ziyofat_restaurant/screens/second_foods_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/shashlik_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/solads_screen.dart';
 import 'package:provider/provider.dart';
@@ -21,6 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
     const SoladsScreen(),
     const GarnishesScreen(),
     const FristDishesPage(),
+    const SecondFoodsScreen(),
     const ShashlikPage(),
     Container(
       height: double.infinity,
@@ -145,6 +147,14 @@ class _MyHomePageState extends State<MyHomePage> {
                                 quarterTurns: -1,
                                 child: Text(
                                   "firstdishes".tr(),
+                                ),
+                              ),
+                              icon: const SizedBox()),
+                          NavigationRailDestination(
+                              label: RotatedBox(
+                                quarterTurns: -1,
+                                child: Text(
+                                  "secondfoods".tr(),
                                 ),
                               ),
                               icon: const SizedBox()),
