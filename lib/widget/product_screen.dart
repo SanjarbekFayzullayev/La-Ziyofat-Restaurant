@@ -1,15 +1,16 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:la_ziyofat_restaurant/Moduls/meal_moduls.dart';
+import 'package:la_ziyofat_restaurant/util/navigator_settings.dart';
 import 'package:provider/provider.dart';
-
+import '../food_detals/detals_page.dart';
 import '../main_provayder.dart';
+
 class ProductItem extends StatefulWidget {
   final shashlikmeal;
 
   final int index;
 
-  const ProductItem(this.shashlikmeal, this.index, {Key? key}) : super(key: key);
+  ProductItem(this.shashlikmeal, this.index, {Key? key}) : super(key: key);
 
   @override
   State<ProductItem> createState() => _ProductItemState();
@@ -18,8 +19,8 @@ class ProductItem extends StatefulWidget {
 class _ProductItemState extends State<ProductItem> {
   @override
   Widget build(BuildContext context) {
-    final langProvider = Provider.of<MainProvayder>(context, listen: false);
-
+    final mainProvider = Provider.of<MainProvayder>(context, listen: false);
+    var a = widget.index;
     MediaQueryData mediaQueryData = MediaQuery.of(context);
     var size = mediaQueryData.size;
     return Stack(
@@ -39,7 +40,7 @@ class _ProductItemState extends State<ProductItem> {
             width: 230,
             height: 360,
             child: Padding(
-              padding:const EdgeInsets.all(12),
+              padding: const EdgeInsets.all(12),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
@@ -54,12 +55,16 @@ class _ProductItemState extends State<ProductItem> {
                           Container(
                               width: 2,
                               height: 24,
-                              color:  const Color(0xFF2A5270)),
-
+                              color: const Color(0xFF2A5270)),
                           const SizedBox(
                             width: 6,
                           ),
-                          Text(widget.shashlikmeal.type!,style: const TextStyle(color: Color(0xFF2A5270),fontWeight: FontWeight.bold),),
+                          Text(
+                            widget.shashlikmeal.type!,
+                            style: const TextStyle(
+                                color: Color(0xFF2A5270),
+                                fontWeight: FontWeight.bold),
+                          ),
                         ],
                       ),
                       const SizedBox(
@@ -70,7 +75,7 @@ class _ProductItemState extends State<ProductItem> {
                         style: const TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.w700,
-                            color:  Color(0xff1E2022)),
+                            color: Color(0xff1E2022)),
                       ),
                       const SizedBox(
                         height: 16,
@@ -81,16 +86,16 @@ class _ProductItemState extends State<ProductItem> {
                           Text(
                             "Summ".tr(),
                             style: const TextStyle(
-                                fontSize:20,
+                                fontSize: 20,
                                 fontWeight: FontWeight.w600,
-                                color:  Color(0xff1E2022)),
+                                color: Color(0xff1E2022)),
                           ),
                           Text(
                             widget.shashlikmeal.Cost!,
                             style: const TextStyle(
-                                fontSize:20,
+                                fontSize: 20,
                                 fontWeight: FontWeight.w600,
-                                color:  Color(0xff1E2022)),
+                                color: Color(0xff1E2022)),
                           ),
                         ],
                       ),
@@ -102,33 +107,34 @@ class _ProductItemState extends State<ProductItem> {
                         children: [
                           Row(
                             children: [
-                              const Icon(Icons.restaurant_sharp,color: Colors.black,),
-
+                              const Icon(
+                                Icons.restaurant_sharp,
+                                color: Colors.black,
+                              ),
                               const SizedBox(
-                                width:4,
+                                width: 4,
                               ),
                               Text(
                                 widget.shashlikmeal.time!,
-                                style:  const TextStyle(
-                                    fontSize:20,
+                                style: const TextStyle(
+                                    fontSize: 20,
                                     fontWeight: FontWeight.w600,
-                                    color:  Color(0xff1E2022)),
+                                    color: Color(0xff1E2022)),
                               ),
                             ],
                           ),
                           Row(
                             children: [
-                              const Icon(Icons.hot_tub,color: Colors.black),
-
+                              const Icon(Icons.hot_tub, color: Colors.black),
                               const SizedBox(
-                                width:4,
+                                width: 4,
                               ),
                               Text(
                                 widget.shashlikmeal.inggridents!,
                                 style: const TextStyle(
-                                    fontSize:20,
+                                    fontSize: 20,
                                     fontWeight: FontWeight.w600,
-                                    color:  Color(0xff1E2022)),
+                                    color: Color(0xff1E2022)),
                               ),
                             ],
                           ),
@@ -141,10 +147,21 @@ class _ProductItemState extends State<ProductItem> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Image.asset(
-                        "assets/images/btnadd.png",
-                        height: 60,
-                        width: 60,
+                      InkWell(
+                        onTap: () async {
+
+                          List<int> favList = await mainProvider.getFavList();
+                          var newList = List.of(favList);
+                          if (!newList.contains(widget.index)) {
+                            newList.add(widget.index);
+                          }
+                          mainProvider.savFavList(newList);
+                        },
+                        child: Image.asset(
+                          "assets/images/btnadd1.png",
+                          height: 60,
+                          width: 60,
+                        ),
                       ),
                       SizedBox(
                         height: 60,
@@ -153,15 +170,15 @@ class _ProductItemState extends State<ProductItem> {
                             backgroundColor: MaterialStateProperty.all<Color>(
                                 const Color(0xFF193B55)),
                             shape: MaterialStateProperty.all<
-                                RoundedRectangleBorder>(
+                                    RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10))),
                           ),
                           onPressed: () {
-                            setState(() {
-                              langProvider.isItemSelected(true);
-                              langProvider.setItemIndex(widget.index);
-                            });
+                            NewNavigator.RightToLeft(
+                                context, DetlisPage(widget.index));
+                            // mainProvider.isItemSelected(true);
+                            // mainProvider.setItemIndex(widget.index);
                           },
                           child: Text(
                             "btn".tr(),
@@ -181,8 +198,7 @@ class _ProductItemState extends State<ProductItem> {
             right: 0.9,
             child: Padding(
               padding: const EdgeInsets.only(left: 20),
-              child: Image.asset(widget.shashlikmeal.imageUrl!,
-                  width:200),
+              child: Image.asset(widget.shashlikmeal.imageUrl!, width: 200),
             ))
       ],
     );

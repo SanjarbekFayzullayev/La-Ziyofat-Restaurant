@@ -18,6 +18,8 @@ dependencies:
   animated_native_splash: ^1.3.0
   provider: ^6.0.2
   easy_localization: ^3.0.1
+  shared_preferences: ^2.0.17
+  page_route_animator: ^1.0.3
 
 
 dev_dependencies:
@@ -34,6 +36,7 @@ flutter:
     - assets/images/
     - assets/animations/splash1.json
     - assets/traslaton/
+    - assets/
 
 
 #  fonts:

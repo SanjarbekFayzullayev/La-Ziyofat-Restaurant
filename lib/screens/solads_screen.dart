@@ -1,7 +1,5 @@
-import 'dart:io';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:la_ziyofat_restaurant/food_detals/detals_page_salads.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
 import 'package:la_ziyofat_restaurant/widget/product_screen.dart';
 import 'package:provider/provider.dart';
@@ -18,19 +16,10 @@ class _SoladsScreenState extends State<SoladsScreen> {
   @override
   Widget build(BuildContext context) {
     final mainProvider = Provider.of<MainProvayder>(context, listen: false);
-    return WillPopScope(onWillPop: () {
-      mainProvider.getItemSelected()
-          ? setState(() {
-              mainProvider.isItemSelected(false);
-            })
-          : exit(0);
-      return Future(() => false);
-    }, child: Consumer<MainProvayder>(
+    return Consumer<MainProvayder>(
       builder: (context, date, child) {
         return SafeArea(
-          child: (mainProvider.getItemSelected())
-              ? DetlisPageSalads(mainProvider.getItemIndex())
-              : Scaffold(
+          child:  Scaffold(
                   body: LayoutBuilder(
                     builder:
                         (BuildContext context, BoxConstraints constraints) {
@@ -40,7 +29,7 @@ class _SoladsScreenState extends State<SoladsScreen> {
                 ),
         );
       },
-    ));
+    );
   }
 
   Widget mainUI(BoxConstraints constraints) {

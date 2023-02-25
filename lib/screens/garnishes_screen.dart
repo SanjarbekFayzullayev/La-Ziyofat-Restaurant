@@ -19,19 +19,10 @@ class _GarnishesScreenState extends State<GarnishesScreen> {
   @override
   Widget build(BuildContext context) {
     final mainProvider = Provider.of<MainProvayder>(context, listen: false);
-    return WillPopScope(onWillPop: () {
-      mainProvider.getItemSelected()
-          ? setState(() {
-              mainProvider.isItemSelected(false);
-            })
-          : exit(0);
-      return Future(() => false);
-    }, child: Consumer<MainProvayder>(
+    return Consumer<MainProvayder>(
       builder: (context, date, child) {
         return SafeArea(
-          child: (mainProvider.getItemSelected())
-              ? DetlisPage(mainProvider.getItemIndex())
-              : Scaffold(
+          child:  Scaffold(
                   body: LayoutBuilder(
                     builder:
                         (BuildContext context, BoxConstraints constraints) {
@@ -41,7 +32,7 @@ class _GarnishesScreenState extends State<GarnishesScreen> {
                 ),
         );
       },
-    ));
+    );
   }
 
   Widget mainUI(BoxConstraints constraints) {

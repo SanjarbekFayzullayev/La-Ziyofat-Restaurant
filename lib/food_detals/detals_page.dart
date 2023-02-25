@@ -11,36 +11,38 @@ class DetlisPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-
-
     final mainProvider = Provider.of<MainProvayder>(context, listen: false);
-    return Container(
-      decoration: const BoxDecoration(
-        image: DecorationImage(
-            image: AssetImage("assets/images/bgdetals.png"), fit: BoxFit.cover),
-      ),
-      child: Consumer<MainProvayder>(
-        builder: (context, data, child) {
-          return Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              IconButton(
-                padding: const EdgeInsets.only(top: 12, left: 12),
-                onPressed: () {
-                  mainProvider.isItemSelected(false);
-                },
-                icon: const Icon(
-                  Icons.arrow_back_ios_new_outlined,
-                  size: 36,
-                  color: Colors.white,
-                ),
-              ),
-              Expanded(child: myBody(context))
-            ],
-          );
-        },
+    return SafeArea(
+      child: Scaffold(
+        body: Container(
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("assets/images/bgdetals.png"), fit: BoxFit.cover),
+          ),
+          child: Consumer<MainProvayder>(
+            builder: (context, data, child) {
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  IconButton(
+                    padding: const EdgeInsets.only(top: 12, left: 12),
+                    onPressed: () {
+                      Navigator.pop(
+                          context);
+                    },
+                    icon: const Icon(
+                      Icons.arrow_back_ios_new_outlined,
+                      size: 36,
+                      color: Colors.white,
+                    ),
+                  ),
+                  Expanded(child: myBody(context))
+                ],
+              );
+            },
+          ),
+        ),
       ),
     );
   }
@@ -189,22 +191,21 @@ class DetlisPage extends StatelessWidget {
     switch (context.locale.toString()) {
       case "uz_UZ":
         {
-          return Meal.garnishesUZ;
+          return Meal.secondFoodsUZ;
         }
       case "uz_KR":
         {
-          return Meal.garnishesKR;
+          return Meal.secondFoodsKR;
         }
       case "ru_RU":
         {
-          return Meal.garnishesRU;
+          return Meal.secondFoodsRU;
         }
       case "en_US":
         {
-          return Meal.garnishesEN;
+          return Meal.secondFoodsEN;
         }
     }
     return Meal.garnishesUZ;
   }
 }
-
