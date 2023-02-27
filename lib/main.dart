@@ -49,6 +49,7 @@ class _MyAppState extends State<MyApp> {
     //   DeviceOrientation.portraitUp,
     // ]);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,

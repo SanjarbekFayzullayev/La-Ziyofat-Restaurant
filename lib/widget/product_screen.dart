@@ -155,6 +155,7 @@ class _ProductItemState extends State<ProductItem> {
                         onTap: () {
 
                           if (widget.isFavourite) {
+
                             final player=AudioCache();
                             player.play("btnsound/remove.wav");
                             removeFormFavorite(widget.index);
@@ -176,26 +177,28 @@ class _ProductItemState extends State<ProductItem> {
                                 width: 60,
                               ),
                       ),
-                      SizedBox(
-                        height: 60,
-                        child: ElevatedButton(
-                          style: ButtonStyle(
-                            backgroundColor: MaterialStateProperty.all<Color>(
-                                const Color(0xFF193B55)),
-                            shape: MaterialStateProperty.all<
-                                    RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(10))),
-                          ),
-                          onPressed: () {
-                            NewNavigator.RightToLeft(context,
-                                DetlisPage(widget.index,widget.productType));
-                            // mainProvider.isItemSelected(true);
-                            // mainProvider.setItemIndex(widget.index);
-                          },
-                          child: Text(
-                            "btn".tr(),
-                            style: const TextStyle(fontSize: 25),
+                      Expanded(
+                        child: SizedBox(
+                          height: 60,
+                          child: ElevatedButton(
+                            style: ButtonStyle(
+                              backgroundColor: MaterialStateProperty.all<Color>(
+                                  const Color(0xFF193B55)),
+                              shape: MaterialStateProperty.all<
+                                      RoundedRectangleBorder>(
+                                  RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(10))),
+                            ),
+                            onPressed: () {
+                              NewNavigator.RightToLeft(context,
+                                  DetlisPage(widget.index,widget.productType));
+                              // mainProvider.isItemSelected(true);
+                              // mainProvider.setItemIndex(widget.index);
+                            },
+                            child: Text(
+                              "btn".tr(),
+                              style: const TextStyle(fontSize: 24),
+                            ),
                           ),
                         ),
                       )

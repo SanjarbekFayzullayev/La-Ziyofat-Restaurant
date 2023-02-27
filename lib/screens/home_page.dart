@@ -1,10 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
-import 'package:la_ziyofat_restaurant/screens/favourite_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/frist_dishes_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/garnishes_screen.dart';
-import 'package:la_ziyofat_restaurant/screens/scrree.dart';
 import 'package:la_ziyofat_restaurant/screens/second_foods_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/shashlik_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/solads_screen.dart';
@@ -22,13 +20,11 @@ class _MyHomePageState extends State<MyHomePage> {
   //Screens
 
   final List<Widget> _pages = [
-    FavouriteScreen(),
     const SoladsScreen(),
     const GarnishesScreen(),
     const FristDishesPage(),
     const SecondFoodsScreen(),
     const ShashlikPage(),
-    Myysttahh()
   ];
 
   void setCurrentLangButton() {
@@ -80,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  int _selectIndex = 1;
+  int _selectIndex = 0;
   final List<Lang> _langs = [
     Lang(name: "UZ", isActive: true),
     Lang(name: "KR", isActive: false),
@@ -121,20 +117,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       destinations: [
                         NavigationRailDestination(
                             label: RotatedBox(
-                              quarterTurns: 0,
-                              child: _selectIndex == 0
-                                  ? const Icon(
-                                      Icons.shopping_cart_rounded,
-                                      color: Colors.white,
-                                    )
-                                  : const Icon(
-                                      Icons.shopping_cart_outlined,
-                                      color: Colors.white60,
-                                    ),
-                            ),
-                            icon: const SizedBox()),
-                        NavigationRailDestination(
-                            label: RotatedBox(
                               quarterTurns: -1,
                               child: Text(
                                 "salads".tr(),
@@ -171,12 +153,6 @@ class _MyHomePageState extends State<MyHomePage> {
                               child: Text("different".tr()),
                             ),
                             icon: const SizedBox()),
-                        const NavigationRailDestination(
-                            label: RotatedBox(
-                              quarterTurns: -1,
-                              child: Text("Menu to'rt"),
-                            ),
-                            icon: SizedBox()),
                       ],
                       selectedIndex: _selectIndex),
                 ),

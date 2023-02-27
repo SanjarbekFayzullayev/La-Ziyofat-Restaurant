@@ -8,7 +8,8 @@ import '../Moduls/meal_moduls.dart';
 
 class DetlisPage extends StatefulWidget {
   int selectdIndex;
-  final ProductType productType;
+   final ProductType productType;
+
 
   DetlisPage(this.selectdIndex, this.productType, {Key? key}) : super(key: key);
 
@@ -20,9 +21,9 @@ class _DetlisPageState extends State<DetlisPage> {
   @override
   Widget build(BuildContext context) {
     return Consumer<MainProvayder>(builder: (context, data, child) {
-      return Material(
-        child: SafeArea(
-          child: Container(
+      return SafeArea(
+        child: Material(
+          child:  Container(
             height: double.infinity,
             decoration: const BoxDecoration(
               image: DecorationImage(
@@ -30,7 +31,7 @@ class _DetlisPageState extends State<DetlisPage> {
                 image: AssetImage('assets/images/bgdetals.png'),
               ),
             ),
-            child: Column(
+            child:  Column(
               mainAxisSize: MainAxisSize.max,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -46,9 +47,7 @@ class _DetlisPageState extends State<DetlisPage> {
                         size: 36,
                       ),
                     )),
-                // Container(child: buildUIForAndroid()),
-                Expanded(child: buildUIForAndroid())
-              ],
+                Expanded(child: buildUIForAndroid()),        ],
             ),
           ),
         ),
@@ -57,145 +56,6 @@ class _DetlisPageState extends State<DetlisPage> {
   }
 
   Widget myBody(Meal meal) {
-    MediaQueryData mediaQueryData = MediaQuery.of(context);
-    var size = mediaQueryData.size;
-    return Container(
-      color: Colors.white,
-      width: double.infinity,
-      height: double.infinity,
-      margin: const EdgeInsets.only(right: 30, top: 70),
-      child: Stack(
-        clipBehavior: Clip.none,
-        alignment: Alignment.center,
-        children: [
-          Padding(
-            padding: EdgeInsets.only(left: size.height * 0.020),
-            child: Expanded(
-              child: ListView(
-                children: [
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const SizedBox(
-                        height: 54,
-                      ),
-                      Row(
-                        children: [
-                          const SizedBox(
-                            height: 60,
-                          ),
-                          Container(width: 2, height: 24, color: Colors.blue),
-                          const SizedBox(
-                            width: 6,
-                          ),
-                          Text(
-                            meal.type!,
-                            style: const TextStyle(color: Colors.blue),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(
-                        height: 2,
-                      ),
-                      Text(
-                        meal.name!,
-                        style: const TextStyle(
-                            fontSize: 24,
-                            fontWeight: FontWeight.w700,
-                            color: Color(0xff1E2022)),
-                      ),
-                      SizedBox(
-                        height: size.height * 0.048,
-                      ),
-                      Padding(
-                        padding: EdgeInsets.only(
-                            left: size.width * 0.02, right: size.width * 0.02),
-                      ),
-                      SizedBox(
-                        height: size.height * 0.0001,
-                      ),
-                      Padding(
-                        padding: EdgeInsets.only(right: size.height * 0.020),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Row(children: [
-                              const Icon(
-                                Icons.restaurant_sharp,
-                                color: Colors.black,
-                              ),
-                              SizedBox(
-                                width: size.width * 0.01,
-                              ),
-                              Text(
-                                meal.time!,
-                                style: const TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w600,
-                                    color: Color(0xff1E2022)),
-                              ),
-                            ]),
-                            Row(children: [
-                              const Icon(Icons.hot_tub, color: Colors.black),
-                              const SizedBox(
-                                width: 4,
-                              ),
-                              Text(
-                                meal.inggridents!,
-                                style: const TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w600,
-                                    color: Color(0xff1E2022)),
-                              ),
-                            ]),
-                          ],
-                        ),
-                      ),
-                      SizedBox(
-                        height: size.height * 0.034,
-                      ),
-                      Text(
-                        meal.moreInfo!,
-                        textAlign: TextAlign.start,
-                        style: const TextStyle(fontSize: 18),
-                      ),
-                      Center(
-                        child: Text(
-                          "ing".tr(),
-                          style: TextStyle(
-                              fontSize: size.height * 0.029,
-                              fontWeight: FontWeight.w300,
-                              color: Colors.blue),
-                        ),
-                      ),
-                      const SizedBox(
-                        height: 12,
-                      ),
-                      Center(
-                        child: Text(
-                          meal.inggridentsInfo!,
-                          style: const TextStyle(fontSize: 16),
-                        ),
-                      ),
-                      const SizedBox(
-                        height: 56,
-                      )
-                    ],
-                  ),
-                ],
-              ),
-            ),
-          ),
-          Positioned(
-              top: -70,
-              right: -20,
-              child: Image.asset(meal.imageUrl!, width: 230))
-        ],
-      ),
-    );
-  }
-
-  Widget myBody2(Meal meal) {
     MediaQueryData mediaQueryData = MediaQuery.of(context);
     var size = mediaQueryData.size;
     return Container(
@@ -225,23 +85,23 @@ class _DetlisPageState extends State<DetlisPage> {
                         width: 6,
                       ),
                       Text(
-                        salads()[widget.selectdIndex].type!,
+                        meal.type!,
                         style: const TextStyle(color: Colors.blue),
                       ),
                     ],
                   ),
                   Expanded(
                       child: Image.asset(
-                    salads()[widget.selectdIndex].imageUrl!,
-                    width: 230,
-                  ))
+                        meal.imageUrl!,
+                        width: 230,
+                      ))
                 ],
               ),
               const SizedBox(
                 height: 2,
               ),
               Text(
-                salads()[widget.selectdIndex].name!,
+                meal.name!,
                 style: const TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.w700,
@@ -271,7 +131,7 @@ class _DetlisPageState extends State<DetlisPage> {
                         width: size.width * 0.01,
                       ),
                       Text(
-                        salads()[widget.selectdIndex].time!,
+                        meal.time!,
                         style: const TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w600,
@@ -284,7 +144,7 @@ class _DetlisPageState extends State<DetlisPage> {
                         width: 4,
                       ),
                       Text(
-                        salads()[widget.selectdIndex].inggridents!,
+                        meal.inggridents!,
                         style: const TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w600,
@@ -298,7 +158,7 @@ class _DetlisPageState extends State<DetlisPage> {
                 height: size.height * 0.034,
               ),
               Text(
-                salads()[widget.selectdIndex].moreInfo!,
+                meal.moreInfo!,
                 textAlign: TextAlign.start,
                 style: const TextStyle(fontSize: 18),
               ),
@@ -316,7 +176,7 @@ class _DetlisPageState extends State<DetlisPage> {
               ),
               Center(
                 child: Text(
-                  salads()[widget.selectdIndex].inggridentsInfo!,
+                  meal.inggridentsInfo!,
                   style: const TextStyle(fontSize: 16),
                 ),
               ),
@@ -329,6 +189,8 @@ class _DetlisPageState extends State<DetlisPage> {
       ),
     );
   }
+
+
 
   List<Meal> salads() {
     switch (context.locale.toString()) {
@@ -418,7 +280,7 @@ class _DetlisPageState extends State<DetlisPage> {
           return Meal.secondFoodsEN;
         }
     }
-    return Meal.garnishesUZ;
+    return Meal.secondFoodsUZ;
   }
 
   //Ikkinchi taomlar
@@ -471,29 +333,4 @@ class _DetlisPageState extends State<DetlisPage> {
     }
   }
 
-  Widget buildUIForWeb() {
-    switch (widget.productType) {
-      case ProductType.SALADS:
-        {
-          return myBody2(salads()[widget.selectdIndex]);
-        }
-
-      case ProductType.GARNISHES:
-        {
-          return myBody2(garnishes()[widget.selectdIndex]);
-        }
-      case ProductType.FRISTDISHES:
-        {
-          return myBody2(firstFoods()[widget.selectdIndex]);
-        }
-      case ProductType.SECONDDISHES:
-        {
-          return myBody2(secondFoods()[widget.selectdIndex]);
-        }
-      case ProductType.DIFFENT:
-        {
-          return myBody2(different()[widget.selectdIndex]);
-        }
-    }
-  }
 }

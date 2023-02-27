@@ -69,7 +69,7 @@ class _SecondFoodsScreenState extends State<SecondFoodsScreen> {
                         return ProductItem(getLocala()[index], index,ProductType.SECONDDISHES,Constants.SECONDDISHEST_KEY,
                             isFavourite: true);
                       } else {
-                        return ProductItem(getLocala()[index], index,ProductType.GARNISHES,Constants.SECONDDISHEST_KEY,
+                        return ProductItem(getLocala()[index], index,ProductType.SECONDDISHES,Constants.SECONDDISHEST_KEY,
                             isFavourite: false);
                       }
                     }else{
