@@ -1,6 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:la_ziyofat_restaurant/main_provayder.dart';
+import 'package:la_ziyofat_restaurant/util/constants.dart';
+import 'package:la_ziyofat_restaurant/util/product_tyupe.dart';
 import 'package:la_ziyofat_restaurant/widget/product_screen.dart';
 import 'package:provider/provider.dart';
 import '../Moduls/meal_moduls.dart';
@@ -37,7 +39,6 @@ class _ShashlikPageState extends State<ShashlikPage> {
       return Meal.shashlikmealUZ;
     }
 
-    var mainProvider = Provider.of<MainProvayder>(context, listen: false);
     return Consumer<MainProvayder>(builder: (context, date, child) {
       return SafeArea(
         child: Scaffold(
@@ -71,7 +72,21 @@ class _ShashlikPageState extends State<ShashlikPage> {
                         crossAxisSpacing: 12,
                         mainAxisSpacing: 56),
                     itemBuilder: (BuildContext context, int index) {
-                      return ProductItem(getLocala()[index], index);
+                      return FutureBuilder(
+                          future: getFavourite(),
+                          builder: (BuildContext context ,AsyncSnapshot snapshot){
+                            if (snapshot.hasData) {
+                              if (snapshot.data.contains(index)) {
+                                return ProductItem(getLocala()[index], index,ProductType.DIFFENT,Constants.DIFFENT_KEY,
+                                    isFavourite: true);
+                              } else {
+                                return ProductItem(getLocala()[index], index,ProductType.DIFFENT,Constants.DIFFENT_KEY,
+                                    isFavourite: false);
+                              }
+                            }else{
+                              return const  Center(child: CircularProgressIndicator(),);
+                            }
+                          });
                     },
                   ),
                 ),
@@ -81,5 +96,10 @@ class _ShashlikPageState extends State<ShashlikPage> {
         ),
       );
     });
+  }
+
+  Future<List<int>> getFavourite() async {
+    final mainProvider = Provider.of<MainProvayder>(context, listen: false);
+    return await mainProvider.getFavList(Constants.DIFFENT_KEY);
   }
 }

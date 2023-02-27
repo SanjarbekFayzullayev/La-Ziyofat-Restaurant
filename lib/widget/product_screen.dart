@@ -1,16 +1,22 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:la_ziyofat_restaurant/util/navigator_settings.dart';
+import 'package:la_ziyofat_restaurant/util/product_tyupe.dart';
 import 'package:provider/provider.dart';
 import '../food_detals/detals_page.dart';
 import '../main_provayder.dart';
 
 class ProductItem extends StatefulWidget {
   final shashlikmeal;
-
   final int index;
+  final bool isFavourite;
+  final ProductType productType;
+  final String cey;
 
-  ProductItem(this.shashlikmeal, this.index, {Key? key}) : super(key: key);
+  ProductItem(this.shashlikmeal, this.index, this.productType,this.cey,
+      { this.isFavourite = false,Key? key,})
+      : super(key: key);
 
   @override
   State<ProductItem> createState() => _ProductItemState();
@@ -19,8 +25,6 @@ class ProductItem extends StatefulWidget {
 class _ProductItemState extends State<ProductItem> {
   @override
   Widget build(BuildContext context) {
-    final mainProvider = Provider.of<MainProvayder>(context, listen: false);
-    var a = widget.index;
     MediaQueryData mediaQueryData = MediaQuery.of(context);
     var size = mediaQueryData.size;
     return Stack(
@@ -109,7 +113,7 @@ class _ProductItemState extends State<ProductItem> {
                             children: [
                               const Icon(
                                 Icons.restaurant_sharp,
-                                color: Colors.black,
+                                color: Color(0xff1E2022),
                               ),
                               const SizedBox(
                                 width: 4,
@@ -125,7 +129,7 @@ class _ProductItemState extends State<ProductItem> {
                           ),
                           Row(
                             children: [
-                              const Icon(Icons.hot_tub, color: Colors.black),
+                              const Icon(Icons.hot_tub, color: Color(0xff1E2022),),
                               const SizedBox(
                                 width: 4,
                               ),
@@ -148,20 +152,29 @@ class _ProductItemState extends State<ProductItem> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       InkWell(
-                        onTap: () async {
+                        onTap: () {
 
-                          List<int> favList = await mainProvider.getFavList();
-                          var newList = List.of(favList);
-                          if (!newList.contains(widget.index)) {
-                            newList.add(widget.index);
+                          if (widget.isFavourite) {
+                            final player=AudioCache();
+                            player.play("btnsound/remove.wav");
+                            removeFormFavorite(widget.index);
+                          } else {
+                            final player=AudioCache();
+                            player.play("btnsound/buy.wav");
+                            adToFavorite();
                           }
-                          mainProvider.savFavList(newList);
                         },
-                        child: Image.asset(
-                          "assets/images/btnadd1.png",
-                          height: 60,
-                          width: 60,
-                        ),
+                        child: widget.isFavourite
+                            ? Image.asset(
+                                "assets/images/btnadd2.png",
+                                height: 60,
+                                width: 60,
+                              )
+                            : Image.asset(
+                                "assets/images/btnadd1.png",
+                                height: 60,
+                                width: 60,
+                              ),
                       ),
                       SizedBox(
                         height: 60,
@@ -175,8 +188,8 @@ class _ProductItemState extends State<ProductItem> {
                                     borderRadius: BorderRadius.circular(10))),
                           ),
                           onPressed: () {
-                            NewNavigator.RightToLeft(
-                                context, DetlisPage(widget.index));
+                            NewNavigator.RightToLeft(context,
+                                DetlisPage(widget.index,widget.productType));
                             // mainProvider.isItemSelected(true);
                             // mainProvider.setItemIndex(widget.index);
                           },
@@ -202,5 +215,23 @@ class _ProductItemState extends State<ProductItem> {
             ))
       ],
     );
+  }
+
+  void adToFavorite() async {
+    final mainProvider = Provider.of<MainProvayder>(context, listen: false);
+    List<int> favList = await mainProvider.getFavList(widget.cey);
+    var newList = List.of(favList);
+    if (!newList.contains(widget.index)) {
+      newList.add(widget.index);
+    }
+    mainProvider.savFavList(newList,widget.cey);
+  }
+
+  void removeFormFavorite(index) async {
+    final mainProvider = Provider.of<MainProvayder>(context, listen: false);
+    List<int> favList = await mainProvider.getFavList(widget.cey);
+    var newList = List.of(favList);
+    newList.remove(index);
+    mainProvider.savFavList(newList,widget.cey);
   }
 }

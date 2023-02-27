@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:la_ziyofat_restaurant/constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class MainProvayder extends ChangeNotifier {
@@ -24,32 +23,32 @@ class MainProvayder extends ChangeNotifier {
     notifyListeners();
   }
 
-  setFavourite(int index) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    prefs.setInt(Constants.FAV_MEAL, index);
-  }
-  Future<int?> getFavourite() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    if (prefs.containsKey(Constants.FAV_MEAL)) {
-      return prefs.getInt(Constants.FAV_MEAL);
-    }
-    return null;
-  }
+  // setFavourite(int index) async {
+  //   SharedPreferences prefs = await SharedPreferences.getInstance();
+  //   prefs.setInt(Constants.FAV_MEAL, index);
+  // }
+  // Future<int?> getFavourite() async {
+  //   SharedPreferences prefs = await SharedPreferences.getInstance();
+  //   if (prefs.containsKey(Constants.FAV_MEAL)) {
+  //     return prefs.getInt(Constants.FAV_MEAL);
+  //   }
+  //   return null;
+  // }
 
 
   //news
-  savFavList(List<int> indexes) async {
+  savFavList(List<int> indexes,String cey) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setStringList(
-      Constants.FAV_MEALS,
+      cey,
       indexes.map((e) => e.toString()).toList(),
     );
     notifyListeners();
   }
 
-  Future<List<int>> getFavList() async {
+  Future<List<int>> getFavList( String cey) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String>? res = prefs.getStringList(Constants.FAV_MEALS);
+    List<String>? res = prefs.getStringList(cey);
     if (res != null) {
       return res.map((e) => int.parse(e)).toList();
     }

@@ -4,6 +4,7 @@ import 'package:la_ziyofat_restaurant/main_provayder.dart';
 import 'package:la_ziyofat_restaurant/screens/favourite_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/frist_dishes_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/garnishes_screen.dart';
+import 'package:la_ziyofat_restaurant/screens/scrree.dart';
 import 'package:la_ziyofat_restaurant/screens/second_foods_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/shashlik_screen.dart';
 import 'package:la_ziyofat_restaurant/screens/solads_screen.dart';
@@ -19,23 +20,15 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   //Screens
+
   final List<Widget> _pages = [
-    const FavouriteScreen(),
+    FavouriteScreen(),
     const SoladsScreen(),
     const GarnishesScreen(),
     const FristDishesPage(),
     const SecondFoodsScreen(),
     const ShashlikPage(),
-    Container(
-      height: double.infinity,
-      width: double.infinity,
-      color: Colors.orange,
-    ),
-    Container(
-      height: double.infinity,
-      width: double.infinity,
-      color: Colors.amber,
-    ),
+    Myysttahh()
   ];
 
   void setCurrentLangButton() {
@@ -98,7 +91,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    final mainProvider = Provider.of<MainProvayder>(context, listen: false);
     return Scaffold(
       body: Row(
         children: [
@@ -122,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           _selectIndex = index;
 
                           if (index == index) {
-                           // Navigator.pop(context);
+                            // Navigator.pop(context);
                           }
                         });
                       },
