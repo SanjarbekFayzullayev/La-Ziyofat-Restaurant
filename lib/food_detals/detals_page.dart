@@ -22,6 +22,7 @@ class _DetlisPageState extends State<DetlisPage> {
   Widget build(BuildContext context) {
     return Consumer<MainProvayder>(builder: (context, data, child) {
       return SafeArea(
+
         child: Material(
           child:  Container(
             height: double.infinity,
